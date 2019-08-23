@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Created by g7tianyi on Aug 23, 2019
  *
- * <p>https://www.lintcode.com/problem/a-b-problem/
+ * <p>Problem link: https://www.lintcode.com/problem/a-b-problem/
  */
 public class ABProblem {
 

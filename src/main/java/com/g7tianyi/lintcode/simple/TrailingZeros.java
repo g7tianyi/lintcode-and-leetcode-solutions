@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by g7tianyi on Aug 23, 2019
  *
- * <p>https://www.lintcode.com/problem/trailing-zeros/description
+ * <p>Problem link: https://www.lintcode.com/problem/trailing-zeros/description
  */
 public class TrailingZeros {
 
