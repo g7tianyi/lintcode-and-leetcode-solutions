@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode;
+package com.g7tianyi.lintcode.simple;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,7 +15,7 @@ public class TrailingZeros {
 
   public class Solution {
 
-    private List<Long> POWERS = new ArrayList<Long>();
+    private List<Long> POWERS = new ArrayList<>();
 
     public long trailingZeros(long num) {
       if (num < 5) {

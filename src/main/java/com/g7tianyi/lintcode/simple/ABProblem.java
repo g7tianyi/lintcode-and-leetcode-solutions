@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode;
+package com.g7tianyi.lintcode.simple;
 
 import org.junit.Assert;
 import org.junit.Test;
