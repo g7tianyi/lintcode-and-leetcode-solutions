@@ -59,7 +59,7 @@ public class ReverseLinkedList2 {
   }
 
   @AllArgsConstructor
-  private static final class Argument {
+  private static final class Input {
 
     private ListNode head;
 
@@ -71,23 +71,23 @@ public class ReverseLinkedList2 {
 
     Solution s = new Solution();
 
-    Consumer<Argument> runner =
-        argument -> {
-          log.info("range(%d, %d)", argument.m, argument.n);
-          ListNode.print(argument.head);
-          ListNode.print(s.reverseBetween(argument.head, argument.m, argument.n));
+    Consumer<Input> runner =
+        input -> {
+          log.info("range(%d, %d)", input.m, input.n);
+          ListNode.print(input.head);
+          ListNode.print(s.reverseBetween(input.head, input.m, input.n));
           log.info("");
         };
 
-    runner.accept(new Argument(null, 3, 5));
-    runner.accept(new Argument(ListNode.makeList(1), 1, 1));
-    runner.accept(new Argument(ListNode.makeList(2), 1, 2));
-    runner.accept(new Argument(ListNode.makeList(3), 2, 3));
-    runner.accept(new Argument(ListNode.makeList(8), 3, 5));
-    runner.accept(new Argument(ListNode.makeList(8), 3, 4));
-    runner.accept(new Argument(ListNode.makeList(8), 3, 3));
-    runner.accept(new Argument(ListNode.makeList(8), 3, 8));
-    runner.accept(new Argument(ListNode.makeList(8), 1, 5));
-    runner.accept(new Argument(ListNode.makeList(8), 1, 8));
+    runner.accept(new Input(null, 3, 5));
+    runner.accept(new Input(ListNode.makeList(1), 1, 1));
+    runner.accept(new Input(ListNode.makeList(2), 1, 2));
+    runner.accept(new Input(ListNode.makeList(3), 2, 3));
+    runner.accept(new Input(ListNode.makeList(8), 3, 5));
+    runner.accept(new Input(ListNode.makeList(8), 3, 4));
+    runner.accept(new Input(ListNode.makeList(8), 3, 3));
+    runner.accept(new Input(ListNode.makeList(8), 3, 8));
+    runner.accept(new Input(ListNode.makeList(8), 1, 5));
+    runner.accept(new Input(ListNode.makeList(8), 1, 8));
   }
 }

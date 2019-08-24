@@ -107,7 +107,7 @@ public class DigitCounts {
   }
 
   @AllArgsConstructor
-  private static class Argument {
+  private static class Input {
 
     private int k;
 
@@ -121,27 +121,27 @@ public class DigitCounts {
 
     Verifier v = new Verifier();
 
-    Consumer<Argument> runner =
-        argument -> {
-          int verifierResult = v.digitCounts(argument.k, argument.n);
-          int solutionResult = s.digitCounts(argument.k, argument.n);
+    Consumer<Input> runner =
+        input -> {
+          int verifierResult = v.digitCounts(input.k, input.n);
+          int solutionResult = s.digitCounts(input.k, input.n);
           log.info(
-              "(%d, %d) => %d, %d\n\n", argument.k, argument.n, verifierResult, solutionResult);
+              "(%d, %d) => %d, %d\n\n", input.k, input.n, verifierResult, solutionResult);
           Assert.assertEquals(verifierResult, solutionResult);
         };
 
-    runner.accept(new Argument(0, 0));
-    runner.accept(new Argument(0, 9));
-    runner.accept(new Argument(0, 12));
-    runner.accept(new Argument(1, 1));
-    runner.accept(new Argument(1, 12));
-    runner.accept(new Argument(1, 147));
-    runner.accept(new Argument(6, 347));
-    runner.accept(new Argument(7, 1479));
-    runner.accept(new Argument(7, 3479));
-    runner.accept(new Argument(2, 3479));
-    runner.accept(new Argument(9, 3471));
-    runner.accept(new Argument(2, 3471));
-    runner.accept(new Argument(1, 21345));
+    runner.accept(new Input(0, 0));
+    runner.accept(new Input(0, 9));
+    runner.accept(new Input(0, 12));
+    runner.accept(new Input(1, 1));
+    runner.accept(new Input(1, 12));
+    runner.accept(new Input(1, 147));
+    runner.accept(new Input(6, 347));
+    runner.accept(new Input(7, 1479));
+    runner.accept(new Input(7, 3479));
+    runner.accept(new Input(2, 3479));
+    runner.accept(new Input(9, 3471));
+    runner.accept(new Input(2, 3471));
+    runner.accept(new Input(1, 21345));
   }
 }

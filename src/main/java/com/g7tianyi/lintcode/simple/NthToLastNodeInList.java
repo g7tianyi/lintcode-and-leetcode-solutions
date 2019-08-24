@@ -40,7 +40,7 @@ public class NthToLastNodeInList {
   }
 
   @AllArgsConstructor
-  private static final class Argument {
+  private static final class Input {
 
     private ListNode head;
 
@@ -52,22 +52,22 @@ public class NthToLastNodeInList {
 
     Solution s = new Solution();
 
-    Consumer<Argument> runner =
-        argument -> {
-          ListNode.print(argument.head);
-          log.info("%d => %s", argument.x, s.nthToLast(argument.head, argument.x));
+    Consumer<Input> runner =
+        input -> {
+          ListNode.print(input.head);
+          log.info("%d => %s", input.x, s.nthToLast(input.head, input.x));
           log.info("\n");
         };
 
-    runner.accept(new Argument(null, 0));
-    runner.accept(new Argument(ListNode.makeList(1), 1));
-    runner.accept(new Argument(ListNode.makeList(4), 2));
-    runner.accept(new Argument(ListNode.makeList(4), 4));
-    runner.accept(new Argument(ListNode.makeList(5), 1));
-    runner.accept(new Argument(ListNode.makeList(10), 9));
-    runner.accept(new Argument(ListNode.makeList(10), 1));
-    runner.accept(new Argument(ListNode.makeList(10), 5));
-    runner.accept(new Argument(ListNode.makeListFrom(3, 2, 1, 5), 2));
-    runner.accept(new Argument(ListNode.makeListFrom(1, 2, 3), 3));
+    runner.accept(new Input(null, 0));
+    runner.accept(new Input(ListNode.makeList(1), 1));
+    runner.accept(new Input(ListNode.makeList(4), 2));
+    runner.accept(new Input(ListNode.makeList(4), 4));
+    runner.accept(new Input(ListNode.makeList(5), 1));
+    runner.accept(new Input(ListNode.makeList(10), 9));
+    runner.accept(new Input(ListNode.makeList(10), 1));
+    runner.accept(new Input(ListNode.makeList(10), 5));
+    runner.accept(new Input(ListNode.makeListFrom(3, 2, 1, 5), 2));
+    runner.accept(new Input(ListNode.makeListFrom(1, 2, 3), 3));
   }
 }

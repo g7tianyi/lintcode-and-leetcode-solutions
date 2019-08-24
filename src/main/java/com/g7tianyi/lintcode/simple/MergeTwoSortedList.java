@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import lombok.AllArgsConstructor;
 import org.junit.Test;
 
 import java.util.function.Consumer;
@@ -9,41 +10,59 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/remove-duplicates-from-sorted-list/description
+ * <p>Problem link: https://www.lintcode.com/problem/merge-two-sorted-lists/description
  */
-public class RemoveDuplicatesFromSortedList {
+public class MergeTwoSortedList {
 
   private static final Log log = new Log();
 
   public class Solution {
 
-    public ListNode deleteDuplicates(ListNode head) {
-
-      if (head == null || head.next == null) {
-        return head;
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+      if (l1 == null) {
+        return l2;
+      }
+      if (l2 == null) {
+        return l1;
       }
 
-      // 输入: 1->1->2->3->3->null
-      // 输出: 1->2->3->null
+      ListNode head, node1 = l1, node2 = l2;
+      if (l1.val < l2.val) {
+        head = l1;
+        node1 = node1.next;
+      } else {
+        head = l2;
+        node2 = node2.next;
+      }
 
-      int value = head.val;
-      ListNode prev = head;
-      ListNode curr = head.next;
-      ListNode next;
-
-      while (curr != null) {
-        next = curr.next;
-        if (curr.val == value) {
-          prev.next = next;
+      ListNode curr = head;
+      while (node1 != null && node2 != null) {
+        if (node1.val < node2.val) {
+          curr.next = node1;
+          node1 = node1.next;
         } else {
-          prev = curr;
-          value = curr.val;
+          curr.next = node2;
+          node2 = node2.next;
         }
-        curr = next;
+        curr = curr.next;
+      }
+
+      if (node1 != null) {
+        curr.next = node1;
+      }
+      if (node2 != null) {
+        curr.next = node2;
       }
 
       return head;
     }
+  }
+
+  @AllArgsConstructor
+  public static class Input {
+
+    private ListNode l1;
+    private ListNode l2;
   }
 
   @Test
@@ -51,22 +70,19 @@ public class RemoveDuplicatesFromSortedList {
 
     Solution s = new Solution();
 
-    Consumer<ListNode> runner =
-        listNode -> {
-          ListNode.print(listNode);
-          ListNode.print(s.deleteDuplicates(listNode));
+    Consumer<Input> runner =
+        input -> {
+          ListNode.print(input.l1);
+          ListNode.print(input.l2);
+          ListNode.print(s.mergeTwoLists(input.l1, input.l2));
           log.info("\n");
         };
 
-    runner.accept(null);
-    runner.accept(ListNode.makeRandomSortedList(1));
-    runner.accept(ListNode.makeRandomSortedList(4));
-    runner.accept(ListNode.makeRandomSortedList(4));
-    runner.accept(ListNode.makeRandomSortedList(5));
-    runner.accept(ListNode.makeRandomSortedList(10));
-    runner.accept(ListNode.makeRandomSortedList(10));
-    runner.accept(ListNode.makeRandomSortedList(10));
-    runner.accept(ListNode.makeListFrom(1, 1, 2));
-    runner.accept(ListNode.makeListFrom(1, 1, 2, 3, 3));
+    runner.accept(new Input(null, ListNode.makeListFrom(0, 3, 3)));
+    runner.accept(new Input(ListNode.makeListFrom(0, 3, 3), null));
+    runner.accept(new Input(ListNode.makeListFrom(1, 3, 8, 11, 15), ListNode.makeListFrom(2)));
+    runner.accept(new Input(ListNode.makeRandomSortedList(1), ListNode.makeRandomSortedList(7)));
+    runner.accept(new Input(ListNode.makeRandomSortedList(7), ListNode.makeRandomSortedList(1)));
+    runner.accept(new Input(ListNode.makeRandomSortedList(10), ListNode.makeRandomSortedList(10)));
   }
 }

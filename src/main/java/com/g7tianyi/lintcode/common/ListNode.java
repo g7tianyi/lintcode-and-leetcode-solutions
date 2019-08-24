@@ -61,6 +61,15 @@ public class ListNode {
     return makeListFrom(elems);
   }
 
+  public static ListNode makeRandomSortedList(int len, int min) {
+    int[] elems = new int[len];
+    for (int i = 0; i < len; i++) {
+      elems[i] = randomInt(len + 1) + min;
+    }
+    Arrays.sort(elems);
+    return makeListFrom(elems);
+  }
+
   public static ListNode makeListFrom(int... args) {
     if (args.length == 0) {
       return null;

@@ -67,7 +67,7 @@ public class PartitionList {
   }
 
   @AllArgsConstructor
-  private static final class Argument {
+  private static final class Input {
 
     private ListNode head;
 
@@ -79,28 +79,28 @@ public class PartitionList {
 
     Solution s = new Solution();
 
-    Consumer<Argument> runner =
-        argument -> {
-          log.info("x: %d", argument.x);
-          ListNode.print(argument.head);
-          ListNode.print(s.partition(argument.head, argument.x));
+    Consumer<Input> runner =
+        input -> {
+          log.info("x: %d", input.x);
+          ListNode.print(input.head);
+          ListNode.print(s.partition(input.head, input.x));
           log.info("\n");
         };
 
-    runner.accept(new Argument(null, 0));
-    runner.accept(new Argument(ListNode.makeRandomList(1), 1));
-    runner.accept(new Argument(ListNode.makeRandomList(2), 10));
-    runner.accept(new Argument(ListNode.makeRandomList(2), -1));
-    runner.accept(new Argument(ListNode.makeRandomList(2), 1));
-    runner.accept(new Argument(ListNode.makeRandomList(16), 5));
-    runner.accept(new Argument(ListNode.makeRandomList(16), 0));
-    runner.accept(new Argument(ListNode.makeRandomList(15), 100000));
-    runner.accept(new Argument(ListNode.makeListFrom(1, 4, 3, 2, 5, 2), 3));
+    runner.accept(new Input(null, 0));
+    runner.accept(new Input(ListNode.makeRandomList(1), 1));
+    runner.accept(new Input(ListNode.makeRandomList(2), 10));
+    runner.accept(new Input(ListNode.makeRandomList(2), -1));
+    runner.accept(new Input(ListNode.makeRandomList(2), 1));
+    runner.accept(new Input(ListNode.makeRandomList(16), 5));
+    runner.accept(new Input(ListNode.makeRandomList(16), 0));
+    runner.accept(new Input(ListNode.makeRandomList(15), 100000));
+    runner.accept(new Input(ListNode.makeListFrom(1, 4, 3, 2, 5, 2), 3));
     runner.accept(
-        new Argument(
+        new Input(
             ListNode.makeListFrom(15, 4, 9, 1, 11, 12, 15, 4, 2, 0, 15, 1, 14, 11, 16, 7), 5));
     runner.accept(
-        new Argument(
+        new Input(
             ListNode.makeListFrom(8, 11, 13, 7, 11, 3, 6, 8, 3, 10, 12, 1, 14, 5, 11, 0), 5));
   }
 }
