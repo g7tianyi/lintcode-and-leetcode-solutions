@@ -12,11 +12,11 @@ import java.util.Stack;
 import java.util.function.Consumer;
 
 /**
- * Created by g7tianyi on Aug 24, 2019
+ * Created by g7tianyi on Aug 25, 2019
  *
  * <p>Problem link: https://www.lintcode.com/problem/binary-tree-preorder-traversal/description
  */
-public class BinaryTreeLevelPreorderTraversal {
+public class BinaryTreePreorderTraversal {
 
   private static final Log log = new Log();
 
