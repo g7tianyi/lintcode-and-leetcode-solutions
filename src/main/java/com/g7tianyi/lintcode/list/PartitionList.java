@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.simple;
+package com.g7tianyi.lintcode.list;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;

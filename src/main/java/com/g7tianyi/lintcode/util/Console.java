@@ -43,4 +43,23 @@ public final class Console {
   public static <T> void log(List<T> list) {
     log.info(stringify(list));
   }
+
+  public static String stringify(int[] array) {
+    StringBuilder sb = new StringBuilder("[");
+    if (array != null && array.length != 0) {
+      for (int elem : array) {
+        sb.append(elem).append(" ");
+      }
+    }
+
+    if (sb.length() > 1) {
+      sb.deleteCharAt(sb.length() - 1);
+    }
+    sb.append("]");
+    return sb.toString();
+  }
+
+  public static void log(int[] array) {
+    log.info(stringify(array));
+  }
 }

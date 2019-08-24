@@ -1,6 +1,5 @@
-package com.g7tianyi.lintcode.simple;
+package com.g7tianyi.lintcode.tree;
 
-import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.common.TreeNode;
 import com.g7tianyi.lintcode.util.Console;
 import com.g7tianyi.lintcode.util.Log;
@@ -16,50 +15,44 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link:
- * https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/description
+ * <p>Problem link: https://www.lintcode.com/problem/binary-tree-level-order-traversal/description
  */
-public class ConvertBinaryTreeToLinkedListsByDepth {
+public class BinaryTreeLevelOrderTraversal {
 
   private static final Log log = new Log();
 
   public class Solution {
 
-    public List<ListNode> binaryTreeToLists(TreeNode root) {
-      List<ListNode> result = new ArrayList<>();
+    public List<List<Integer>> levelOrder(TreeNode root) {
+      List<List<Integer>> result = new ArrayList<>();
       if (root == null) {
         return result;
       }
 
-      // 利用队列进行二叉树的层序遍历
+      Queue<TreeNode> myQueue = new LinkedList<>();
+      myQueue.offer(root);
+      myQueue.offer(null);
 
-      Queue<TreeNode> queue = new LinkedList<>();
-      queue.offer(root);
-      queue.offer(null); // null节点作为哨兵节点，标志着一层的结束
+      List<Integer> level = new ArrayList<>();
 
-      ListNode list = null, curr = null;
-      while (!queue.isEmpty()) {
+      while (!myQueue.isEmpty()) {
 
-        TreeNode node = queue.poll();
-        if (node == null) { // 一层结束了
-          result.add(list);
-          list = null;
-          if (!queue.isEmpty()) {
-            queue.offer(null);
+        TreeNode node = myQueue.poll();
+
+        if (node == null) {
+          result.add(level);
+          level = new ArrayList<>();
+          if (!myQueue.isEmpty()) {
+            myQueue.offer(null);
           }
         } else {
-          if (list == null) {
-            list = new ListNode(node.val);
-            curr = list;
-          } else {
-            curr.next = new ListNode(node.val);
-            curr = curr.next;
-          }
+          level.add(node.val);
+
           if (node.left != null) {
-            queue.offer(node.left);
+            myQueue.offer(node.left);
           }
           if (node.right != null) {
-            queue.offer(node.right);
+            myQueue.offer(node.right);
           }
         }
       }
@@ -81,7 +74,7 @@ public class ConvertBinaryTreeToLinkedListsByDepth {
 
     Consumer<Input> runner =
         input -> {
-          List<ListNode> listNodes = s.binaryTreeToLists(input.root);
+          List<List<Integer>> listNodes = s.levelOrder(input.root);
           listNodes.forEach(Console::log);
           log.info("");
         };
