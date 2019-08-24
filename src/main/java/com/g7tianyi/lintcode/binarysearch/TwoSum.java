@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.array;
+package com.g7tianyi.lintcode.binarysearch;
 
 import com.g7tianyi.lintcode.util.Console;
 import com.g7tianyi.lintcode.util.Log;
