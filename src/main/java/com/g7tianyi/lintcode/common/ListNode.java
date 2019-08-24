@@ -2,6 +2,8 @@ package com.g7tianyi.lintcode.common;
 
 import com.g7tianyi.lintcode.util.Log;
 
+import java.util.Arrays;
+
 /** Created by g7tianyi on Aug 24, 2019 */
 public class ListNode {
 
@@ -35,35 +37,38 @@ public class ListNode {
   }
 
   public static ListNode makeList(int len) {
-
-    ListNode listNode = new ListNode(1);
-    ListNode currNode = listNode;
-    for (int i = 2; i <= len; i++) {
-      currNode.next = new ListNode(i);
-      currNode = currNode.next;
+    int[] elems = new int[len];
+    for (int i = 0; i < len; i++) {
+      elems[i] = randomInt(i + 1);
     }
-    return listNode;
+    return makeListFrom(elems);
   }
 
   public static ListNode makeRandomList(int len) {
-
-    ListNode listNode = new ListNode(randomInt(len + 1));
-    ListNode currNode = listNode;
-    for (int i = 2; i <= len; i++) {
-      currNode.next = new ListNode(randomInt(len + 1));
-      currNode = currNode.next;
+    int[] elems = new int[len];
+    for (int i = 0; i < len; i++) {
+      elems[i] = randomInt(len + 1);
     }
-    return listNode;
+    return makeListFrom(elems);
   }
 
-  public static ListNode makeListFrom(int ...args) {
+  public static ListNode makeRandomSortedList(int len) {
+    int[] elems = new int[len];
+    for (int i = 0; i < len; i++) {
+      elems[i] = randomInt(len + 1);
+    }
+    Arrays.sort(elems);
+    return makeListFrom(elems);
+  }
+
+  public static ListNode makeListFrom(int... args) {
     if (args.length == 0) {
       return null;
     }
 
     ListNode listNode = new ListNode(0);
     ListNode currNode = listNode;
-    for (int arg: args) {
+    for (int arg : args) {
       currNode.next = new ListNode(arg);
       currNode = currNode.next;
     }
