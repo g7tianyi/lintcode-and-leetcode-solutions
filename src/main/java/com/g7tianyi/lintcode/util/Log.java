@@ -4,6 +4,10 @@ package com.g7tianyi.lintcode.util;
 public final class Log {
 
   public void info(String format, Object... args) {
-    System.out.printf(format, args);
+    System.out.printf(format + "\n", args);
+  }
+
+  public void info(Object arg) {
+    System.out.println(arg);
   }
 }

@@ -1,5 +1,6 @@
 package com.g7tianyi.lintcode.simple;
 
+import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
 import org.junit.Test;
 
@@ -13,16 +14,6 @@ import java.util.function.Consumer;
 public class ReverseLinkedList {
 
   private static final Log log = new Log();
-
-  public static class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-      val = x;
-      next = null;
-    }
-  }
 
   // 链表反转，意味着一定是没有环的
   public class Solution {
@@ -77,19 +68,6 @@ public class ReverseLinkedList {
     }
   }
 
-  private static void printList(ListNode listNode) {
-    StringBuilder sb = new StringBuilder("[");
-    while (listNode != null) {
-      sb.append(listNode.val).append("-");
-      listNode = listNode.next;
-    }
-    if (sb.length() > 1) {
-      sb.deleteCharAt(sb.length() - 1);
-    }
-    sb.append("]\n");
-    log.info(sb.toString());
-  }
-
   @Test
   public void test() {
 
@@ -100,20 +78,12 @@ public class ReverseLinkedList {
     Consumer<ListNode> runner =
         listNode -> {
           // printList(rs.reverse(listNode));
-          printList(s.reverse(listNode));
+          ListNode.print(s.reverse(listNode));
           log.info("\n");
         };
 
     runner.accept(null);
-
-    ListNode listNode = new ListNode(1);
-    runner.accept(listNode);
-
-    ListNode currNode = listNode;
-    for (int i = 2; i < 10; i++) {
-      currNode.next = new ListNode(i);
-      currNode = currNode.next;
-    }
-    runner.accept(listNode);
+    runner.accept(ListNode.makeList(1));
+    runner.accept(ListNode.makeList(8));
   }
 }
