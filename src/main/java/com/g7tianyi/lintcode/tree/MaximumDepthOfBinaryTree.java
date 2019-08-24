@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/binary-tree-level-order-traversal/description
+ * <p>Problem link: https://www.lintcode.com/problem/maximum-depth-of-binary-tree/description
  */
 public class MaximumDepthOfBinaryTree {
 
