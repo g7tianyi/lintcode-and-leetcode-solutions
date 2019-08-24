@@ -4,7 +4,7 @@ import com.g7tianyi.lintcode.util.Log;
 import org.junit.Test;
 
 /**
- * Created by g7tianyi on Aug 24, 2019
+ * Created by g7tianyi on Aug 25, 2019
  *
  * <p>Problem link: https://www.lintcode.com/problem/unique-paths/description
  */
