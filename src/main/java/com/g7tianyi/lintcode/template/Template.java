@@ -1,6 +1,7 @@
 package com.g7tianyi.lintcode.template;
 
 import com.g7tianyi.lintcode.util.Log;
+import lombok.AllArgsConstructor;
 import org.junit.Test;
 
 /**
@@ -18,6 +19,9 @@ public class Template {
       return 0;
     }
   }
+
+  @AllArgsConstructor
+  public static class Input {}
 
   @Test
   public void test() {
