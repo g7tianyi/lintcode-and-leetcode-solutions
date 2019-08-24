@@ -10,4 +10,8 @@ public final class Log {
   public void info(Object arg) {
     System.out.println(arg);
   }
+
+  public void info() {
+    System.out.println();
+  }
 }
