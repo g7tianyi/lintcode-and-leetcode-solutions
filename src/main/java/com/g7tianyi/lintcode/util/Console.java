@@ -11,7 +11,7 @@ public final class Console {
 
   private Console() {}
 
-  public static void log(ListNode listNode) {
+  public static String stringify(ListNode listNode) {
     StringBuilder sb = new StringBuilder("[");
     while (listNode != null) {
       sb.append(listNode.val).append("-");
@@ -21,10 +21,14 @@ public final class Console {
       sb.deleteCharAt(sb.length() - 1);
     }
     sb.append("]");
-    log.info(sb.toString());
+    return sb.toString();
   }
 
-  public static <T> void log(List<T> list) {
+  public static void log(ListNode listNode) {
+    log.info(stringify(listNode));
+  }
+
+  public static <T> String stringify(List<T> list) {
     StringBuilder sb = new StringBuilder("[");
     if (list != null && !list.isEmpty()) {
       list.forEach(elem -> sb.append(elem).append(" "));
@@ -33,6 +37,10 @@ public final class Console {
       sb.deleteCharAt(sb.length() - 1);
     }
     sb.append("]");
-    log.info(sb.toString());
+    return sb.toString();
+  }
+
+  public static <T> void log(List<T> list) {
+    log.info(stringify(list));
   }
 }
