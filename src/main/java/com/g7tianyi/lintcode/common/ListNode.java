@@ -1,13 +1,11 @@
 package com.g7tianyi.lintcode.common;
 
-import com.g7tianyi.lintcode.util.Log;
-
 import java.util.Arrays;
 
 /** Created by g7tianyi on Aug 24, 2019 */
 public class ListNode {
 
-  private static final Log log = new Log();
+
 
   public int val;
 
@@ -21,19 +19,6 @@ public class ListNode {
   @Override
   public String toString() {
     return String.valueOf(val);
-  }
-
-  public static void print(ListNode listNode) {
-    StringBuilder sb = new StringBuilder("[");
-    while (listNode != null) {
-      sb.append(listNode.val).append("-");
-      listNode = listNode.next;
-    }
-    if (sb.length() > 1) {
-      sb.deleteCharAt(sb.length() - 1);
-    }
-    sb.append("]");
-    log.info(sb.toString());
   }
 
   public static ListNode makeBeautifulList(int len) {

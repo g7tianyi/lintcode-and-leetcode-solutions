@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -45,7 +46,7 @@ public class DeleteNodeInALinkedList {
 
     Consumer<Input> runner =
         input -> {
-          ListNode.print(input.head);
+          Console.log(input.head);
 
           ListNode node = input.head;
           for (int i = 0; i < input.n; i++) {
@@ -53,7 +54,7 @@ public class DeleteNodeInALinkedList {
           }
           s.deleteNode(node);
 
-          ListNode.print(input.head);
+          Console.log(input.head);
           log.info("");
         };
 

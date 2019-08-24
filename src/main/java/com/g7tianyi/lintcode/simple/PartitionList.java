@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -82,8 +83,8 @@ public class PartitionList {
     Consumer<Input> runner =
         input -> {
           log.info("x: %d", input.x);
-          ListNode.print(input.head);
-          ListNode.print(s.partition(input.head, input.x));
+          Console.log(input.head);
+          Console.log(s.partition(input.head, input.x));
           log.info("\n");
         };
 

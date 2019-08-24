@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import org.junit.Test;
 
 import java.util.function.Consumer;
@@ -53,8 +54,8 @@ public class RemoveDuplicatesFromSortedList {
 
     Consumer<ListNode> runner =
         listNode -> {
-          ListNode.print(listNode);
-          ListNode.print(s.deleteDuplicates(listNode));
+          Console.log(listNode);
+          Console.log(s.deleteDuplicates(listNode));
           log.info("\n");
         };
 

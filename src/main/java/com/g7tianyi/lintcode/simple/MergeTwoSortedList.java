@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -72,9 +73,9 @@ public class MergeTwoSortedList {
 
     Consumer<Input> runner =
         input -> {
-          ListNode.print(input.l1);
-          ListNode.print(input.l2);
-          ListNode.print(s.mergeTwoLists(input.l1, input.l2));
+          Console.log(input.l1);
+          Console.log(input.l2);
+          Console.log(s.mergeTwoLists(input.l1, input.l2));
           log.info("\n");
         };
 

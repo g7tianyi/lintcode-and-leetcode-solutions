@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -54,7 +55,7 @@ public class NthToLastNodeInList {
 
     Consumer<Input> runner =
         input -> {
-          ListNode.print(input.head);
+          Console.log(input.head);
           log.info("%d => %s", input.x, s.nthToLast(input.head, input.x));
           log.info("\n");
         };

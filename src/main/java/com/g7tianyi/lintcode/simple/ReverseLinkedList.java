@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import org.junit.Test;
 
 import java.util.function.Consumer;
@@ -78,7 +79,7 @@ public class ReverseLinkedList {
     Consumer<ListNode> runner =
         listNode -> {
           // printList(rs.reverse(listNode));
-          ListNode.print(s.reverse(listNode));
+          Console.log(s.reverse(listNode));
           log.info("\n");
         };
 

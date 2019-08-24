@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.medium;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -74,8 +75,8 @@ public class ReverseLinkedList2 {
     Consumer<Input> runner =
         input -> {
           log.info("range(%d, %d)", input.m, input.n);
-          ListNode.print(input.head);
-          ListNode.print(s.reverseBetween(input.head, input.m, input.n));
+          Console.log(input.head);
+          Console.log(s.reverseBetween(input.head, input.m, input.n));
           log.info("");
         };
 

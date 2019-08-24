@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -91,9 +92,9 @@ public class AddLists {
 
     Consumer<Input> runner =
         input -> {
-          ListNode.print(input.l1);
-          ListNode.print(input.l2);
-          ListNode.print(s.addLists(input.l1, input.l2));
+          Console.log(input.l1);
+          Console.log(input.l2);
+          Console.log(s.addLists(input.l1, input.l2));
           log.info("\n");
         };
 

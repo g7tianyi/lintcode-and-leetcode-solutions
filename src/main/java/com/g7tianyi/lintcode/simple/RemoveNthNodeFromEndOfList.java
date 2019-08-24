@@ -2,6 +2,7 @@ package com.g7tianyi.lintcode.simple;
 
 import com.g7tianyi.lintcode.common.ListNode;
 import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.lintcode.util.Console;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -62,8 +63,8 @@ public class RemoveNthNodeFromEndOfList {
 
     Consumer<Input> runner =
         input -> {
-          ListNode.print(input.head);
-          ListNode.print(s.removeNthFromEnd(input.head, input.n));
+          Console.log(input.head);
+          Console.log(s.removeNthFromEnd(input.head, input.n));
           log.info("");
         };
 
