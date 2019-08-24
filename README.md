@@ -1,4 +1,3 @@
 # lintcode-solutions
 
-My lintcode solutions for fun.
-
+[lintcode](https://www.lintcode.com) solutions for fun.
