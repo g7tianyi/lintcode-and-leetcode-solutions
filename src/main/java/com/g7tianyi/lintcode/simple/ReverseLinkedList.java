@@ -83,7 +83,7 @@ public class ReverseLinkedList {
         };
 
     runner.accept(null);
-    runner.accept(ListNode.makeList(1));
-    runner.accept(ListNode.makeList(8));
+    runner.accept(ListNode.makeBeautifulList(1));
+    runner.accept(ListNode.makeBeautifulList(8));
   }
 }

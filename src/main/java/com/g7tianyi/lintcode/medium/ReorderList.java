@@ -159,12 +159,12 @@ public class ReorderList {
         };
 
     runner.accept(null);
-    runner.accept(ListNode.makeList(1));
-    runner.accept(ListNode.makeList(2));
-    runner.accept(ListNode.makeList(3));
-    runner.accept(ListNode.makeList(4));
-    runner.accept(ListNode.makeList(5));
-    runner.accept(ListNode.makeList(7));
-    runner.accept(ListNode.makeList(8));
+    runner.accept(ListNode.makeBeautifulList(1));
+    runner.accept(ListNode.makeBeautifulList(2));
+    runner.accept(ListNode.makeBeautifulList(3));
+    runner.accept(ListNode.makeBeautifulList(4));
+    runner.accept(ListNode.makeBeautifulList(5));
+    runner.accept(ListNode.makeBeautifulList(7));
+    runner.accept(ListNode.makeBeautifulList(8));
   }
 }

@@ -60,13 +60,13 @@ public class NthToLastNodeInList {
         };
 
     runner.accept(new Input(null, 0));
-    runner.accept(new Input(ListNode.makeList(1), 1));
-    runner.accept(new Input(ListNode.makeList(4), 2));
-    runner.accept(new Input(ListNode.makeList(4), 4));
-    runner.accept(new Input(ListNode.makeList(5), 1));
-    runner.accept(new Input(ListNode.makeList(10), 9));
-    runner.accept(new Input(ListNode.makeList(10), 1));
-    runner.accept(new Input(ListNode.makeList(10), 5));
+    runner.accept(new Input(ListNode.makeBeautifulList(1), 1));
+    runner.accept(new Input(ListNode.makeBeautifulList(4), 2));
+    runner.accept(new Input(ListNode.makeBeautifulList(4), 4));
+    runner.accept(new Input(ListNode.makeBeautifulList(5), 1));
+    runner.accept(new Input(ListNode.makeBeautifulList(10), 9));
+    runner.accept(new Input(ListNode.makeBeautifulList(10), 1));
+    runner.accept(new Input(ListNode.makeBeautifulList(10), 5));
     runner.accept(new Input(ListNode.makeListFrom(3, 2, 1, 5), 2));
     runner.accept(new Input(ListNode.makeListFrom(1, 2, 3), 3));
   }

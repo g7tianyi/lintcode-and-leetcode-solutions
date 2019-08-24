@@ -80,14 +80,14 @@ public class ReverseLinkedList2 {
         };
 
     runner.accept(new Input(null, 3, 5));
-    runner.accept(new Input(ListNode.makeList(1), 1, 1));
-    runner.accept(new Input(ListNode.makeList(2), 1, 2));
-    runner.accept(new Input(ListNode.makeList(3), 2, 3));
-    runner.accept(new Input(ListNode.makeList(8), 3, 5));
-    runner.accept(new Input(ListNode.makeList(8), 3, 4));
-    runner.accept(new Input(ListNode.makeList(8), 3, 3));
-    runner.accept(new Input(ListNode.makeList(8), 3, 8));
-    runner.accept(new Input(ListNode.makeList(8), 1, 5));
-    runner.accept(new Input(ListNode.makeList(8), 1, 8));
+    runner.accept(new Input(ListNode.makeBeautifulList(1), 1, 1));
+    runner.accept(new Input(ListNode.makeBeautifulList(2), 1, 2));
+    runner.accept(new Input(ListNode.makeBeautifulList(3), 2, 3));
+    runner.accept(new Input(ListNode.makeBeautifulList(8), 3, 5));
+    runner.accept(new Input(ListNode.makeBeautifulList(8), 3, 4));
+    runner.accept(new Input(ListNode.makeBeautifulList(8), 3, 3));
+    runner.accept(new Input(ListNode.makeBeautifulList(8), 3, 8));
+    runner.accept(new Input(ListNode.makeBeautifulList(8), 1, 5));
+    runner.accept(new Input(ListNode.makeBeautifulList(8), 1, 8));
   }
 }

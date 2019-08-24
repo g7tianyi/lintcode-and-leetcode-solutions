@@ -36,10 +36,10 @@ public class ListNode {
     log.info(sb.toString());
   }
 
-  public static ListNode makeList(int len) {
+  public static ListNode makeBeautifulList(int len) {
     int[] elems = new int[len];
     for (int i = 0; i < len; i++) {
-      elems[i] = randomInt(i + 1);
+      elems[i] = i + 1;
     }
     return makeListFrom(elems);
   }
