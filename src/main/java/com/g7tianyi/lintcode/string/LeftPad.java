@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/capitalizes-the-first-letter/description
+ * <p>Problem link: https://www.lintcode.com/problem/left-pad/description
  */
 public class LeftPad {
 
