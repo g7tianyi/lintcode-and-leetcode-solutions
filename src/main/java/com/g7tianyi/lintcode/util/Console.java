@@ -62,4 +62,5 @@ public final class Console {
   public static void log(int[] array) {
     log.info(stringify(array));
   }
+
 }
