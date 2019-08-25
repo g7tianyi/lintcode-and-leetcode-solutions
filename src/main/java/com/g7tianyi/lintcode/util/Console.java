@@ -40,6 +40,16 @@ public final class Console {
     return sb.toString();
   }
 
+  public static <T> String format(List<List<T>> matrix) {
+
+    StringBuilder sb = new StringBuilder();
+    for (List<T> line: matrix) {
+      sb.append(stringify(line)).append("\n");
+    }
+
+    return sb.toString();
+  }
+
   public static <T> void log(List<T> list) {
     log.info(stringify(list));
   }
