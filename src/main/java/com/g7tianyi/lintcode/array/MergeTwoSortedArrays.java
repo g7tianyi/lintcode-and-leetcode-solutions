@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/merge-two-sorted-arrays/description
+ * @link https://www.lintcode.com/problem/merge-two-sorted-arrays/description
  */
 public class MergeTwoSortedArrays {
 

@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 23, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/reverse-linked-list/description
+ * @link https://www.lintcode.com/problem/reverse-linked-list/description
  */
 public class ReverseLinkedList {
 

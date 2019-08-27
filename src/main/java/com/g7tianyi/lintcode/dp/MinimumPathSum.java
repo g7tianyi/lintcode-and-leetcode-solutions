@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/minimum-path-sum/description
+ * @link https://www.lintcode.com/problem/minimum-path-sum/description
  */
 public class MinimumPathSum {
 

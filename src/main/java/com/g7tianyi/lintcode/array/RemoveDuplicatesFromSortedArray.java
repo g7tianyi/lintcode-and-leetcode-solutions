@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 27, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/remove-duplicates-from-sorted-array/description
+ * @link https://www.lintcode.com/problem/remove-duplicates-from-sorted-array/description
  */
 public class RemoveDuplicatesFromSortedArray {
 

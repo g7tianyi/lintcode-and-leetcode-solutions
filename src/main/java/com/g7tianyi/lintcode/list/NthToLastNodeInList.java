@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/nth-to-last-node-in-list/description
+ * @link https://www.lintcode.com/problem/nth-to-last-node-in-list/description
  */
 public class NthToLastNodeInList {
 

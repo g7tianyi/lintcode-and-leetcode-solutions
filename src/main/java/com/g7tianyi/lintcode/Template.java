@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Created by g7tianyi on Aug 23, 2019
  *
- * <p>Problem link:
+ * @link
  */
 public class Template {
 

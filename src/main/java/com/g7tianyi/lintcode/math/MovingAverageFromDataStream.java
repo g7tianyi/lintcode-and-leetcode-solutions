@@ -9,7 +9,7 @@ import java.util.Queue;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/moving-average-from-data-stream/description
+ * @link https://www.lintcode.com/problem/moving-average-from-data-stream/description
  */
 public class MovingAverageFromDataStream {
 

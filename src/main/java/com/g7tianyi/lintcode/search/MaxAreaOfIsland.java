@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>https://www.lintcode.com/problem/max-area-of-island/description
+ * @link https://www.lintcode.com/problem/max-area-of-island/description
  */
 public class MaxAreaOfIsland {
 

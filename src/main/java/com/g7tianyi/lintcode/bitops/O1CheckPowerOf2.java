@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/o1-check-power-of-2/description
+ * @link https://www.lintcode.com/problem/o1-check-power-of-2/description
  */
 public class O1CheckPowerOf2 {
 

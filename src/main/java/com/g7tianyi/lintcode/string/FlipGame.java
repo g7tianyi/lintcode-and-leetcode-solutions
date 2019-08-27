@@ -12,7 +12,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 26, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/flip-game/description
+ * @link https://www.lintcode.com/problem/flip-game/description
  */
 public class FlipGame {
 

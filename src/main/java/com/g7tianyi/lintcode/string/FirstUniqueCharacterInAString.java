@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/first-unique-character-in-a-string/description
+ * @link https://www.lintcode.com/problem/first-unique-character-in-a-string/description
  */
 public class FirstUniqueCharacterInAString {
 

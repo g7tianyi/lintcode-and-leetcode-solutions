@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by g7tianyi on Aug 27, 2019
  *
- * <p>https://www.lintcode.com/problem/majority-element/description
+ * @link https://www.lintcode.com/problem/majority-element/description
  */
 public class MajorityElement {
 

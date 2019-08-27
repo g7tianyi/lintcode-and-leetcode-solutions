@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/valid-anagram/description
+ * @link https://www.lintcode.com/problem/valid-anagram/description
  */
 public class ValidAnagram {
 

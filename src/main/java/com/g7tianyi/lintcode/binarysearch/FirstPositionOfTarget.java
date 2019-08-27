@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/first-position-of-target/description
+ * @link https://www.lintcode.com/problem/first-position-of-target/description
  */
 public class FirstPositionOfTarget {
 

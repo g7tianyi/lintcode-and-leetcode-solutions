@@ -1,16 +1,17 @@
 package com.g7tianyi.lintcode.search;
 
-import com.g7tianyi.lintcode.util.Log;
 import lombok.AllArgsConstructor;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.function.Consumer;
 
-/** Created by g7tianyi on Aug 25, 2019 */
+/**
+ * Created by g7tianyi on Aug 25, 2019
+ *
+ * @link https://www.lintcode.com/problem/number-of-islands/description
+ */
 public class NumberOfIslands {
-
-  private static final Log log = new Log();
 
   public class Solution {
 

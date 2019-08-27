@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/longest-word/description
+ * @link https://www.lintcode.com/problem/longest-word/description
  */
 public class LongestWord {
 

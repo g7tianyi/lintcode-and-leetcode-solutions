@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 27, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/balanced-binary-tree/description
+ * @link https://www.lintcode.com/problem/balanced-binary-tree/description
  */
 public class BalancedBinaryTree {
 

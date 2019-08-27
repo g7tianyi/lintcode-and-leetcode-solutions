@@ -16,7 +16,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link:
+ * @link
  * https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/description
  */
 public class ConvertBinaryTreeToLinkedListsByDepth {

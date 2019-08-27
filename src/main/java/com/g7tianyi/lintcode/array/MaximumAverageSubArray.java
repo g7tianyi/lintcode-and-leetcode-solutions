@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/maximum-average-subarray/description
+ * @link https://www.lintcode.com/problem/maximum-average-subarray/description
  */
 public class MaximumAverageSubArray {
 

@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/climbing-stairs/description
+ * @link https://www.lintcode.com/problem/climbing-stairs/description
  */
 public class ClimbingStairs {
 

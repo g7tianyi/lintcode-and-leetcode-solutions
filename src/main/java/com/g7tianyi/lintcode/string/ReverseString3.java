@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 26, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/reverse-words-in-a-string-iii/description
+ * @link https://www.lintcode.com/problem/reverse-words-in-a-string-iii/description
  */
 public class ReverseString3 {
 

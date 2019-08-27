@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/classical-binary-search/description
+ * @link https://www.lintcode.com/problem/classical-binary-search/description
  */
 public class ClassicalBinarySearch {
 

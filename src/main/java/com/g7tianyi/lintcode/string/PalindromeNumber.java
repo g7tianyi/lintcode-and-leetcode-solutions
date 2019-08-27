@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 26, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/palindrome-number/description
+ * @link https://www.lintcode.com/problem/palindrome-number/description
  */
 public class PalindromeNumber {
 

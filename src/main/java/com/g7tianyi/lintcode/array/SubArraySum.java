@@ -14,7 +14,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/subarray-sum/description
+ * @link https://www.lintcode.com/problem/subarray-sum/description
  */
 public class SubArraySum {
 

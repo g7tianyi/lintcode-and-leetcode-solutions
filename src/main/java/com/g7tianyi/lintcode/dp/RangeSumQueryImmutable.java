@@ -3,7 +3,7 @@ package com.g7tianyi.lintcode.dp;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/range-sum-query-immutable/description
+ * @link https://www.lintcode.com/problem/range-sum-query-immutable/description
  */
 public class RangeSumQueryImmutable {
 

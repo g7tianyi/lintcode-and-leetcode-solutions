@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 26, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/minimum-depth-of-binary-tree/description
+ * @link https://www.lintcode.com/problem/minimum-depth-of-binary-tree/description
  */
 public class MinimumDepthOfBinaryTree {
 

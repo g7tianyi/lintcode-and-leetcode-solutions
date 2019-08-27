@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by g7tianyi on Aug 27, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/product-of-array-exclude-itself/description
+ * @link https://www.lintcode.com/problem/product-of-array-exclude-itself/description
  */
 public class ProductOfArrayExcludeItself {
 

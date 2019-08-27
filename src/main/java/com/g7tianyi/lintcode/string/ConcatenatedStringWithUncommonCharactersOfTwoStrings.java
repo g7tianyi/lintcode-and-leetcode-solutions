@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 26, 2019
  *
- * <p>Problem link:
+ * @link
  * https://www.lintcode.com/problem/concatenated-string-with-uncommon-characters-of-two-strings/description
  */
 public class ConcatenatedStringWithUncommonCharactersOfTwoStrings {

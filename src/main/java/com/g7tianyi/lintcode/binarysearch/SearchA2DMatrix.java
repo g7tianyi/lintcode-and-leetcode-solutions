@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 27, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/search-a-2d-matrix/description
+ * @link https://www.lintcode.com/problem/search-a-2d-matrix/description
  */
 public class SearchA2DMatrix {
 

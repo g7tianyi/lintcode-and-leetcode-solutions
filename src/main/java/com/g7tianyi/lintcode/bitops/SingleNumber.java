@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/single-number/description
+ * @link https://www.lintcode.com/problem/single-number/description
  */
 public class SingleNumber {
 

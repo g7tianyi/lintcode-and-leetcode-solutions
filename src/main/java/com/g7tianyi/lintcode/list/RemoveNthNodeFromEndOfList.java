@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/remove-nth-node-from-end-of-list/description
+ * @link https://www.lintcode.com/problem/remove-nth-node-from-end-of-list/description
  */
 public class RemoveNthNodeFromEndOfList {
 

@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/happy-number/description
+ * @link https://www.lintcode.com/problem/happy-number/description
  */
 public class HappyNumber {
 

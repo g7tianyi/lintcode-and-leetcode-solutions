@@ -13,7 +13,7 @@ import java.util.function.Function;
 /**
  * Created by g7tianyi on Aug 28, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/sqrtx/description
+ * @link https://www.lintcode.com/problem/sqrtx/description
  */
 public class Sqrtx {
 

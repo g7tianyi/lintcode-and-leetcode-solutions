@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 26, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/reverse-string-ii/description
+ * @link https://www.lintcode.com/problem/reverse-string-ii/description
  */
 public class ReverseString2 {
 

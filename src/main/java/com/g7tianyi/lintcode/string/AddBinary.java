@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 26, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/add-binary/description
+ * @link https://www.lintcode.com/problem/add-binary/description
  */
 public class AddBinary {
 

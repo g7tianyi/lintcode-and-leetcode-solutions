@@ -9,7 +9,7 @@ import java.util.Stack;
 /**
  * Created by g7tianyi on Aug 27, 2019
  *
- * <p>Problem link: https://www.lintcode.com/problem/flatten-list/description
+ * @link https://www.lintcode.com/problem/flatten-list/description
  */
 public class FlattenList {
 
