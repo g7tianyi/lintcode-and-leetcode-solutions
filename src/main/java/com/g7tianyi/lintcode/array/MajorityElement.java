@@ -6,7 +6,11 @@ import org.junit.Test;
 
 import java.util.List;
 
-/** Created by g7tianyi on Aug 27, 2019 */
+/**
+ * Created by g7tianyi on Aug 27, 2019
+ *
+ * <p>https://www.lintcode.com/problem/majority-element/description
+ */
 public class MajorityElement {
 
   private static final Log log = new Log();
