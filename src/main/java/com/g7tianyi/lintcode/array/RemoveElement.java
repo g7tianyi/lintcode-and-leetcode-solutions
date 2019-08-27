@@ -84,7 +84,7 @@ public class RemoveElement {
 
     Function<Integer, Case> caseMaker =
         len -> {
-          int[] elems = Arrays.makeArray(len, len >> 1);
+          int[] elems = Arrays.arrayOf(len, len >> 1);
           int value = elems[Numbers.nextInt(elems.length - 1)];
           return new Case(elems, value);
         };
