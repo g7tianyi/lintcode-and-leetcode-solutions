@@ -45,10 +45,14 @@ public final class Console {
   }
 
   public static String stringify(int[] array) {
+    return stringify(array, array.length);
+  }
+
+  public static String stringify(int[] array, int len) {
     StringBuilder sb = new StringBuilder("[");
-    if (array != null && array.length != 0) {
-      for (int elem : array) {
-        sb.append(elem).append(" ");
+    if (array != null && len != 0) {
+      for (int i = 0; i < len; i++) {
+        sb.append(array[i]).append(" ");
       }
     }
 
@@ -62,5 +66,4 @@ public final class Console {
   public static void log(int[] array) {
     log.info(stringify(array));
   }
-
 }
