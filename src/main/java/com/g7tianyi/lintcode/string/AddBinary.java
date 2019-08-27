@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.string;
 
 import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.StringUtils;
+import com.g7tianyi.lintcode.common.Strings;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -97,11 +97,11 @@ public class AddBinary {
         input -> {
           String r = s.addBinary(input.a, input.b);
           int len = r.length();
-          String line = StringUtils.makeStringFrom('-', len);
-          log.info(StringUtils.prePad(input.a, len, ' '));
-          log.info(StringUtils.prePad(input.b, len, ' '));
-          log.info(StringUtils.prePad(line, len, ' '));
-          log.info(StringUtils.prePad(r, len, ' '));
+          String line = Strings.makeStringFrom('-', len);
+          log.info(Strings.prePad(input.a, len, ' '));
+          log.info(Strings.prePad(input.b, len, ' '));
+          log.info(Strings.prePad(line, len, ' '));
+          log.info(Strings.prePad(r, len, ' '));
           log.info();
         };
 

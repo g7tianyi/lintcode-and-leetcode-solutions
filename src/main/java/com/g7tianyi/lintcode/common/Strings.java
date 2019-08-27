@@ -1,9 +1,9 @@
-package com.g7tianyi.lintcode.util;
+package com.g7tianyi.lintcode.common;
 
 /** Created by g7tianyi on Aug 26, 2019 */
-public final class StringUtils {
+public final class Strings {
 
-  private StringUtils() {}
+  private Strings() {}
 
   public static String prePad(String s, int length, char ch) {
     StringBuilder sb = new StringBuilder(s);
