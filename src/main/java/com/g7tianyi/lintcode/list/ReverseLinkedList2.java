@@ -14,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class ReverseLinkedList2 {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   // 链表反转，意味着一定是没有环的
   public class Solution {

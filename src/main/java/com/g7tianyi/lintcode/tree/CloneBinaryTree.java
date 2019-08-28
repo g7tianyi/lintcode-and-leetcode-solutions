@@ -10,7 +10,7 @@ import com.g7tianyi.util.Logger;
  */
 public class CloneBinaryTree {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public class Solution {
 

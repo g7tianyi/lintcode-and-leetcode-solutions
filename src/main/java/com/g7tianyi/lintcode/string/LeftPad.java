@@ -13,7 +13,7 @@ import java.util.function.Consumer;
  */
 public class LeftPad {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public static class Solution {
 

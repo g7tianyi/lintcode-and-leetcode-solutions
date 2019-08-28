@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class ReverseOrderStorage {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public class Solution {
 

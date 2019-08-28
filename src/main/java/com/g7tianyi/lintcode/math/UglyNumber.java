@@ -12,7 +12,7 @@ import java.util.function.Consumer;
  */
 public class UglyNumber {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public class Solution {
 

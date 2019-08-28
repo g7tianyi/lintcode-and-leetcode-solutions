@@ -17,7 +17,7 @@ import java.util.function.Function;
  */
 public class Sqrtx {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public static class Solution {
 

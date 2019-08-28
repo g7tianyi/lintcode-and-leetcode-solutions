@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class RemoveDuplicatesFromSortedArray2 {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public class Solution {
 

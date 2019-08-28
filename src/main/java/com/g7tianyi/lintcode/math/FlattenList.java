@@ -13,7 +13,7 @@ import java.util.Stack;
  */
 public class FlattenList {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public interface NestedInteger {
 

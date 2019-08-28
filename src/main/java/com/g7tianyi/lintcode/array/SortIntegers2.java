@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class SortIntegers2 {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   static class Solution {
 

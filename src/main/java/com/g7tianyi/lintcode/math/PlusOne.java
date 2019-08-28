@@ -11,7 +11,7 @@ import org.junit.Test;
  */
 public class PlusOne {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public class Solution {
 

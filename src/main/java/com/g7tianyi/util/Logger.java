@@ -7,6 +7,26 @@ import java.util.List;
 /** Created by g7tianyi on Aug 24, 2019 */
 public final class Logger {
 
+  private Logger() {}
+
+  private enum Holder {
+    INSTANCE;
+
+    private Logger instance;
+
+    Holder() {
+      this.instance = new Logger();
+    }
+
+    private Logger getSingleton() {
+      return this.instance;
+    }
+  }
+
+  public static Logger getInstance() {
+    return Holder.INSTANCE.getSingleton();
+  }
+
   public void info(String format, Object... args) {
     System.out.printf(format + "\n", args);
   }

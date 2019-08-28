@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class MajorityElement {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public class Solution {
 

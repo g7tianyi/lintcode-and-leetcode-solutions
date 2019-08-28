@@ -13,7 +13,7 @@ import java.util.function.Consumer;
  */
 public class SearchA2DMatrix {
 
-  private static final Logger log = new Logger();
+  private static final Logger log = Logger.getInstance();
 
   public class Solution {
 
