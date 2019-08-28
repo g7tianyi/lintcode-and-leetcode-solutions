@@ -4,50 +4,60 @@ import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 import java.util.function.Consumer;
 
 /**
  * Created by g7tianyi on Aug 28, 2019
  *
- * @link https://www.lintcode.com/problem/partition-array-by-odd-and-even/description
+ * @link https://www.lintcode.com/problem/find-elements-in-matrix/description
  */
-public class PartitionArrayByOddAndEven {
+public class FindElementsInMatrix {
 
   private static final Logger log = new Logger();
 
   public class Solution {
 
-    // Do it in-place
-    // 😉😉😉
-    public void partitionArray(int[] elems) {
+    public int FindElements(int[][] elems) {
 
-      int i = 0, j = elems.length - 1, temp;
-
-      while (i < j) {
-        while (i < j && (elems[i] & 1) == 1) {
-          ++i;
+      Map<Integer, Integer> map = new HashMap<>();
+      for (int j = 0; j < elems[0].length; j++) {
+        if (!map.containsKey(elems[0][j])) {
+          map.put(elems[0][j], 1);
         }
-        if (i == j) {
-          break;
-        }
-
-        while (j > i && (elems[j] & 1) == 0) {
-          --j;
-        }
-        if (j == i) {
-          break;
-        }
-
-        temp = elems[i];
-        elems[i] = elems[j];
-        elems[j] = temp;
       }
+
+      Set<Integer> line = new HashSet<>();
+      for (int i = 1; i < elems.length; ++i) {
+        for (int j = 0; j < elems[i].length; ++j) {
+          if (line.contains(elems[i][j])) {
+            continue;
+          }
+          line.add(elems[i][j]);
+
+          if (map.containsKey(elems[i][j])) {
+            map.put(elems[i][j], map.get(elems[i][j]) + 1);
+          }
+        }
+        line.clear();
+      }
+
+      for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+        if (entry.getValue() == elems.length) {
+          return entry.getKey();
+        }
+      }
+
+      return 0;
     }
   }
 
   @AllArgsConstructor
   private static class Case {
-    private int[] elems;
+    private int[][] elems;
   }
 
   @Test
@@ -57,13 +67,24 @@ public class PartitionArrayByOddAndEven {
 
     Consumer<Case> c =
         aCase -> {
-          log.info(aCase.elems);
-          s.partitionArray(aCase.elems);
-          log.info(aCase.elems);
+          log.info(s.FindElements(aCase.elems));
           log.info();
         };
 
-    c.accept(new Case(new int[] {1, 2, 3, 4}));
-    c.accept(new Case(new int[] {1, 4, 2, 3, 5, 6}));
+    c.accept(
+        new Case(
+            new int[][] {
+              {2, 5, 3},
+              {3, 2, 1},
+              {1, 3, 5},
+            }));
+
+    c.accept(
+        new Case(
+            new int[][] {
+              {2, 5, 3, 2, 3, 3},
+              {3, 2, 2, 1, 2, 5},
+              {1, 5, 5, 5, 5, 4},
+            }));
   }
 }
