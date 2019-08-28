@@ -1,6 +1,4 @@
-package com.g7tianyi.lintcode.math;
-
-import com.g7tianyi.util.Logger;
+package com.g7tianyi.lintcode.list;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,17 +10,6 @@ import java.util.Stack;
  * @link https://www.lintcode.com/problem/flatten-list/description
  */
 public class FlattenList {
-
-  private static final Logger log = Logger.getInstance();
-
-  public interface NestedInteger {
-
-    boolean isInteger();
-
-    Integer getInteger();
-
-    List<NestedInteger> getList();
-  }
 
   public static class Solution {
 
