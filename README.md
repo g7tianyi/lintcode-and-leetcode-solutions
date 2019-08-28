@@ -12,3 +12,4 @@
 ## 1 Data Structure
 
 - [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description), try recursive and non-recursive way.
+- [SameTree](https://www.lintcode.com/problem/same-tree/description), try recursive and non-recursive way.
