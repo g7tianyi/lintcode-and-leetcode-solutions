@@ -6,5 +6,9 @@
 
 ## 0 Arrays
 
-- [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description). Need to discover the traversal pattern.
+- [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description), need to discover the traversal pattern.
  
+ 
+## 1 Data Structure
+
+- [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description), try recursive and non-recursive way.
