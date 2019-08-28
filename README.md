@@ -4,4 +4,7 @@
 
 ## Problems worthy of retry
 
-- []() 
+### Array Problems
+
+- [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description). Need to discover the traversal pattern.
+ 
