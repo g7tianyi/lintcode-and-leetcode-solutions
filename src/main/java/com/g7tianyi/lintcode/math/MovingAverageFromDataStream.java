@@ -1,6 +1,6 @@
 package com.g7tianyi.lintcode.math;
 
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 import java.util.LinkedList;
@@ -13,7 +13,7 @@ import java.util.Queue;
  */
 public class MovingAverageFromDataStream {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class MovingAverage {
 

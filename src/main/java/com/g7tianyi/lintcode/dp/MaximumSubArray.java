@@ -1,7 +1,6 @@
 package com.g7tianyi.lintcode.dp;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class MaximumSubArray {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -58,7 +57,7 @@ public class MaximumSubArray {
 
     Consumer<Input> runner =
         input -> {
-          Console.log(input.arr);
+          log.info(input.arr);
           int result = s.maxSubArray(input.arr);
           Assert.assertEquals(result, input.expected);
           log.info("%s\n", result);

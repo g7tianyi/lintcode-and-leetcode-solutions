@@ -1,7 +1,6 @@
 package com.g7tianyi.lintcode.array;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -14,7 +13,7 @@ import java.util.function.Consumer;
  */
 public class MergeTwoSortedArrays {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -55,9 +54,9 @@ public class MergeTwoSortedArrays {
 
     Consumer<Input> runner =
         input -> {
-          Console.log(input.A);
-          Console.log(input.B);
-          Console.log(s.mergeSortedArray(input.A, input.B));
+          log.info(input.A);
+          log.info(input.B);
+          log.info(s.mergeSortedArray(input.A, input.B));
           log.info("");
         };
 

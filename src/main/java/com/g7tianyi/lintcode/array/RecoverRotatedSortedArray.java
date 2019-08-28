@@ -1,8 +1,8 @@
 package com.g7tianyi.lintcode.array;
 
-import com.g7tianyi.lintcode.common.Lists;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Lists;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -16,7 +16,7 @@ import java.util.function.Consumer;
  */
 public class RecoverRotatedSortedArray {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -71,17 +71,17 @@ public class RecoverRotatedSortedArray {
 
     Consumer<Input> runner =
         input -> {
-          log.info(Console.stringify(input.elems));
+          log.info(Strings.format(input.elems));
           s.recoverRotatedSortedArray(input.elems);
-          log.info(Console.stringify(input.elems));
+          log.info(Strings.format(input.elems));
           log.info("");
         };
 
-    runner.accept(new Input(Lists.makeListsFrom(4, 5, 6, 7, 8)));
-    runner.accept(new Input(Lists.makeListsFrom(4, 0, 1, 2, 3)));
-    runner.accept(new Input(Lists.makeListsFrom(4, 5, 6, 7, 3)));
-    runner.accept(new Input(Lists.makeListsFrom(4, 5, 1, 2, 3)));
-    runner.accept(new Input(Lists.makeListsFrom(6, 8, 9, 1, 2)));
-    runner.accept(new Input(Lists.makeListsFrom(6, 8, 9, 1, 2, 3)));
+    runner.accept(new Input(Lists.from(4, 5, 6, 7, 8)));
+    runner.accept(new Input(Lists.from(4, 0, 1, 2, 3)));
+    runner.accept(new Input(Lists.from(4, 5, 6, 7, 3)));
+    runner.accept(new Input(Lists.from(4, 5, 1, 2, 3)));
+    runner.accept(new Input(Lists.from(6, 8, 9, 1, 2)));
+    runner.accept(new Input(Lists.from(6, 8, 9, 1, 2, 3)));
   }
 }

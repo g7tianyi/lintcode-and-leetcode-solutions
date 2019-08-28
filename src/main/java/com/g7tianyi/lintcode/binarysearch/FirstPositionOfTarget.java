@@ -1,8 +1,8 @@
 package com.g7tianyi.lintcode.binarysearch;
 
-import com.g7tianyi.lintcode.common.Arrays;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Arrays;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class FirstPositionOfTarget {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -54,18 +54,18 @@ public class FirstPositionOfTarget {
 
     Consumer<Input> runner =
         input -> {
-          log.info(Console.stringify(input.arr) + " " + input.value);
+          log.info(Strings.format(input.arr) + " " + input.value);
           log.info(s.binarySearch(input.arr, input.value));
           log.info("");
         };
 
-    runner.accept(new Input(Arrays.makeArrayFrom(1, 4, 4, 5, 7, 7, 8, 9, 9, 10), 1));
-    runner.accept(new Input(Arrays.makeArrayFrom(1, 2, 3, 3, 4, 5, 10), 3));
-    runner.accept(new Input(Arrays.makeArrayFrom(1, 2, 3, 3, 4, 5, 10), 6));
-    runner.accept(new Input(Arrays.makeArrayFrom(1, 1, 1, 1, 1, 1, 1, 1), 1));
-    runner.accept(new Input(Arrays.makeArrayFrom(2, 6, 8, 13, 15, 17, 17, 18, 19, 20), 15));
-    runner.accept(new Input(Arrays.makeArrayFrom(1, 1), 1));
-    runner.accept(new Input(Arrays.makeArrayFrom(1), 1));
-    runner.accept(new Input(Arrays.makeArrayFrom(1), 0));
+    runner.accept(new Input(Arrays.from(1, 4, 4, 5, 7, 7, 8, 9, 9, 10), 1));
+    runner.accept(new Input(Arrays.from(1, 2, 3, 3, 4, 5, 10), 3));
+    runner.accept(new Input(Arrays.from(1, 2, 3, 3, 4, 5, 10), 6));
+    runner.accept(new Input(Arrays.from(1, 1, 1, 1, 1, 1, 1, 1), 1));
+    runner.accept(new Input(Arrays.from(2, 6, 8, 13, 15, 17, 17, 18, 19, 20), 15));
+    runner.accept(new Input(Arrays.from(1, 1), 1));
+    runner.accept(new Input(Arrays.from(1), 1));
+    runner.accept(new Input(Arrays.from(1), 0));
   }
 }

@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class NthToLastNodeInList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -55,20 +54,20 @@ public class NthToLastNodeInList {
 
     Consumer<Input> runner =
         input -> {
-          Console.log(input.head);
+          log.info(input.head);
           log.info("%d => %s", input.x, s.nthToLast(input.head, input.x));
           log.info("\n");
         };
 
     runner.accept(new Input(null, 0));
-    runner.accept(new Input(ListNode.makeBeautifulList(1), 1));
-    runner.accept(new Input(ListNode.makeBeautifulList(4), 2));
-    runner.accept(new Input(ListNode.makeBeautifulList(4), 4));
-    runner.accept(new Input(ListNode.makeBeautifulList(5), 1));
-    runner.accept(new Input(ListNode.makeBeautifulList(10), 9));
-    runner.accept(new Input(ListNode.makeBeautifulList(10), 1));
-    runner.accept(new Input(ListNode.makeBeautifulList(10), 5));
-    runner.accept(new Input(ListNode.makeListFrom(3, 2, 1, 5), 2));
-    runner.accept(new Input(ListNode.makeListFrom(1, 2, 3), 3));
+    runner.accept(new Input(ListNode.sortedListOf(1), 1));
+    runner.accept(new Input(ListNode.sortedListOf(4), 2));
+    runner.accept(new Input(ListNode.sortedListOf(4), 4));
+    runner.accept(new Input(ListNode.sortedListOf(5), 1));
+    runner.accept(new Input(ListNode.sortedListOf(10), 9));
+    runner.accept(new Input(ListNode.sortedListOf(10), 1));
+    runner.accept(new Input(ListNode.sortedListOf(10), 5));
+    runner.accept(new Input(ListNode.from(3, 2, 1, 5), 2));
+    runner.accept(new Input(ListNode.from(1, 2, 3), 3));
   }
 }

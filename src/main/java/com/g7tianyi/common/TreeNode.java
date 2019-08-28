@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.common;
+package com.g7tianyi.common;
 
 import java.util.ArrayList;
 import java.util.List;

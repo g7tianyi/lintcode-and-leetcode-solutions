@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.array;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class MaximumAverageSubArray {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -54,7 +54,7 @@ public class MaximumAverageSubArray {
 
     Consumer<Input> c =
         input ->
-            log.info(Console.stringify(input.arr) + " => " + s.findMaxAverage(input.arr, input.k));
+            log.info(Strings.format(input.arr) + " => " + s.findMaxAverage(input.arr, input.k));
 
     c.accept(new Input(new int[] {1, 12, -5, -6, 50, 3}, 4));
     c.accept(new Input(new int[] {4, 2, 1, 3, 3}, 2));

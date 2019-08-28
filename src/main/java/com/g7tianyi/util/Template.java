@@ -1,6 +1,5 @@
-package com.g7tianyi.lintcode;
+package com.g7tianyi.util;
 
-import com.g7tianyi.lintcode.util.Log;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -11,7 +10,7 @@ import org.junit.Test;
  */
 public class Template {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 

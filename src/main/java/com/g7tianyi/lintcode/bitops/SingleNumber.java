@@ -1,6 +1,6 @@
 package com.g7tianyi.lintcode.bitops;
 
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -11,7 +11,7 @@ import org.junit.Test;
  */
 public class SingleNumber {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 

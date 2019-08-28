@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -16,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class ReorderList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -153,19 +152,19 @@ public class ReorderList {
 
     Consumer<ListNode> runner =
         listNode -> {
-          Console.log(listNode);
+          log.info(listNode);
           s.reorderList(listNode);
-          Console.log(listNode);
+          log.info(listNode);
           log.info("");
         };
 
     runner.accept(null);
-    runner.accept(ListNode.makeBeautifulList(1));
-    runner.accept(ListNode.makeBeautifulList(2));
-    runner.accept(ListNode.makeBeautifulList(3));
-    runner.accept(ListNode.makeBeautifulList(4));
-    runner.accept(ListNode.makeBeautifulList(5));
-    runner.accept(ListNode.makeBeautifulList(7));
-    runner.accept(ListNode.makeBeautifulList(8));
+    runner.accept(ListNode.sortedListOf(1));
+    runner.accept(ListNode.sortedListOf(2));
+    runner.accept(ListNode.sortedListOf(3));
+    runner.accept(ListNode.sortedListOf(4));
+    runner.accept(ListNode.sortedListOf(5));
+    runner.accept(ListNode.sortedListOf(7));
+    runner.accept(ListNode.sortedListOf(8));
   }
 }

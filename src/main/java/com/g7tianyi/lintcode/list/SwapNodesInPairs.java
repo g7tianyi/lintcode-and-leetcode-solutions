@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class SwapNodesInPairs {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -75,18 +74,18 @@ public class SwapNodesInPairs {
 
     Consumer<Input> runner =
         input -> {
-          Console.log(input.head);
-          Console.log(s.swapPairs(input.head));
+          log.info(input.head);
+          log.info(s.swapPairs(input.head));
           log.info("");
         };
 
     runner.accept(new Input(null));
-    runner.accept(new Input(ListNode.makeListFrom(1, 2, 3, 4)));
-    runner.accept(new Input(ListNode.makeListFrom(5)));
-    runner.accept(new Input(ListNode.makeRandomList(1)));
-    runner.accept(new Input(ListNode.makeRandomList(2)));
-    runner.accept(new Input(ListNode.makeRandomList(3)));
-    runner.accept(new Input(ListNode.makeRandomList(6)));
-    runner.accept(new Input(ListNode.makeRandomList(7)));
+    runner.accept(new Input(ListNode.from(1, 2, 3, 4)));
+    runner.accept(new Input(ListNode.from(5)));
+    runner.accept(new Input(ListNode.randomListOf(1)));
+    runner.accept(new Input(ListNode.randomListOf(2)));
+    runner.accept(new Input(ListNode.randomListOf(3)));
+    runner.accept(new Input(ListNode.randomListOf(6)));
+    runner.accept(new Input(ListNode.randomListOf(7)));
   }
 }

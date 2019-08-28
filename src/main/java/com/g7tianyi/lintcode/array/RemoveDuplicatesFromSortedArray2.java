@@ -1,8 +1,8 @@
 package com.g7tianyi.lintcode.array;
 
-import com.g7tianyi.lintcode.common.Arrays;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Arrays;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class RemoveDuplicatesFromSortedArray2 {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -61,9 +61,9 @@ public class RemoveDuplicatesFromSortedArray2 {
 
     Consumer<TestCase> c =
         testCase -> {
-          log.info(Console.stringify(testCase.elems));
+          log.info(Strings.format(testCase.elems));
           int len = s.removeDuplicates(testCase.elems);
-          log.info(Console.stringify(testCase.elems, len));
+          log.info(Strings.format(testCase.elems, len));
           log.info();
         };
 

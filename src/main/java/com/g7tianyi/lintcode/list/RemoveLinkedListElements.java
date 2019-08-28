@@ -1,8 +1,8 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class RemoveLinkedListElements {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -62,13 +62,13 @@ public class RemoveLinkedListElements {
 
     Consumer<Input> runner =
         input -> {
-          log.info(Console.stringify(input.head) + " " + input.val);
-          Console.log(s.removeElements(input.head, input.val));
+          log.info(Strings.format(input.head) + " " + input.val);
+          log.info(s.removeElements(input.head, input.val));
           log.info("");
         };
 
-    runner.accept(new Input(ListNode.makeListFrom(1, 2, 3, 3, 4, 5, 3), 3));
-    runner.accept(new Input(ListNode.makeListFrom(1, 1), 1));
-    runner.accept(new Input(ListNode.makeListFrom(1, 2, 3, 4, 4, 5, 5), 6));
+    runner.accept(new Input(ListNode.from(1, 2, 3, 3, 4, 5, 3), 3));
+    runner.accept(new Input(ListNode.from(1, 1), 1));
+    runner.accept(new Input(ListNode.from(1, 2, 3, 4, 4, 5, 5), 6));
   }
 }

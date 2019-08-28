@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 import java.util.function.Consumer;
@@ -14,7 +13,7 @@ import java.util.function.Consumer;
  */
 public class ReverseLinkedList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   // 链表反转，意味着一定是没有环的
   public class Solution {
@@ -79,12 +78,12 @@ public class ReverseLinkedList {
     Consumer<ListNode> runner =
         listNode -> {
           // printList(rs.reverse(listNode));
-          Console.log(s.reverse(listNode));
+          log.info(s.reverse(listNode));
           log.info("\n");
         };
 
     runner.accept(null);
-    runner.accept(ListNode.makeBeautifulList(1));
-    runner.accept(ListNode.makeBeautifulList(8));
+    runner.accept(ListNode.sortedListOf(1));
+    runner.accept(ListNode.sortedListOf(8));
   }
 }

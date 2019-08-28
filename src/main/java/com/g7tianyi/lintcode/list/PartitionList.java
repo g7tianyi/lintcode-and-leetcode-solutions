@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class PartitionList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -83,25 +82,25 @@ public class PartitionList {
     Consumer<Input> runner =
         input -> {
           log.info("x: %d", input.x);
-          Console.log(input.head);
-          Console.log(s.partition(input.head, input.x));
+          log.info(input.head);
+          log.info(s.partition(input.head, input.x));
           log.info("\n");
         };
 
     runner.accept(new Input(null, 0));
-    runner.accept(new Input(ListNode.makeRandomList(1), 1));
-    runner.accept(new Input(ListNode.makeRandomList(2), 10));
-    runner.accept(new Input(ListNode.makeRandomList(2), -1));
-    runner.accept(new Input(ListNode.makeRandomList(2), 1));
-    runner.accept(new Input(ListNode.makeRandomList(16), 5));
-    runner.accept(new Input(ListNode.makeRandomList(16), 0));
-    runner.accept(new Input(ListNode.makeRandomList(15), 100000));
-    runner.accept(new Input(ListNode.makeListFrom(1, 4, 3, 2, 5, 2), 3));
+    runner.accept(new Input(ListNode.randomListOf(1), 1));
+    runner.accept(new Input(ListNode.randomListOf(2), 10));
+    runner.accept(new Input(ListNode.randomListOf(2), -1));
+    runner.accept(new Input(ListNode.randomListOf(2), 1));
+    runner.accept(new Input(ListNode.randomListOf(16), 5));
+    runner.accept(new Input(ListNode.randomListOf(16), 0));
+    runner.accept(new Input(ListNode.randomListOf(15), 100000));
+    runner.accept(new Input(ListNode.from(1, 4, 3, 2, 5, 2), 3));
     runner.accept(
         new Input(
-            ListNode.makeListFrom(15, 4, 9, 1, 11, 12, 15, 4, 2, 0, 15, 1, 14, 11, 16, 7), 5));
+            ListNode.from(15, 4, 9, 1, 11, 12, 15, 4, 2, 0, 15, 1, 14, 11, 16, 7), 5));
     runner.accept(
         new Input(
-            ListNode.makeListFrom(8, 11, 13, 7, 11, 3, 6, 8, 3, 10, 12, 1, 14, 5, 11, 0), 5));
+            ListNode.from(8, 11, 13, 7, 11, 3, 6, 8, 3, 10, 12, 1, 14, 5, 11, 0), 5));
   }
 }

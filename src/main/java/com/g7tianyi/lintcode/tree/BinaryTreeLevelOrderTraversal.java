@@ -1,8 +1,8 @@
 package com.g7tianyi.lintcode.tree;
 
-import com.g7tianyi.lintcode.common.TreeNode;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.common.TreeNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -19,7 +19,7 @@ import java.util.function.Consumer;
  */
 public class BinaryTreeLevelOrderTraversal {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -75,8 +75,8 @@ public class BinaryTreeLevelOrderTraversal {
     Consumer<Input> runner =
         input -> {
           List<List<Integer>> listNodes = s.levelOrder(input.root);
-          listNodes.forEach(Console::log);
-          log.info("");
+          listNodes.forEach(list -> log.info(Strings.format(list)));
+          log.info();
         };
 
     TreeNode root = new TreeNode(1);

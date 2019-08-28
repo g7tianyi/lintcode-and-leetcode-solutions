@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.binarysearch;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class SearchInsertPosition {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -56,7 +56,7 @@ public class SearchInsertPosition {
 
     Consumer<Input> runner =
         input -> {
-          log.info(Console.stringify(input.arr) + " " + input.sum);
+          log.info(Strings.format(input.arr) + " " + input.sum);
           log.info(s.searchInsert(input.arr, input.sum));
           log.info();
         };

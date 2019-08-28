@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.math;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 /**
@@ -11,7 +11,7 @@ import org.junit.Test;
  */
 public class PlusOne {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -44,9 +44,9 @@ public class PlusOne {
 
     Solution s = new Solution();
 
-    log.info(Console.stringify(s.plusOne(new int[] {8})));
-    log.info(Console.stringify(s.plusOne(new int[] {9})));
-    log.info(Console.stringify(s.plusOne(new int[] {1, 2, 3})));
-    log.info(Console.stringify(s.plusOne(new int[] {9, 9, 9, 9, 9})));
+    log.info(Strings.format(s.plusOne(new int[] {8})));
+    log.info(Strings.format(s.plusOne(new int[] {9})));
+    log.info(Strings.format(s.plusOne(new int[] {1, 2, 3})));
+    log.info(Strings.format(s.plusOne(new int[] {9, 9, 9, 9, 9})));
   }
 }

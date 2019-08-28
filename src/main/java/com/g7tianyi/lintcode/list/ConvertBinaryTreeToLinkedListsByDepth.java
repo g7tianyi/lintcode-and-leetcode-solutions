@@ -1,9 +1,9 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.common.TreeNode;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.common.TreeNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -16,12 +16,11 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 24, 2019
  *
- * @link
- * https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/description
+ * @link https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/description
  */
 public class ConvertBinaryTreeToLinkedListsByDepth {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -82,7 +81,7 @@ public class ConvertBinaryTreeToLinkedListsByDepth {
     Consumer<Input> runner =
         input -> {
           List<ListNode> listNodes = s.binaryTreeToLists(input.root);
-          listNodes.forEach(Console::log);
+          listNodes.forEach(listNode -> log.info(Strings.format(listNode)));
           log.info("");
         };
 

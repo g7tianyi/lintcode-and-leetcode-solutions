@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class DeleteNodeInALinkedList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -46,7 +45,7 @@ public class DeleteNodeInALinkedList {
 
     Consumer<Input> runner =
         input -> {
-          Console.log(input.head);
+          log.info(input.head);
 
           ListNode node = input.head;
           for (int i = 0; i < input.n; i++) {
@@ -54,12 +53,12 @@ public class DeleteNodeInALinkedList {
           }
           s.deleteNode(node);
 
-          Console.log(input.head);
+          log.info(input.head);
           log.info("");
         };
 
     for (int i = 1; i < 9; i++) {
-      ListNode head = ListNode.makeBeautifulList(10);
+      ListNode head = ListNode.sortedListOf(10);
       runner.accept(new Input(head, i));
     }
 

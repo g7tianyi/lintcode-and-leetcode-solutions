@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 import java.util.function.Consumer;
@@ -14,7 +13,7 @@ import java.util.function.Consumer;
  */
 public class InsertionSortList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -73,22 +72,22 @@ public class InsertionSortList {
 
     Consumer<ListNode> runner =
         listNode -> {
-          Console.log(listNode);
-          Console.log(s.insertionSortList(listNode));
+          log.info(listNode);
+          log.info(s.insertionSortList(listNode));
           log.info("");
         };
 
     runner.accept(null);
-    runner.accept(ListNode.makeListFrom(0));
-    runner.accept(ListNode.makeListFrom(2, 1));
-    runner.accept(ListNode.makeListFrom(1, 1, 1, 1, 1, 1, 1));
-    runner.accept(ListNode.makeListFrom(9, 8, 7, 6, 5, 4, 3));
-    runner.accept(ListNode.makeListFrom(3, 4, 5, 6, 7, 8));
-    runner.accept(ListNode.makeListFrom(1, 3, 2, 0));
-    runner.accept(ListNode.makeListFrom(3, 1, 7, 0));
+    runner.accept(ListNode.from(0));
+    runner.accept(ListNode.from(2, 1));
+    runner.accept(ListNode.from(1, 1, 1, 1, 1, 1, 1));
+    runner.accept(ListNode.from(9, 8, 7, 6, 5, 4, 3));
+    runner.accept(ListNode.from(3, 4, 5, 6, 7, 8));
+    runner.accept(ListNode.from(1, 3, 2, 0));
+    runner.accept(ListNode.from(3, 1, 7, 0));
 
     for (int i = 0; i < 10; i++) {
-      runner.accept(ListNode.makeRandomList(10));
+      runner.accept(ListNode.randomListOf(10));
     }
   }
 }

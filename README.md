@@ -1,3 +1,3 @@
-# lintcode-solutions
+# lintcode and leetcode solutions
 
-[lintcode](https://www.lintcode.com) solutions for fun.
+[lintcode](https://www.lintcode.com) and [leetcode](https://leetcode.com/) solutions for fun.

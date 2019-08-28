@@ -1,6 +1,6 @@
 package com.g7tianyi.lintcode.string;
 
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class LongestWord {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 

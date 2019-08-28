@@ -1,6 +1,6 @@
 package com.g7tianyi.lintcode.dp;
 
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 /**
@@ -10,7 +10,7 @@ import org.junit.Test;
  */
 public class UniquePaths {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 

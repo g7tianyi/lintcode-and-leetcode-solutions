@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.others;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -16,7 +16,7 @@ import java.util.function.Consumer;
  */
 public class FizzBuzz {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -57,7 +57,7 @@ public class FizzBuzz {
 
     Consumer<Input> runner =
         input -> {
-          log.info(input.num + " " + Console.stringify(s.fizzBuzz(input.num)));
+          log.info(input.num + " " + Strings.format(s.fizzBuzz(input.num)));
           log.info("");
         };
 

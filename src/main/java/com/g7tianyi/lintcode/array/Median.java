@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.array;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class Median {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -85,7 +85,7 @@ public class Median {
 
     Consumer<Input> runner =
         input -> {
-          log.info(Console.stringify(input.arr));
+          log.info(Strings.format(input.arr));
           log.info(s.median(input.arr));
           log.info("");
         };

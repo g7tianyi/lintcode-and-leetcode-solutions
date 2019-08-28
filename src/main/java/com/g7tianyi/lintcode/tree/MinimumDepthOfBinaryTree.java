@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.tree;
 
-import com.g7tianyi.lintcode.common.TreeNode;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.TreeNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class MinimumDepthOfBinaryTree {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 

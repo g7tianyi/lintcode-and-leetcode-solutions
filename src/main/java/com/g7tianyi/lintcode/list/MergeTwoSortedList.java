@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class MergeTwoSortedList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -73,17 +72,17 @@ public class MergeTwoSortedList {
 
     Consumer<Input> runner =
         input -> {
-          Console.log(input.l1);
-          Console.log(input.l2);
-          Console.log(s.mergeTwoLists(input.l1, input.l2));
+          log.info(input.l1);
+          log.info(input.l2);
+          log.info(s.mergeTwoLists(input.l1, input.l2));
           log.info("\n");
         };
 
-    runner.accept(new Input(null, ListNode.makeListFrom(0, 3, 3)));
-    runner.accept(new Input(ListNode.makeListFrom(0, 3, 3), null));
-    runner.accept(new Input(ListNode.makeListFrom(1, 3, 8, 11, 15), ListNode.makeListFrom(2)));
-    runner.accept(new Input(ListNode.makeRandomSortedList(1), ListNode.makeRandomSortedList(7)));
-    runner.accept(new Input(ListNode.makeRandomSortedList(7), ListNode.makeRandomSortedList(1)));
-    runner.accept(new Input(ListNode.makeRandomSortedList(10), ListNode.makeRandomSortedList(10)));
+    runner.accept(new Input(null, ListNode.from(0, 3, 3)));
+    runner.accept(new Input(ListNode.from(0, 3, 3), null));
+    runner.accept(new Input(ListNode.from(1, 3, 8, 11, 15), ListNode.from(2)));
+    runner.accept(new Input(ListNode.randomSortedListOf(1), ListNode.randomSortedListOf(7)));
+    runner.accept(new Input(ListNode.randomSortedListOf(7), ListNode.randomSortedListOf(1)));
+    runner.accept(new Input(ListNode.randomSortedListOf(10), ListNode.randomSortedListOf(10)));
   }
 }

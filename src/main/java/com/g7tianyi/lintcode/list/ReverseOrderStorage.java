@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -16,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class ReverseOrderStorage {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -44,12 +43,12 @@ public class ReverseOrderStorage {
     Consumer<ListNode> runner =
         listNode -> {
           // printList(rs.reverse(listNode));
-          Console.log(s.reverseStore(listNode));
+          log.info(s.reverseStore(listNode));
           log.info("\n");
         };
 
     runner.accept(null);
-    runner.accept(ListNode.makeBeautifulList(1));
-    runner.accept(ListNode.makeBeautifulList(8));
+    runner.accept(ListNode.sortedListOf(1));
+    runner.accept(ListNode.sortedListOf(8));
   }
 }

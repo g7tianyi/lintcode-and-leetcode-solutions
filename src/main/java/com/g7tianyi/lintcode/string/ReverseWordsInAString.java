@@ -1,6 +1,6 @@
 package com.g7tianyi.lintcode.string;
 
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 import java.util.function.Consumer;
@@ -12,7 +12,7 @@ import java.util.function.Consumer;
  */
 public class ReverseWordsInAString {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 

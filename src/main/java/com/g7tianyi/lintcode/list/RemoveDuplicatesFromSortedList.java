@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 import java.util.function.Consumer;
@@ -14,7 +13,7 @@ import java.util.function.Consumer;
  */
 public class RemoveDuplicatesFromSortedList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -54,20 +53,20 @@ public class RemoveDuplicatesFromSortedList {
 
     Consumer<ListNode> runner =
         listNode -> {
-          Console.log(listNode);
-          Console.log(s.deleteDuplicates(listNode));
+          log.info(listNode);
+          log.info(s.deleteDuplicates(listNode));
           log.info("\n");
         };
 
     runner.accept(null);
-    runner.accept(ListNode.makeRandomSortedList(1));
-    runner.accept(ListNode.makeRandomSortedList(4));
-    runner.accept(ListNode.makeRandomSortedList(4));
-    runner.accept(ListNode.makeRandomSortedList(5));
-    runner.accept(ListNode.makeRandomSortedList(10));
-    runner.accept(ListNode.makeRandomSortedList(10));
-    runner.accept(ListNode.makeRandomSortedList(10));
-    runner.accept(ListNode.makeListFrom(1, 1, 2));
-    runner.accept(ListNode.makeListFrom(1, 1, 2, 3, 3));
+    runner.accept(ListNode.randomSortedListOf(1));
+    runner.accept(ListNode.randomSortedListOf(4));
+    runner.accept(ListNode.randomSortedListOf(4));
+    runner.accept(ListNode.randomSortedListOf(5));
+    runner.accept(ListNode.randomSortedListOf(10));
+    runner.accept(ListNode.randomSortedListOf(10));
+    runner.accept(ListNode.randomSortedListOf(10));
+    runner.accept(ListNode.from(1, 1, 2));
+    runner.accept(ListNode.from(1, 1, 2, 3, 3));
   }
 }

@@ -1,6 +1,6 @@
 package com.g7tianyi.lintcode.math;
 
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import com.google.common.collect.Lists;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class ProductOfArrayExcludeItself {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 

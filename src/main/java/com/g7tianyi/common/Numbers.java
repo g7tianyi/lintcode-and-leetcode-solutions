@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.common;
+package com.g7tianyi.common;
 
 /** Created by g7tianyi on Aug 28, 2019 */
 public final class Numbers {

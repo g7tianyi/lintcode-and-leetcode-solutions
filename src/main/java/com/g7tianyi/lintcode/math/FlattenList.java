@@ -1,6 +1,6 @@
 package com.g7tianyi.lintcode.math;
 
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.Stack;
  */
 public class FlattenList {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public interface NestedInteger {
 

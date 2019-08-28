@@ -1,8 +1,7 @@
 package com.g7tianyi.lintcode.list;
 
-import com.g7tianyi.lintcode.common.ListNode;
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.util.Console;
+import com.g7tianyi.common.ListNode;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class AddLists {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -92,19 +91,19 @@ public class AddLists {
 
     Consumer<Input> runner =
         input -> {
-          Console.log(input.l1);
-          Console.log(input.l2);
-          Console.log(s.addLists(input.l1, input.l2));
+          log.info(input.l1);
+          log.info(input.l2);
+          log.info(s.addLists(input.l1, input.l2));
           log.info("\n");
         };
 
-    runner.accept(new Input(null, ListNode.makeListFrom(0, 3, 3)));
-    runner.accept(new Input(ListNode.makeListFrom(0, 3, 3), null));
-    runner.accept(new Input(ListNode.makeListFrom(9, 9), ListNode.makeListFrom(9)));
-    runner.accept(new Input(ListNode.makeListFrom(9), ListNode.makeListFrom(9, 9, 9, 9, 9, 9)));
-    runner.accept(new Input(ListNode.makeListFrom(7, 1, 6), ListNode.makeListFrom(5, 9, 2)));
-    runner.accept(new Input(ListNode.makeListFrom(3, 1, 5), ListNode.makeListFrom(5, 9, 2)));
-    runner.accept(new Input(ListNode.makeListFrom(1, 3, 5), ListNode.makeRandomSortedList(2, 3)));
-    runner.accept(new Input(ListNode.makeListFrom(2, 0, 3), ListNode.makeRandomSortedList(0, 3)));
+    runner.accept(new Input(null, ListNode.from(0, 3, 3)));
+    runner.accept(new Input(ListNode.from(0, 3, 3), null));
+    runner.accept(new Input(ListNode.from(9, 9), ListNode.from(9)));
+    runner.accept(new Input(ListNode.from(9), ListNode.from(9, 9, 9, 9, 9, 9)));
+    runner.accept(new Input(ListNode.from(7, 1, 6), ListNode.from(5, 9, 2)));
+    runner.accept(new Input(ListNode.from(3, 1, 5), ListNode.from(5, 9, 2)));
+    runner.accept(new Input(ListNode.from(1, 3, 5), ListNode.randomSortedListOf(2, 3)));
+    runner.accept(new Input(ListNode.from(2, 0, 3), ListNode.randomSortedListOf(0, 3)));
   }
 }

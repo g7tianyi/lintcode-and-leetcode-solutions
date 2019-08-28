@@ -1,7 +1,6 @@
 package com.g7tianyi.lintcode.dp;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Assert;
 import org.junit.Test;
@@ -16,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class LongestContinuousIncreasingSubSequence {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -66,7 +65,7 @@ public class LongestContinuousIncreasingSubSequence {
 
     Consumer<Input> runner =
         input -> {
-          Console.log(input.elems);
+          log.info(input.elems);
           int result = s.longestIncreasingContinuousSubsequence(input.elems);
           Assert.assertEquals(result, input.expected);
           log.info("%s\n", result);

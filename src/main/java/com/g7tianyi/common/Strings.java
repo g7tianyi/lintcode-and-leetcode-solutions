@@ -1,17 +1,32 @@
-package com.g7tianyi.lintcode.util;
-
-import com.g7tianyi.lintcode.common.ListNode;
+package com.g7tianyi.common;
 
 import java.util.List;
 
-/** Created by g7tianyi on Aug 24, 2019 */
-public final class Console {
+/** Created by g7tianyi on Aug 26, 2019 */
+public final class Strings {
 
-  private static final Log log = new Log();
+  private Strings() {}
 
-  private Console() {}
+  public static String prePad(String s, int length, char ch) {
+    StringBuilder sb = new StringBuilder(s);
+    sb.reverse();
 
-  public static String stringify(ListNode listNode) {
+    while (sb.length() < length) {
+      sb.append(ch);
+    }
+    sb.reverse();
+    return sb.toString();
+  }
+
+  public static String from(char ch, int length) {
+    StringBuilder sb = new StringBuilder();
+    while (sb.length() < length) {
+      sb.append(ch);
+    }
+    return sb.toString();
+  }
+
+  public static String format(ListNode listNode) {
     StringBuilder sb = new StringBuilder("[");
     while (listNode != null) {
       sb.append(listNode.val).append("-");
@@ -24,11 +39,7 @@ public final class Console {
     return sb.toString();
   }
 
-  public static void log(ListNode listNode) {
-    log.info(stringify(listNode));
-  }
-
-  public static <T> String stringify(List<T> list) {
+  public static <T> String format(List<T> list) {
     StringBuilder sb = new StringBuilder("[");
     if (list != null && !list.isEmpty()) {
       list.forEach(elem -> sb.append(elem).append(" "));
@@ -40,15 +51,11 @@ public final class Console {
     return sb.toString();
   }
 
-  public static <T> void log(List<T> list) {
-    log.info(stringify(list));
+  public static String format(int[] array) {
+    return format(array, array.length);
   }
 
-  public static String stringify(int[] array) {
-    return stringify(array, array.length);
-  }
-
-  public static String stringify(int[] array, int len) {
+  public static String format(int[] array, int len) {
     StringBuilder sb = new StringBuilder("[");
     if (array != null && len != 0) {
       for (int i = 0; i < len; i++) {
@@ -63,7 +70,7 @@ public final class Console {
     return sb.toString();
   }
 
-  public static void log(int[] array) {
-    log.info(stringify(array));
+  public static String format(char[] array) {
+    return new String(array);
   }
 }

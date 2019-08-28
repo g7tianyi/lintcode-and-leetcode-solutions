@@ -1,8 +1,8 @@
 package com.g7tianyi.lintcode.array;
 
-import com.g7tianyi.lintcode.common.Arrays;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Arrays;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class SortIntegers {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -49,9 +49,9 @@ public class SortIntegers {
 
     Consumer<Input> runner =
         input -> {
-          log.info(Console.stringify(input.elems));
+          log.info(Strings.format(input.elems));
           s.sortIntegers(input.elems);
-          log.info(Console.stringify(input.elems));
+          log.info(Strings.format(input.elems));
           log.info("");
         };
 
@@ -60,6 +60,6 @@ public class SortIntegers {
     runner.accept(new Input(new int[] {1, 2, 3, -1, -1}));
     runner.accept(new Input(new int[] {3, 2, 1, 4, 5}));
     runner.accept(new Input(new int[] {1, 1, 2, 1, 1}));
-    runner.accept(new Input(Arrays.arrayOf(10, 100)));
+    runner.accept(new Input(Arrays.of(10, 100)));
   }
 }

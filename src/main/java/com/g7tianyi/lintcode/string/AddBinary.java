@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.string;
 
-import com.g7tianyi.lintcode.util.Log;
-import com.g7tianyi.lintcode.common.Strings;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import java.util.function.Consumer;
  */
 public class AddBinary {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -97,7 +97,7 @@ public class AddBinary {
         input -> {
           String r = s.addBinary(input.a, input.b);
           int len = r.length();
-          String line = Strings.makeStringFrom('-', len);
+          String line = Strings.from('-', len);
           log.info(Strings.prePad(input.a, len, ' '));
           log.info(Strings.prePad(input.b, len, ' '));
           log.info(Strings.prePad(line, len, ' '));

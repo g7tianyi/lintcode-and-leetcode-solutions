@@ -1,8 +1,8 @@
-package com.g7tianyi.lintcode.common;
+package com.g7tianyi.common;
 
 import java.util.Arrays;
 
-import static com.g7tianyi.lintcode.common.Numbers.nextInt;
+import static com.g7tianyi.common.Numbers.nextInt;
 
 /** Created by g7tianyi on Aug 24, 2019 */
 public class ListNode {
@@ -21,41 +21,41 @@ public class ListNode {
     return String.valueOf(val);
   }
 
-  public static ListNode makeBeautifulList(int len) {
+  public static ListNode sortedListOf(int len) {
     int[] elems = new int[len];
     for (int i = 0; i < len; i++) {
       elems[i] = i + 1;
     }
-    return makeListFrom(elems);
+    return from(elems);
   }
 
-  public static ListNode makeRandomList(int len) {
+  public static ListNode randomListOf(int len) {
     int[] elems = new int[len];
     for (int i = 0; i < len; i++) {
       elems[i] = nextInt(len + 1);
     }
-    return makeListFrom(elems);
+    return from(elems);
   }
 
-  public static ListNode makeRandomSortedList(int len) {
+  public static ListNode randomSortedListOf(int len) {
     int[] elems = new int[len];
     for (int i = 0; i < len; i++) {
       elems[i] = nextInt(len + 1);
     }
     Arrays.sort(elems);
-    return makeListFrom(elems);
+    return from(elems);
   }
 
-  public static ListNode makeRandomSortedList(int len, int min) {
+  public static ListNode randomSortedListOf(int len, int min) {
     int[] elems = new int[len];
     for (int i = 0; i < len; i++) {
       elems[i] = nextInt(len + 1) + min;
     }
     Arrays.sort(elems);
-    return makeListFrom(elems);
+    return from(elems);
   }
 
-  public static ListNode makeListFrom(int... args) {
+  public static ListNode from(int... args) {
     if (args.length == 0) {
       return null;
     }

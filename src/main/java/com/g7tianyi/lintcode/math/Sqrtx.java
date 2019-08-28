@@ -1,6 +1,6 @@
 package com.g7tianyi.lintcode.math;
 
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Assert;
 import org.junit.Test;
@@ -17,7 +17,7 @@ import java.util.function.Function;
  */
 public class Sqrtx {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public static class Solution {
 

@@ -1,7 +1,7 @@
 package com.g7tianyi.lintcode.dp;
 
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  */
 public class YangHuiTriangle {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -50,7 +50,7 @@ public class YangHuiTriangle {
           List<List<Integer>> matrix = s.calcYangHuisTriangle(num);
           StringBuilder sb = new StringBuilder();
           for (List<Integer> line : matrix) {
-            sb.append(Console.stringify(line)).append("\n");
+            sb.append(Strings.format(line)).append("\n");
           }
           log.info(sb.toString());
         };

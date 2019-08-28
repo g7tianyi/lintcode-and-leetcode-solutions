@@ -1,9 +1,9 @@
 package com.g7tianyi.lintcode.array;
 
-import com.g7tianyi.lintcode.common.Arrays;
-import com.g7tianyi.lintcode.common.Numbers;
-import com.g7tianyi.lintcode.util.Console;
-import com.g7tianyi.lintcode.util.Log;
+import com.g7tianyi.common.Arrays;
+import com.g7tianyi.common.Numbers;
+import com.g7tianyi.common.Strings;
+import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
@@ -17,7 +17,7 @@ import java.util.function.Function;
  */
 public class RemoveElement {
 
-  private static final Log log = new Log();
+  private static final Logger log = new Logger();
 
   public class Solution {
 
@@ -71,9 +71,9 @@ public class RemoveElement {
     Consumer<Case> runner =
         aCase -> {
           log.info(aCase.value);
-          log.info(Console.stringify(aCase.elems));
+          log.info(Strings.format(aCase.elems));
           int len = s.removeElement(aCase.elems, aCase.value);
-          log.info(Console.stringify(aCase.elems, len));
+          log.info(Strings.format(aCase.elems, len));
           log.info("");
         };
 
@@ -84,7 +84,7 @@ public class RemoveElement {
 
     Function<Integer, Case> caseMaker =
         len -> {
-          int[] elems = Arrays.arrayOf(len, len >> 1);
+          int[] elems = Arrays.of(len, len >> 1);
           int value = elems[Numbers.nextInt(elems.length - 1)];
           return new Case(elems, value);
         };
