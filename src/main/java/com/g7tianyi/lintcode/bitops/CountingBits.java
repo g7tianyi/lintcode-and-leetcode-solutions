@@ -17,34 +17,24 @@ public class CountingBits {
 
   public class Solution {
 
-    // 奇数: 减去1成偶数，二进制形式中只有最后一位不同，原来的1变为0
-    // 偶数: 减去1成奇数，二进制形式中偶数尾巴上的所有0，直到倒数第一个1为止全部变为1，且倒数第一个1变为0
-    // (5) 101 => (4) 100
-    // (176) 10110000 => (133) 10101111
-    // 减1前后的两个数字求与操作，新的数字总是会减少一个1
-    //
-    // 负数的二进制表示：
-    // 1.取反：对这个负数的绝对值按位取反，得到的叫做反码
-    // 2.加1：取反后，对这个二进制数加1，得到的叫做补码
-    public int countOnes(int num) {
+    public int[] countBits(int num) {
       // write your code here
-
-      int value = num;
-      if (value < 0) {
-        value = Math.abs(value + 1);
+      int[] result = new int[num + 1];
+      result[0] = 0;
+      for (int i = 1, j; i <= num; i++) {
+        if ((i & 1) == 1) { // 当前数字是奇数，是由前面一个偶数+1得到，偶数总是将最后一位0变为1
+          result[i] = result[i - 1] + 1;
+        } else {
+          // 举个例子：
+          // i-1          => 1 01111
+          // i            => 1 10000
+          // k = i ^ i-1  => 0 11111
+          // j = k & i-1  => 0 01111
+          j = ((i - 1) ^ i) & (i - 1);
+          result[i] = result[i - 1] - result[j] + 1;
+        }
       }
-
-      int result = 0;
-      while (value != 0) {
-        value &= (value - 1);
-        ++result;
-      }
-
-      if (num >= 0) {
-        return result;
-      } else {
-        return 32 - result;
-      }
+      return result;
     }
   }
 
@@ -59,10 +49,9 @@ public class CountingBits {
 
     Solution s = new Solution();
 
-    Consumer<Case> c = aCase -> log.info(s.countOnes(aCase.num));
+    Consumer<Case> c = aCase -> log.info(s.countBits(aCase.num));
 
-    c.accept(new Case(-8));
-    c.accept(new Case(32));
     c.accept(new Case(5));
+    c.accept(new Case(3));
   }
 }
