@@ -19,6 +19,10 @@ public final class Logger {
     info(Strings.format(list));
   }
 
+  public <T> void info(List<T> list) {
+    info(Strings.format(list));
+  }
+
   public void info(int[] elems) {
     info(Strings.format(elems));
   }
