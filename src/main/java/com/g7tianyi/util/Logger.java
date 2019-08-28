@@ -47,6 +47,9 @@ public final class Logger {
     info(Strings.format(elems));
   }
 
+  public  void info(int[] elems, int except) {
+    info(Strings.format(elems, elems.length, except));
+  }
   public void info(char[] elems) {
     info(Strings.format(elems));
   }
