@@ -5,6 +5,18 @@ public final class Numbers {
 
   private Numbers() {}
 
+  public static int fromBinaryString(String s) {
+    int num = 0, pow = 1, i = s.length() - 1;
+    while (i >= 0) {
+      if (s.charAt(i) == '1') {
+        num += pow;
+      }
+      pow <<= 1;
+      --i;
+    }
+    return num;
+  }
+
   public static int nextInt() {
     return nextInt(100);
   }
