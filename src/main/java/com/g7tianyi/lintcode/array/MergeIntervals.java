@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.bitops;
+package com.g7tianyi.lintcode.array;
 
 import com.g7tianyi.util.Logger;
 import com.google.common.collect.Lists;
