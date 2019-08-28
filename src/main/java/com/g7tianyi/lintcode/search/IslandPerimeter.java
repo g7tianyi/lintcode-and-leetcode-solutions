@@ -7,63 +7,55 @@ import org.junit.Test;
 import java.util.function.Consumer;
 
 /**
- * Created by g7tianyi on Aug 25, 2019
+ * Created by g7tianyi on Aug 28, 2019
  *
- * @link https://www.lintcode.com/problem/number-of-islands/description
+ * @link https://www.lintcode.com/problem/island-perimeter/description
  */
-public class NumberOfIslands {
+public class IslandPerimeter {
 
   public class Solution {
 
-    public int numIslands(boolean[][] map) {
-      int w = map.length;
-      if (w == 0) {
-        return 0;
-      }
-      int h = map[0].length;
-      if (h == 0) {
-        return 0;
-      }
+    public int islandPerimeter(int[][] map) {
 
       int result = 0;
-      for (int i = 0; i < w; i++) {
-        for (int j = 0; j < h; j++) {
-          if (map[i][j]) {
-            result++;
-            floodFill(map, w, h, i, j);
+      if (map == null) {
+        return result;
+      }
+
+      int m = map.length;
+      if (m == 0) {
+        return result;
+      }
+
+      int n = map[0].length;
+
+      for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+          if (map[i][j] == 1) {
+            if (i == 0 || map[i - 1][j] == 0) {
+              ++result;
+            }
+            if (i == m - 1 || map[i + 1][j] == 0) {
+              ++result;
+            }
+            if (j == 0 || map[i][j - 1] == 0) {
+              ++result;
+            }
+            if (j == n - 1 || map[i][j + 1] == 0) {
+              ++result;
+            }
           }
         }
       }
+
       return result;
-    }
-
-    // 深度优先搜索，标准的灌水法
-    private void floodFill(boolean[][] map, int w, int h, int i, int j) {
-
-      map[i][j] = false;
-
-      if (i - 1 >= 0 && map[i - 1][j]) {
-        floodFill(map, w, h, i - 1, j);
-      }
-
-      if (j - 1 >= 0 && map[i][j - 1]) {
-        floodFill(map, w, h, i, j - 1);
-      }
-
-      if (i + 1 < w && map[i + 1][j]) {
-        floodFill(map, w, h, i + 1, j);
-      }
-
-      if (j + 1 < h && map[i][j + 1]) {
-        floodFill(map, w, h, i, j + 1);
-      }
     }
   }
 
   @AllArgsConstructor
-  public static class Input {
+  public static class Case {
 
-    private boolean[][] map;
+    private int[][] map;
 
     private int expected;
   }
@@ -73,26 +65,15 @@ public class NumberOfIslands {
 
     Solution s = new Solution();
 
-    Consumer<Input> c = input -> Assert.assertEquals(input.expected, s.numIslands(input.map));
+    Consumer<Case> c = aCase -> Assert.assertEquals(aCase.expected, s.islandPerimeter(aCase.map));
 
-    boolean[][] m1 =
-        new boolean[][] {
-          {true, true, false, false, false},
-          {false, true, false, false, true},
-          {false, false, false, true, true},
-          {false, false, false, false, false},
-          {false, false, false, false, true},
+    int[][] m1 =
+        new int[][] {
+          {0, 1, 0, 0},
+          {1, 1, 1, 0},
+          {0, 1, 0, 0},
+          {1, 1, 0, 0},
         };
-
-    c.accept(new Input(m1, 3));
-
-    boolean[][] m2 =
-        new boolean[][] {
-          {true, true},
-        };
-    c.accept(new Input(m2, 1));
-
-    boolean[][] m3 = new boolean[][] {};
-    c.accept(new Input(m3, 0));
+    c.accept(new Case(m1, 16));
   }
 }
