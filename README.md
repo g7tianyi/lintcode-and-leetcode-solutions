@@ -6,10 +6,15 @@
 
 ## 0 Arrays
 
-- [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description), need to discover the traversal pattern.
- 
+- [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description), need to discover the traversal pattern, interesting.
  
 ## 1 Data Structure
 
 - [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description), try recursive and non-recursive way.
 - [SameTree](https://www.lintcode.com/problem/same-tree/description), try recursive and non-recursive way.
+
+## 2 String
+
+### 2.0 Trie
+
+- [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description), a very good start to know trie.
