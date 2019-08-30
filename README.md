@@ -23,4 +23,6 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 
 ## 3 Search
 
-- [LetterCasePermutation](https://www.lintcode.com/problem/letter-case-permutation/description). Good DFS question. 
+- [LetterCasePermutation](https://www.lintcode.com/problem/letter-case-permutation/description). Good DFS question.
+- [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description). Another good DFS question.
+ 
