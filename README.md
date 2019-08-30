@@ -1,4 +1,4 @@
-# lintcode and leetcode solutions
+# Solutions of lintcode and leetcode
 
 [lintcode](https://www.lintcode.com) and [leetcode](https://leetcode.com/) solutions for fun.
 
@@ -7,6 +7,7 @@
 ## 0 Arrays
 
 - [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description), need to discover the traversal pattern, interesting.
+- [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description), use generic-programming way to implement QuickSort.
  
 ## 1 Data Structure
 
