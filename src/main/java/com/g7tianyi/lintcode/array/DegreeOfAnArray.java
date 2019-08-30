@@ -5,9 +5,7 @@ import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 
@@ -22,32 +20,48 @@ public class DegreeOfAnArray {
 
   public class Solution {
 
+    class ElemInfo {
+      int posMin;
+      int posMax;
+      int degree;
+
+      public ElemInfo() {
+        this.posMin = -1;
+        this.posMax = -1;
+        this.degree = 0;
+      }
+
+      public void addPosition(int pos) {
+        if (this.posMin == -1) {
+          this.posMin = pos;
+        } else {
+          this.posMax = pos;
+        }
+        ++this.degree;
+      }
+
+      public int size() {
+        return this.posMax - this.posMin + 1;
+      }
+    }
+
     public int findShortestSubArray(int[] elems) {
 
-      Map<Integer, List<Integer>> valuePositions = new HashMap<>();
+      Map<Integer, ElemInfo> valuePositions = new HashMap<>();
       for (int pos = 0; pos < elems.length; ++pos) {
-        List<Integer> positions = valuePositions.getOrDefault(elems[pos], new ArrayList<>());
-        positions.add(pos);
-        valuePositions.put(elems[pos], positions);
+        ElemInfo elemInfo = valuePositions.getOrDefault(elems[pos], new ElemInfo());
+        elemInfo.addPosition(pos);
+        valuePositions.put(elems[pos], elemInfo);
       }
 
       int maxDegree = 0, result = Integer.MAX_VALUE;
-      for (List<Integer> positions : valuePositions.values()) {
-        if (positions == null) {
+      for (ElemInfo elemInfo : valuePositions.values()) {
+        if (maxDegree > elemInfo.degree) {
           continue;
         }
 
-        if (positions.size() < maxDegree) {
-          continue;
-        }
-
-        maxDegree = positions.size();
-        positions.sort(Integer::compareTo);
-        for (int i = 1; i < positions.size(); ++i) {
-          if (result > positions.get(i) - positions.get(i - 1)) {
-            result = positions.get(i) - positions.get(i - 1) + 1;
-          }
-        }
+        maxDegree = elemInfo.degree;
+        result = elemInfo.size();
       }
 
       return result;
@@ -73,6 +87,7 @@ public class DegreeOfAnArray {
         };
 
     runner.accept(new Case(new int[] {1, 2, 2, 3, 1}));
-    runner.accept(new Case(new int[] {2, 2}));
+    runner.accept(new Case(new int[] {1, 2, 2, 3, 1}));
+    runner.accept(new Case(new int[] {1, 2, 2, 3, 1, 4, 2}));
   }
 }
