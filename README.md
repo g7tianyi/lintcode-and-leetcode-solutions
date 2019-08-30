@@ -1,6 +1,6 @@
 # Solutions of lintcode and leetcode
 
-[lintcode](https://www.lintcode.com) and [leetcode](https://leetcode.com/) solutions for fun.
+Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.com/) solutions with test case support and some handy help functions. 
 
 # Problems worthy of retry
 
