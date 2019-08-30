@@ -20,3 +20,7 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 ### 2.0 Trie
 
 - [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description). Very good start to know trie.
+
+## 3 Search
+
+- [LetterCasePermutation](https://www.lintcode.com/problem/letter-case-permutation/description). Good DFS question. 
