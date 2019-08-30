@@ -7,49 +7,44 @@ import org.junit.Test;
 import java.util.function.Consumer;
 
 /**
- * Created by g7tianyi on Aug 25, 2019
+ * Created by g7tianyi on Aug 30, 2019
  *
- * @link https://www.lintcode.com/problem/find-the-difference/description
+ * @link https://www.lintcode.com/problem/jewels-and-stones/description
  */
-public class FindTheDifference {
+public class JewelsAndStones {
 
   public class Solution {
 
-    public char findTheDifference(String s, String t) {
-      int[] sCount = new int[256];
-      int[] tCount = new int[256];
-      for (int i = 0; i < 256; i++) {
-        sCount[i] = 0;
-        tCount[i] = 0;
+    public int numJewelsInStones(String J, String S) {
+
+      char[] pos = new char[256];
+      for (char i = 0; i < 256; ++i) {
+        pos[i] = '0';
       }
 
-      char ch = t.charAt(t.length() - 1);
-      ++tCount[ch];
-
-      for (int i = 0; i < s.length(); i++) {
-        ch = s.charAt(i);
-        ++sCount[ch];
-
-        ch = t.charAt(i);
-        ++tCount[ch];
+      char[] jChars = J.toCharArray();
+      for (char ch : jChars) {
+        pos[ch] = '1';
       }
 
-      for (int i = 0; i < 256; i++) {
-        if (sCount[i] != tCount[i]) {
-          return (char) i;
+      int num = 0;
+      char[] sChars = S.toCharArray();
+      for (char ch : sChars) {
+        if (pos[ch] == '1') {
+          ++num;
         }
       }
 
-      return 'a';
+      return num;
     }
   }
 
   @AllArgsConstructor
-  private static class Input {
+  private static class Case {
 
-    private String s;
-    private String t;
-    private char ch;
+    private String J;
+    private String S;
+    private int num;
   }
 
   @Test
@@ -57,9 +52,10 @@ public class FindTheDifference {
 
     Solution s = new Solution();
 
-    Consumer<Input> c =
-        input -> Assert.assertEquals(input.ch, s.findTheDifference(input.s, input.t));
+    Consumer<Case> c =
+        aCase -> Assert.assertEquals(aCase.num, s.numJewelsInStones(aCase.J, aCase.S));
 
-    c.accept(new Input("abcd", "abcde", 'e'));
+    c.accept(new Case("aA", "aAAbbbb", 3));
+    c.accept(new Case("z", "ZZ", 0));
   }
 }
