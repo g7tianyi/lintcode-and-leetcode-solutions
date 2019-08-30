@@ -51,6 +51,25 @@ public final class Strings {
     return sb.toString();
   }
 
+  public static String format(String[] array) {
+    return format(array, array.length);
+  }
+
+  public static String format(String[] array, int len) {
+    StringBuilder sb = new StringBuilder("[");
+    if (array != null && len != 0) {
+      for (int i = 0; i < len; i++) {
+        sb.append(array[i]).append(" ");
+      }
+    }
+
+    if (sb.length() > 1) {
+      sb.deleteCharAt(sb.length() - 1);
+    }
+    sb.append("]");
+    return sb.toString();
+  }
+
   public static String format(int[] array) {
     return format(array, array.length);
   }
