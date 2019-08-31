@@ -37,6 +37,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 - [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description). Need to discover the traversal pattern, interesting.
 - [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description). Use generic-programming way to implement QuickSort.
 - [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/largest-number-at-least-twice-of-others/description). Try best to take all kinds of test cases into the consideration, in the end, DFS is applied.
+- [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description). Good questions to get to know [BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm).
 
 ### 0.0 Binary Search
 
