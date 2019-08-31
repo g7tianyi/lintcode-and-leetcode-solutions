@@ -12,7 +12,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 23, 2019
  *
- * @link
+ * @link https://www.lintcode.com/problem/fizz-buzz/
  */
 public class FizzBuzz {
 
