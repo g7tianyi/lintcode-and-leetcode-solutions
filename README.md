@@ -38,6 +38,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 - [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description). Use generic-programming way to implement QuickSort.
 - [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/largest-number-at-least-twice-of-others/description). Try best to take all kinds of test cases into the consideration, in the end, DFS is applied.
 - [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description). Good questions to get to know [BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm).
+- [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description). Good questions to get to know [RadixSort](https://en.wikipedia.org/wiki/Radix_sort).
 
 ### 0.0 Binary Search
 
@@ -103,6 +104,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 ### 6.0 Elementary Mathematical Problems
 
 - [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) share some similarities.
+- [CountPrimes](https://www.lintcode.com/problem/count-primes/description). Prime number.
 
 ### 6.1 Big Number Problems
 
