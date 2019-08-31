@@ -31,3 +31,8 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 - [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description). Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically.
 - [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description). Get stuck at the beginning, 😂.
  
+## 5 Algorithms
+
+### 5.0 Greedy Algorithms
+
+- [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description).
