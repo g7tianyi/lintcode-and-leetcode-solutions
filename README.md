@@ -26,7 +26,8 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 - [LetterCasePermutation](https://www.lintcode.com/problem/letter-case-permutation/description). Good DFS question.
 - [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description). Another good DFS question.
  
- ## 4 Rigorous and Logical Thinking
+## 4 Rigorous and Logical Thinking
  
 - [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description). Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically.
+- [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description). Get stuck at the beginning, 😂.
  
