@@ -45,6 +45,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 - [ClassicalBinarySearch](https://www.lintcode.com/problem/classical-binary-search/description). For starters.
 - [FirstPositionOfTarget](https://www.lintcode.com/problem/first-position-of-target/description). The simplest variation of classical binary search.
 - [SearchInsertPosition](https://www.lintcode.com/problem/search-insert-position/description). Simple variation of classical binary search.
+- [GuessNumberHigherOrLower](https://www.lintcode.com/problem/guess-number-higher-or-lower/description).
  
 ## 1 Data Structure
 

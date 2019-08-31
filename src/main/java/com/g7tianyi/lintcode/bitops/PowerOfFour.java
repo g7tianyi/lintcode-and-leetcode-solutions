@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.math;
+package com.g7tianyi.lintcode.bitops;
 
 /**
  * Created by g7tianyi on Aug 31, 2019
