@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.hash;
+package com.g7tianyi.lintcode.hashmap;
 
 import com.g7tianyi.util.Logger;
 import com.google.common.collect.Lists;

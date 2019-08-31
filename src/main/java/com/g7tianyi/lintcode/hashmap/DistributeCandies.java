@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.hash;
+package com.g7tianyi.lintcode.hashmap;
 
 import lombok.AllArgsConstructor;
 import org.junit.Assert;
