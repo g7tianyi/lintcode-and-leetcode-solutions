@@ -94,6 +94,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 ### 5.0 Greedy Algorithms
 
 - [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description).
+- [LemonadeChange](https://www.lintcode.com/problem/lemonade-change/description).
 
 ### 5.1 Dynamic Programming 
 
