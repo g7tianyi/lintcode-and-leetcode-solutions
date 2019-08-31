@@ -101,7 +101,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 6.0 Elementary Mathematical Problems
 
-> To be added.
+- [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) share some similarities.
 
 ### 6.1 Big Number Problems
 
