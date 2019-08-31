@@ -128,3 +128,4 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
  
 - [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description). Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically.
 - [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description). Get stuck at the beginning, 😂.
+- [MaximizeDistanceToClosestPerson](https://www.lintcode.com/problem/maximize-distance-to-closest-person/description). Consider the boundary conditions, rigorously. Not very hard, so it is a good problem for starter.
