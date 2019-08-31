@@ -6,6 +6,30 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 
 > The list is still under heavy update.
 
+- [0 Arrays](#0-arrays)
+  - [0.0 Binary Search](#00-binary-search)
+- [1 Data Structure](#1-data-structure)
+- [2 Advanced Data Structure](#2-advanced-data-structure)
+- [3 String](#3-string)
+  - [3.0 Basic String Operations](#30-basic-string-operations)
+  - [3.1 Trie](#31-trie)
+  - [3.2 String Search](#32-string-search)
+  - [3.3 Suffix Tree](#33-suffix-tree)
+  - [3.4 AC Automaton](#34-ac-automaton)
+- [4 Search Techniques](#4-search-techniques)
+  - [4.0 DFS](#40-dfs)
+  - [4.1 BFS](#40-bfs)
+- [5 Algorithms](#5-algorithms)
+  - [5.0 Greedy Algorithms](#50-greedy-algorithms)
+  - [5.1 Dynamic Programming](#51-dynamic-programming)
+- [6 Mathematical Problems](#6-mathematical-problems)
+  - [6.1 Big Number Problems](#61-big-number-problems)
+  - [6.2 Combinatorial Mathematics](#62-combinatorial-mathematics)
+- [7 Graph Algorithm](#7-graph-algorithm)
+- [8 Computation Geometry](#8-computation-geometry)
+- [9 Rigorous and Logical Thinking](#9-rigorous-and-logical-thinking)
+
+
 There are now too many problems in [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.com/), we don't have the time to solve and revisit each and every one of them, below are a selected subset of these problems, which, in my opinion, worthy of retrying.
 
 ## 0 Arrays
@@ -30,73 +54,72 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 > To be added.
 
-## 2 String
+## 3 String
 
-### 2.0 Basic String Operations
+### 3.0 Basic String Operations
 
 > To be added.
 
-### 2.1 Trie
+### 3.1 Trie
 
 - [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description). Very good start to know trie.
 
-## 2.2 String Searching
+### 3.2 String Search
 
 > To be added.
 
-## 2.3 Suffix Tree
+### 3.3 Suffix Tree
 
 > To be added.
 
-## 2.4 AC Automaton
+### 3.4 AC Automaton
 
 > To be added.
 
-## 3 Search Techniques
+## 4 Search Techniques
 
-### 3.0 DFS
+### 4.0 DFS
 
 - [LetterCasePermutation](https://www.lintcode.com/problem/letter-case-permutation/description). Good DFS question.
 - [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description). Another good DFS question.
 
-### 3.1 BFS
+### 4.1 BFS
 
 > To be added.
 
-## 4 Algorithms
+## 5 Algorithms
 
-### 4.0 Greedy Algorithms
+### 5.0 Greedy Algorithms
 
 - [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description).
 
-### 4.1 Dynamic Programming 
+### 5.1 Dynamic Programming 
 
 > To be added.
 
-## 5 Mathematical Problems
+## 6 Mathematical Problems
 
-### 5.0 Elementary Mathematical Problems
-
-> To be added.
-
-### 5.1 Big Number Problems
+### 6.0 Elementary Mathematical Problems
 
 > To be added.
 
-### 5.2 Combinatorial Mathematics
+### 6.1 Big Number Problems
 
 > To be added.
 
-## 6 Graph Algorithm
+### 6.2 Combinatorial Mathematics
 
 > To be added.
 
-## 7 Computation Geometry
+## 7 Graph Algorithm
 
 > To be added.
 
-## 8 Rigorous and Logical Thinking
+## 8 Computation Geometry
+
+> To be added.
+
+## 9 Rigorous and Logical Thinking
  
 - [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description). Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically.
 - [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description). Get stuck at the beginning, 😂.
- 
