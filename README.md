@@ -95,7 +95,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 5.1 Dynamic Programming 
 
-> To be added.
+- [PascalsTriangle](https://www.lintcode.com/problem/pascals-triangle/description). As a starter.
 
 ## 6 Mathematical Problems
 
