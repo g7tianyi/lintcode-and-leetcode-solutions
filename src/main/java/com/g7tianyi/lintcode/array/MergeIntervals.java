@@ -1,5 +1,6 @@
 package com.g7tianyi.lintcode.array;
 
+import com.g7tianyi.common.Interval;
 import com.g7tianyi.util.Logger;
 import com.google.common.collect.Lists;
 import lombok.AllArgsConstructor;
@@ -17,21 +18,6 @@ import java.util.function.Consumer;
 public class MergeIntervals {
 
   private static final Logger log = Logger.getInstance();
-
-  public class Interval {
-
-    int start, end;
-
-    Interval(int start, int end) {
-      this.start = start;
-      this.end = end;
-    }
-
-    @Override
-    public String toString() {
-      return String.format("[%d, %d]", start, end);
-    }
-  }
 
   public class Solution {
 
