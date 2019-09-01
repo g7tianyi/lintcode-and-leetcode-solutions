@@ -112,6 +112,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 ### 5.1 Dynamic Programming 
 
 - [PascalsTriangle](https://www.lintcode.com/problem/pascals-triangle/description). As a starter.
+- [MinCostClimbingStairs](https://www.lintcode.com/problem/min-cost-climbing-stairs/description). Simple but kinda of boring.
 
 ## 6 Mathematical Problems
 
