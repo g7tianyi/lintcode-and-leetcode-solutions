@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.string;
+package com.g7tianyi.lintcode.math;
 
 import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
