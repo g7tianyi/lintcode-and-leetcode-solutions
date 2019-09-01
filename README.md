@@ -28,7 +28,7 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 - [7 Graph Algorithm](#7-graph-algorithm)
 - [8 Computation Geometry](#8-computation-geometry)
 - [9 Rigorous and Logical Thinking](#9-rigorous-and-logical-thinking)
-
+  - [9.0 Interval Problems](#90-interval-problems)
 
 There are now too many problems in [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.com/), we don't have the time to solve and revisit each and every one of them, below are a selected subset of these problems, which, in my opinion, worthy of retrying.
 
@@ -46,6 +46,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 - [FirstPositionOfTarget](https://www.lintcode.com/problem/first-position-of-target/description). The simplest variation of classical binary search.
 - [SearchInsertPosition](https://www.lintcode.com/problem/search-insert-position/description). Simple variation of classical binary search.
 - [GuessNumberHigherOrLower](https://www.lintcode.com/problem/guess-number-higher-or-lower/description).
+- [Heaters](https://www.lintcode.com/problem/heaters/description).
  
 ## 1 Data Structure
 
@@ -129,3 +130,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 - [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description). Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically.
 - [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description). Get stuck at the beginning, 😂.
 - [MaximizeDistanceToClosestPerson](https://www.lintcode.com/problem/maximize-distance-to-closest-person/description). Consider the boundary conditions, rigorously. Not very hard, so it is a good problem for starter.
+
+### 9.0 Interval Problems
+
+- [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description).
