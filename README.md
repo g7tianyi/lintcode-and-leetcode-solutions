@@ -64,6 +64,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/maximum-product-of-three-numbers/description) | Try best to take all kinds of test cases into the consideration, in the end, DFS is applied | ⭐️️⭐️⭐️️⭐️️⭐️️ |
 | [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description) | Good questions to get to know [BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm) | ⭐️️⭐️⭐️️⭐️️⭐️️ |
 | [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description) | Good questions to get to know [RadixSort](https://en.wikipedia.org/wiki/Radix_sort) | ⭐️️⭐️⭐️️⭐️️ |
+| [FindAllNumbersDisappearedInAnArray](https://www.lintcode.com/problem/find-all-numbers-disappeared-in-an-array/description) | Used some clever tricks. It's worth noting that there're some intriguing features between the index and the value in array| ⭐️️⭐️⭐️️⭐️️⭐️️ |
  
 ## 1 Data Structure
 
