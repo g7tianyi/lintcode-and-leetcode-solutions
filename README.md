@@ -46,7 +46,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 0.1 Binary Search
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [ClassicalBinarySearch](https://www.lintcode.com/problem/classical-binary-search/description) | | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
 | [FirstPositionOfTarget](https://www.lintcode.com/problem/first-position-of-target/description) | The simplest variation of classical binary search | ⭐️️⭐️️️️⭐️️️️⭐️️️️ |
@@ -57,7 +57,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 0.2 Array Problems
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | Need to discover the traversal pattern, interesting | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
 | [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description) | Use generic-programming way to implement QuickSort | ⭐️️⭐️️️ |
@@ -67,7 +67,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
  
 ## 1 Data Structure
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description) | Try recursive and non-recursive way | ⭐️️⭐️⭐️️⭐️️️ |
 | [SameTree](https://www.lintcode.com/problem/same-tree/description) | Try recursive and non-recursive way | ⭐️️⭐️⭐️️⭐️️️ |
@@ -85,13 +85,13 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 3.1 Trie
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description) | Very good start to know trie | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
 
 ### 3.2 String Search
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [ValidWordAbbreviation](https://www.lintcode.com/problem/valid-word-abbreviation/description) | Good one. Relative skills including string comparison and converting string to number | ⭐️️⭐️⭐️️⭐️️️ |
 
@@ -107,7 +107,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 4.0 DFS
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | Good DFS question | ⭐️️⭐️⭐️️⭐️️️ |
 | [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description) | Another good DFS question | ⭐️️⭐️⭐️️⭐️️️ |
@@ -120,14 +120,14 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 5.0 Greedy Algorithms
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) |  | ⭐️️⭐️️⭐️️️ |
 | [LemonadeChange](https://www.lintcode.com/problem/lemonade-change/description) |  | ⭐️️⭐️️⭐️️️ |
 
 ### 5.1 Dynamic Programming 
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [PascalsTriangle](https://www.lintcode.com/problem/pascals-triangle/description) | As a starter | ⭐️️⭐️️⭐️️️ |
 | [MinCostClimbingStairs](https://www.lintcode.com/problem/min-cost-climbing-stairs/description) | Prime number | ⭐️️⭐️️ |
@@ -136,7 +136,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 6.0 Elementary Mathematical Problems
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) | | ⭐️️⭐️️⭐️️️⭐️ |
 | [CountPrimes](https://www.lintcode.com/problem/count-primes/description) | Prime number | ⭐️️⭐️️⭐️️️⭐️ |
@@ -161,7 +161,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 These problems need to consider some, or even many edge cases to get the correct answer. Make sure you understand the problem very clear and try to enumerate all possible test cases if possible.
  
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description) | Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically | ⭐️️⭐️️⭐️⭐️⭐️️ |
 | [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description) | Get stuck at the beginning, 😂 | ⭐️️⭐️️⭐️️ |
@@ -170,6 +170,6 @@ These problems need to consider some, or even many edge cases to get the correct
  
 ### 9.0 Interval Problems
 
-| Problem | Recommendation | Description |
+| Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) |  | ⭐️️⭐️️⭐️️ |
