@@ -49,7 +49,8 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 - [SearchInsertPosition](https://www.lintcode.com/problem/search-insert-position/description). Simple variation of classical binary search.
 - [GuessNumberHigherOrLower](https://www.lintcode.com/problem/guess-number-higher-or-lower/description).
 - [Heaters](https://www.lintcode.com/problem/heaters/description).
- 
+- [FindSmallestLetterGreaterThanTarget](https://www.lintcode.com/problem/find-smallest-letter-greater-than-target/description). Strings rather than numbers, and now we need to locate the position to insert a new character with the array kept ordered.
+
 ### 0.2 Array Problems
 
 - [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description). Need to discover the traversal pattern, interesting.
