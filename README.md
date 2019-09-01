@@ -138,10 +138,13 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 > To be added.
 
 ## 9 Rigorous and Logical Thinking
+
+These problems need to consider some, or even many edge cases to get the correct answer. Make sure you understand the problem very clear and try to enumerate all possible test cases if possible.
  
 - [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description). Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically.
 - [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description). Get stuck at the beginning, 😂.
 - [MaximizeDistanceToClosestPerson](https://www.lintcode.com/problem/maximize-distance-to-closest-person/description). Consider the boundary conditions, rigorously. Not very hard, so it is a good problem for starter.
+- [XOfAKindInADeckOfCards](https://www.lintcode.com/problem/x-of-a-kind-in-a-deck-of-cards/description). Very simple, right? Just a HashMap and everything is done. Hang on...
 
 ### 9.0 Interval Problems
 
