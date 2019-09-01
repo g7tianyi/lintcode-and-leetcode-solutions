@@ -6,8 +6,9 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 
 > The list is still under heavy update.
 
-- [0 Arrays](#0-arrays)
-  - [0.0 Binary Search](#00-binary-search)
+- [0 Elementary Problems](#0-elementary-problems)
+  - [0.0 Bit Operation](#00-bit-operation)
+  - [0.1 Binary Search](#01-binary-search)
 - [1 Data Structure](#1-data-structure)
 - [2 Advanced Data Structure](#2-advanced-data-structure)
 - [3 String](#3-string)
@@ -32,7 +33,7 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 
 There are now too many problems in [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.com/), we don't have the time to solve and revisit each and every one of them, below are a selected subset of these problems, which, in my opinion, worthy of retrying.
 
-## 0 Arrays
+## 0 Elementary Problems
 
 - [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description). Need to discover the traversal pattern, interesting.
 - [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description). Use generic-programming way to implement QuickSort.
@@ -40,7 +41,13 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 - [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description). Good questions to get to know [BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm).
 - [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description). Good questions to get to know [RadixSort](https://en.wikipedia.org/wiki/Radix_sort).
 
-### 0.0 Binary Search
+### 0.0 Bit Operation
+
+- [NumberOf1Bits](https://www.lintcode.com/problem/number-of-1-bits/description). The simplest scenario, need only consider unsigned numbers.
+- [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description). Now take negative numbers into the consideration.
+- [PrimeNumberOfSetBitsInBinaryRepresentation](https://www.lintcode.com/problem/prime-number-of-set-bits-in-binary-representation/description). Combine [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description) and [CountPrimes](https://www.lintcode.com/problem/count-primes/description) together.
+
+### 0.1 Binary Search
 
 - [ClassicalBinarySearch](https://www.lintcode.com/problem/classical-binary-search/description). For starters.
 - [FirstPositionOfTarget](https://www.lintcode.com/problem/first-position-of-target/description). The simplest variation of classical binary search.
