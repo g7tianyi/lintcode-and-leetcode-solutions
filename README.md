@@ -69,7 +69,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 3.2 String Search
 
-> To be added.
+- [ValidWordAbbreviation](https://www.lintcode.com/problem/valid-word-abbreviation/description). Good one. Relative skills including string comparison and converting string to number. 
 
 ### 3.3 Suffix Tree
 
