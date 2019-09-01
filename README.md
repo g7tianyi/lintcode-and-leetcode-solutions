@@ -9,6 +9,7 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 - [0 Elementary Problems](#0-elementary-problems)
   - [0.0 Bit Operation](#00-bit-operation)
   - [0.1 Binary Search](#01-binary-search)
+  - [0.2 Array Problems](#02-array-problems)
 - [1 Data Structure](#1-data-structure)
 - [2 Advanced Data Structure](#2-advanced-data-structure)
 - [3 String](#3-string)
@@ -35,12 +36,6 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ## 0 Elementary Problems
 
-- [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description). Need to discover the traversal pattern, interesting.
-- [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description). Use generic-programming way to implement QuickSort.
-- [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/largest-number-at-least-twice-of-others/description). Try best to take all kinds of test cases into the consideration, in the end, DFS is applied.
-- [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description). Good questions to get to know [BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm).
-- [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description). Good questions to get to know [RadixSort](https://en.wikipedia.org/wiki/Radix_sort).
-
 ### 0.0 Bit Operation
 
 - [NumberOf1Bits](https://www.lintcode.com/problem/number-of-1-bits/description). The simplest scenario, need only consider unsigned numbers.
@@ -54,6 +49,14 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 - [SearchInsertPosition](https://www.lintcode.com/problem/search-insert-position/description). Simple variation of classical binary search.
 - [GuessNumberHigherOrLower](https://www.lintcode.com/problem/guess-number-higher-or-lower/description).
 - [Heaters](https://www.lintcode.com/problem/heaters/description).
+ 
+### 0.2 Array Problems
+
+- [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description). Need to discover the traversal pattern, interesting.
+- [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description). Use generic-programming way to implement QuickSort.
+- [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/largest-number-at-least-twice-of-others/description). Try best to take all kinds of test cases into the consideration, in the end, DFS is applied.
+- [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description). Good questions to get to know [BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm).
+- [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description). Good questions to get to know [RadixSort](https://en.wikipedia.org/wiki/Radix_sort).
  
 ## 1 Data Structure
 
