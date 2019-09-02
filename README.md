@@ -87,7 +87,9 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 3.0 Basic String Operations
 
-> To be added.
+| Problem | Description | Recommendation |
+|:--------|:--------------|:------------:|
+| [NumberOfSegmentsInString](https://www.lintcode.com/problem/number-of-segments-in-a-string/description) | Thoughts matters, find the simplest way to model the problem. | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
 
 ### 3.1 Trie
 
