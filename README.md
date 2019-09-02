@@ -58,6 +58,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [GuessNumberHigherOrLower](https://www.lintcode.com/problem/guess-number-higher-or-lower/description) | Kind of boring yet worth trying. | ⭐️️ |
 | [Heaters](https://www.lintcode.com/problem/heaters/description) | Figure out how to map the original problem into a computer problem is important, binary-search is just a plus | ⭐️️⭐️⭐️️ |
 | [FindSmallestLetterGreaterThanTarget](https://www.lintcode.com/problem/find-smallest-letter-greater-than-target/description) | Strings rather than numbers, and now we need to locate the position to insert a new character with the array kept ordered | ⭐️️⭐️⭐️️⭐️⭐️️ |
+| [MinimumIndexSumOfTwoLists](https://www.lintcode.com/problem/minimum-index-sum-of-two-lists/description) | - | ⭐️️⭐️⭐️️ |
 
 ### 0.2 Array Problems
 
