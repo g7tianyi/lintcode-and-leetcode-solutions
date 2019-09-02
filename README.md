@@ -181,6 +181,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 |:--------|:--------------|:------------:|
 | [HexConversion](https://www.lintcode.com/problem/hex-conversion/description) | - | ⭐️️⭐️️⭐️️️⭐️ |
 | [ConvertNumberToHexadecimal](https://www.lintcode.com/problem/convert-a-number-to-hexadecimal/description) | Take negative numbers into consideration. | ⭐️️⭐️️⭐️️️⭐️ |
+| [SimilarRGBColor](https://www.lintcode.com/problem/similar-rgb-color/description) | - | ⭐️️⭐️️️ |
 
 ### 6.2 Big Number Problems
 
