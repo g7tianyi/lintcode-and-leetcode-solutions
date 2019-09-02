@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.tree;
+package com.g7tianyi.lintcode.tree.traversal;
 
 import com.g7tianyi.common.TreeNode;
 import com.g7tianyi.util.Logger;
@@ -13,69 +13,68 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Aug 25, 2019
  *
- * @link https://www.lintcode.com/problem/binary-tree-preorder-traversal/description
+ * @link https://www.lintcode.com/problem/binary-tree-inorder-traversal/description
  */
-public class BinaryTreePostorderTraversal {
+public class BinaryTreeInorderTraversal {
 
   private static final Logger log = Logger.getInstance();
 
   public class Solution {
 
-    public class TraversalNode {
+    private class StackNode {
 
       private int val;
 
       private TreeNode node;
+
+      public StackNode(int val) {
+        this.val = val;
+      }
+
+      public StackNode(TreeNode node) {
+        this.node = node;
+      }
     }
 
     // 用非递归模拟递归的两种思路：使用栈模拟，使用递推
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
 
       List<Integer> result = new ArrayList<>();
+      if (root == null) {
+        return result;
+      }
 
-      Stack<TraversalNode> stack = new Stack<>();
-
-      traverse(root, stack);
+      Stack<StackNode> stack = new Stack<>();
+      if (root.right != null) {
+        stack.push(new StackNode(root.right));
+      }
+      stack.push(new StackNode(root.val));
+      if (root.left != null) {
+        stack.push(new StackNode(root.left));
+      }
 
       while (!stack.empty()) {
-        TraversalNode node = stack.pop();
-        if (node.node == null) {
-          result.add(node.val);
+        StackNode stackNode = stack.pop();
+        if (stackNode.node != null) {
+          if (stackNode.node.right != null) {
+            stack.push(new StackNode(stackNode.node.right));
+          }
+          stack.push(new StackNode(stackNode.node.val));
+          if (stackNode.node.left != null) {
+            stack.push(new StackNode(stackNode.node.left));
+          }
         } else {
-          traverse(node.node, stack);
+          result.add(stackNode.val);
         }
       }
 
       return result;
     }
-
-    private void traverse(TreeNode node, Stack<TraversalNode> stack) {
-
-      if (node == null) {
-        return;
-      }
-
-      TraversalNode valueNode = new TraversalNode();
-      valueNode.val = node.val;
-      stack.push(valueNode);
-
-      if (node.right != null) {
-        TraversalNode rightNode = new TraversalNode();
-        rightNode.node = node.right;
-        stack.push(rightNode);
-      }
-
-      if (node.left != null) {
-        TraversalNode leftNode = new TraversalNode();
-        leftNode.node = node.left;
-        stack.push(leftNode);
-      }
-    }
   }
 
   public class RecursiveSolution {
 
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
 
       List<Integer> result = new ArrayList<>();
 
@@ -92,10 +91,12 @@ public class BinaryTreePostorderTraversal {
       if (root.left != null) {
         traverse(root.left, result);
       }
+
+      result.add(root.val);
+
       if (root.right != null) {
         traverse(root.right, result);
       }
-      result.add(root.val);
     }
   }
 
@@ -108,13 +109,13 @@ public class BinaryTreePostorderTraversal {
   @Test
   public void test() {
 
-     Solution s = new Solution();
+    Solution s = new Solution();
 
-     // RecursiveSolution s = new RecursiveSolution();
+    // RecursiveSolution s = new RecursiveSolution();
 
     Consumer<Input> runner =
         input -> {
-          List<Integer> listNodes = s.postorderTraversal(input.root);
+          List<Integer> listNodes = s.inorderTraversal(input.root);
           log.info(listNodes);
           log.info();
         };

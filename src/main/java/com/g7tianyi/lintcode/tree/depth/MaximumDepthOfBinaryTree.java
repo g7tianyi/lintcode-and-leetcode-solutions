@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.tree;
+package com.g7tianyi.lintcode.tree.depth;
 
 import com.g7tianyi.common.TreeNode;
 import com.g7tianyi.util.Logger;
