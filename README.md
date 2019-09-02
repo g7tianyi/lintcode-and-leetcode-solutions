@@ -94,6 +94,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description) | Very good start to know trie | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [TheLongestCommonPrefix2](https://www.lintcode.com/problem/the-longest-common-prefix-ii/description) | A little tricky, since the simple recursion version might throw StackOverflowError | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
 
 ### 3.2 String Search
 
@@ -113,20 +114,20 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
-| [LongestPalindrome](https://www.lintcode.com/problem/longest-palindrome/description) |  | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [ValidPalindrome](https://www.lintcode.com/problem/valid-palindrome/description) |  | ️️️⭐️️⭐️️️⭐️️️ |
-| [ValidPalindrome2](https://www.lintcode.com/problem/valid-palindrome-ii/description) |  | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [PalindromeSubstrings](https://www.lintcode.com/problem/palindromic-substrings/description) |  | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [PalindromePermutation](https://www.lintcode.com/problem/palindrome-permutation/description) |  | ⭐️️⭐️⭐️️️ |
-| [PalindromeNumber](https://www.lintcode.com/problem/palindrome-number/description) |  | ⭐️️⭐️⭐️️️ |
+| [LongestPalindrome](https://www.lintcode.com/problem/longest-palindrome/description) | - | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [ValidPalindrome](https://www.lintcode.com/problem/valid-palindrome/description) | - | ️️️⭐️️⭐️️️⭐️️️ |
+| [ValidPalindrome2](https://www.lintcode.com/problem/valid-palindrome-ii/description) | - | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [PalindromeSubstrings](https://www.lintcode.com/problem/palindromic-substrings/description) | - | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [PalindromePermutation](https://www.lintcode.com/problem/palindrome-permutation/description) | - | ⭐️️⭐️⭐️️️ |
+| [PalindromeNumber](https://www.lintcode.com/problem/palindrome-number/description) | - | ⭐️️⭐️⭐️️️ |
 
 ### 3.6 Reverse String
 
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
-| [ReverseString](https://www.lintcode.com/problem/reverse-string/description) |  | ⭐️️⭐️⭐️️⭐️️️️️️ |
-| [ReverseString2](https://www.lintcode.com/problem/reverse-string-ii/description) |  | ⭐️️⭐️⭐️️️️️️️️ |
-| [ReverseString3](https://www.lintcode.com/problem/reverse-words-in-a-string-iii/description) |  | ⭐️️⭐️⭐️️⭐⭐️️️️️️ |
+| [ReverseString](https://www.lintcode.com/problem/reverse-string/description) | - | ⭐️️⭐️⭐️️⭐️️️️️️ |
+| [ReverseString2](https://www.lintcode.com/problem/reverse-string-ii/description) | - | ⭐️️⭐️⭐️️️️️️️️ |
+| [ReverseString3](https://www.lintcode.com/problem/reverse-words-in-a-string-iii/description) | - | ⭐️️⭐️⭐️️⭐⭐️️️️️️ |
 
 ## 4 Search Techniques
 
@@ -147,8 +148,8 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
-| [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) |  | ⭐️️⭐️️⭐️️️ |
-| [LemonadeChange](https://www.lintcode.com/problem/lemonade-change/description) |  | ⭐️️⭐️️⭐️️️ |
+| [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | - | ⭐️️⭐️️⭐️️️ |
+| [LemonadeChange](https://www.lintcode.com/problem/lemonade-change/description) | - | ⭐️️⭐️️⭐️️️ |
 
 ### 5.1 Dynamic Programming 
 
@@ -201,4 +202,4 @@ These problems need to consider some, or even many edge cases to get the correct
 
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
-| [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) |  | ⭐️️⭐️️⭐️️ |
+| [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | - | ⭐️️⭐️️⭐️️ |
