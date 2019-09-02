@@ -84,6 +84,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [KillProcess](https://www.lintcode.com/problem/kill-process/description) | You may use HashMap and Queue in a single question, wort trying | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 | [MinimumDifferenceBetweenBSTNodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/description) | Inorder traversal by nature | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 | [MergeTwoBinaryTrees](https://www.lintcode.com/problem/merge-two-binary-trees/description) | - | ⭐️️⭐️ |
+| [DiameterOfBinaryTree](https://www.lintcode.com/problem/diameter-of-binary-tree/description) | Interesting | ⭐️️⭐️ |
 
 ## 2 Advanced Data Structure
 
