@@ -28,8 +28,9 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
   - [5.1 Dynamic Programming](#51-dynamic-programming)
 - [6 Mathematical Problems](#6-mathematical-problems)
   - [6.0 Elementary Mathematical Problems](#60-elementary-mathematical-problems)
-  - [6.1 Big Number Problems](#61-big-number-problems)
-  - [6.2 Combinatorial Mathematics](#62-combinatorial-mathematics)
+  - [6.1 Number Scale](#61-number-scale)
+  - [6.2 Big Number Problems](#62-big-number-problems)
+  - [6.3 Combinatorial Mathematics](#63-combinatorial-mathematics)
 - [7 Graph Algorithm](#7-graph-algorithm)
 - [8 Computation Geometry](#8-computation-geometry)
 - [9 Rigorous and Logical Thinking](#9-rigorous-and-logical-thinking)
@@ -168,10 +169,19 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
-| [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) | | ⭐️️⭐️️⭐️️️⭐️ |
+| [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) | - | ⭐️️⭐️️⭐️️️⭐️ |
 | [CountPrimes](https://www.lintcode.com/problem/count-primes/description) | Prime number | ⭐️️⭐️️⭐️️️⭐️ |
 
-### 6.1 Big Number Problems
+### 6.1 Number Scale
+
+> `进制问题`到底应该怎么翻译??
+
+| Problem | Description | Recommendation |
+|:--------|:--------------|:------------:|
+| [HexConversion](https://www.lintcode.com/problem/hex-conversion/description) | - | ⭐️️⭐️️⭐️️️⭐️ |
+| [ConvertNumberToHexadecimal](https://www.lintcode.com/problem/convert-a-number-to-hexadecimal/description) | Take negative numbers into consideration. | ⭐️️⭐️️⭐️️️⭐️ |
+
+### 6.2 Big Number Problems
 
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
@@ -179,7 +189,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [AddBinary](https://www.lintcode.com/problem/add-binary/description) | One step further | ⭐️️⭐️️⭐️️️ |
 | [AddStrings](https://www.lintcode.com/problem/add-strings/description) | Standard version of the addition of big numbers | ⭐️️⭐️️⭐️️️⭐️ |
 
-### 6.2 Combinatorial Mathematics
+### 6.3 Combinatorial Mathematics
 
 > To be added.
 
