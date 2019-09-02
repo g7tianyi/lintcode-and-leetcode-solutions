@@ -205,3 +205,4 @@ These problems need to consider some, or even many edge cases to get the correct
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
 | [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | - | ⭐️️⭐️️⭐️️ |
+| [MinimumMovesToEqualArrayElements](https://www.lintcode.com/problem/minimum-moves-to-equal-array-elements/description) | Need some tricky transformation | ⭐️️⭐️️⭐️️ |
