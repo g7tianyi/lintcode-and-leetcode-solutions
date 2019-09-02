@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.string;
+package com.g7tianyi.lintcode.string.reverse;
 
 import com.g7tianyi.util.Logger;
 import com.g7tianyi.util.Logger;

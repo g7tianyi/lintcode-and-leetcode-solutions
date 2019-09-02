@@ -105,6 +105,25 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 > To be added.
 
+### 3.5 Palindrome
+
+| Problem | Description | Recommendation |
+|:--------|:--------------|:------------:|
+| [LongestPalindrome](https://www.lintcode.com/problem/longest-palindrome/description) |  | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [ValidPalindrome](https://www.lintcode.com/problem/valid-palindrome/description) |  | ️️️⭐️️⭐️️️⭐️️️ |
+| [ValidPalindrome2](https://www.lintcode.com/problem/valid-palindrome-ii/description) |  | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [PalindromeSubstrings](https://www.lintcode.com/problem/palindromic-substrings/description) |  | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [PalindromePermutation](https://www.lintcode.com/problem/palindrome-permutation/description) |  | ⭐️️⭐️⭐️️️ |
+| [PalindromeNumber](https://www.lintcode.com/problem/palindrome-number/description) |  | ⭐️️⭐️⭐️️️ |
+
+### 3.6 Reverse String
+
+| Problem | Description | Recommendation |
+|:--------|:--------------|:------------:|
+| [ReverseString](https://www.lintcode.com/problem/reverse-string/description) |  | ⭐️️⭐️⭐️️⭐️️️️️️ |
+| [ReverseString2](https://www.lintcode.com/problem/reverse-string-ii/description) |  | ⭐️️⭐️⭐️️️️️️️️ |
+| [ReverseString3](https://www.lintcode.com/problem/reverse-words-in-a-string-iii/description) |  | ⭐️️⭐️⭐️️⭐⭐️️️️️️ |
+
 ## 4 Search Techniques
 
 ### 4.0 DFS
@@ -145,7 +164,11 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ### 6.1 Big Number Problems
 
-> To be added.
+| Problem | Description | Recommendation |
+|:--------|:--------------|:------------:|
+| [PlusOne](https://www.lintcode.com/problem/plus-one/description) | Simplest case | ⭐️️⭐️️⭐️️️ |
+| [AddBinary](https://www.lintcode.com/problem/add-binary/description) | One step further | ⭐️️⭐️️⭐️️️ |
+| [AddStrings](https://www.lintcode.com/problem/add-strings/description) | Standard version of the addition of big numbers | ⭐️️⭐️️⭐️️️⭐️ |
 
 ### 6.2 Combinatorial Mathematics
 

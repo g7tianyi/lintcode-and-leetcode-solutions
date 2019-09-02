@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.math;
+package com.g7tianyi.lintcode.math.bignumber;
 
 import com.g7tianyi.common.Strings;
 import com.g7tianyi.util.Logger;

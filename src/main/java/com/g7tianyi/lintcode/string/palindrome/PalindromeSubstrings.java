@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.string;
+package com.g7tianyi.lintcode.string.palindrome;
 
 import lombok.AllArgsConstructor;
 import org.junit.Assert;
