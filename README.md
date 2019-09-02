@@ -83,6 +83,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | A little advanced binary tree traversal | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 | [KillProcess](https://www.lintcode.com/problem/kill-process/description) | You may use HashMap and Queue in a single question, wort trying | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 | [MinimumDifferenceBetweenBSTNodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/description) | Inorder traversal by nature | ⭐️️⭐️⭐️⭐️️⭐️️️ |
+| [MergeTwoBinaryTrees](https://www.lintcode.com/problem/merge-two-binary-trees/description) | - | ⭐️️⭐️ |
 
 ## 2 Advanced Data Structure
 
