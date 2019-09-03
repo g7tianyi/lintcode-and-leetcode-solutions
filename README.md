@@ -102,6 +102,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | There're always surprises in tree traversal | ⭐️️️⭐️️⭐️️️⭐️ |
 | [MinimumAbsoluteDifferenceInBST](https://www.lintcode.com/problem/minimum-absolute-difference-in-bst/description) | DITTO | ⭐️️️⭐️️⭐️️️⭐️ |
 | [InvertBinaryTree](https://www.lintcode.com/problem/invert-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [SubTreeOfAnotherTree](https://www.lintcode.com/problem/subtree-of-another-tree/description) | In the first sight, it appears to be very hard~ | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ### 1.2 Binary Search Tree
 
