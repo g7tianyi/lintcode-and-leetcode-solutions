@@ -111,6 +111,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [LowestCommonAncestorOfBinarySearchTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-search-tree/description) | Very classic and important | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [InsertNodeInBinarySearchTree](https://www.lintcode.com/problem/insert-node-in-a-binary-search-tree/description) | Very important operation of BST | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [ConvertSortedArrayToBinarySearchTree](https://www.lintcode.com/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height/description) | Another important operation of BST | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [ConvertBSTToGreaterTree](https://www.lintcode.com/problem/convert-bst-to-greater-tree/description) | Right-first is trivial, but the return value and the rules of updating node value can be tricky | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ## 2 Advanced Data Structure
 
