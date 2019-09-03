@@ -31,9 +31,6 @@ public class ValidWordSquare {
     }
   }
 
-  @AllArgsConstructor
-  private class Case {}
-
   @Test
   public void test() {
 
