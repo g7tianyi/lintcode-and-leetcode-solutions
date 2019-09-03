@@ -97,7 +97,8 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [DiameterOfBinaryTree](https://www.lintcode.com/problem/diameter-of-binary-tree/description) | Interesting | ⭐️️⭐️ |
 | [SymmetricTree](https://www.lintcode.com/problem/symmetric-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️⭐️️⭐️️ |
 | [SumOfLeftLeaves](https://www.lintcode.com/problem/sum-of-left-leaves/description) | Interesting | ⭐️️⭐️⭐️️ |
-| [IncreasingOrderSearchTree](https://www.lintcode.com/problem/increasing-order-search-tree/description) | The challenge seems to make the transformation right in the original tree, instead of creating a new one. | ⭐️️⭐️⭐️️⭐ |
+| [IncreasingOrderSearchTree](https://www.lintcode.com/problem/increasing-order-search-tree/description) | The challenge seems to make the transformation right in the original tree, instead of creating a new one | ⭐️️⭐️⭐️️⭐ |
+| [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | There're always surprises in tree traversal | ⭐️️⭐️⭐️️⭐ |
 
 ## 2 Advanced Data Structure
 
