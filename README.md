@@ -85,6 +85,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | Good question for Stack | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | Stack | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [KillProcess](https://www.lintcode.com/problem/kill-process/description) | You may use HashMap and Queue in a single question, wort trying | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [BackspaceStringCompare](https://www.lintcode.com/problem/backspace-string-compare/description) | Good stack problem | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 
 ### 1.1 Binary Tree
 
