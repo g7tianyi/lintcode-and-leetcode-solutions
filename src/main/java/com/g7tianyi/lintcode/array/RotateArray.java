@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Sep 03, 2019
  *
- * @link
+ * @link https://www.lintcode.com/problem/rotate-array/description
  */
 public class RotateArray {
 
