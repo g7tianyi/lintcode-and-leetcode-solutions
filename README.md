@@ -48,33 +48,33 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [NumberOf1Bits](https://www.lintcode.com/problem/number-of-1-bits/description) | The simplest scenario, need only consider unsigned numbers | ⭐️️⭐️️⭐️️⭐️️⭐️️ |
-| [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description) | Now take negative numbers into the consideration | ⭐️️⭐️️⭐️️⭐️️⭐️️ |
-| [PrimeNumberOfSetBitsInBinaryRepresentation](https://www.lintcode.com/problem/prime-number-of-set-bits-in-binary-representation/description) | Combine [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description) and [CountPrimes](https://www.lintcode.com/problem/count-primes/description) together | ⭐️️⭐️️⭐️️⭐️️⭐️️ |
+| [NumberOf1Bits](https://www.lintcode.com/problem/number-of-1-bits/description) | The simplest scenario, need only consider unsigned numbers | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description) | Now take negative numbers into the consideration | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [PrimeNumberOfSetBitsInBinaryRepresentation](https://www.lintcode.com/problem/prime-number-of-set-bits-in-binary-representation/description) | Combine [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description) and [CountPrimes](https://www.lintcode.com/problem/count-primes/description) together | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
 ### 0.1 Binary Search
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [ClassicalBinarySearch](https://www.lintcode.com/problem/classical-binary-search/description) | | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [FirstPositionOfTarget](https://www.lintcode.com/problem/first-position-of-target/description) | The simplest variation of classical binary search | ⭐️️⭐️️️️⭐️️️️⭐️️️️ |
-| [SearchInsertPosition](https://www.lintcode.com/problem/search-insert-position/description) | Simple variation of classical binary search | ⭐️️⭐️⭐️️⭐️️⭐️️ |
-| [GuessNumberHigherOrLower](https://www.lintcode.com/problem/guess-number-higher-or-lower/description) | Kind of boring yet worth trying. | ⭐️️ |
-| [Heaters](https://www.lintcode.com/problem/heaters/description) | Figure out how to map the original problem into a computer problem is important, binary-search is just a plus | ⭐️️⭐️⭐️️ |
-| [FindSmallestLetterGreaterThanTarget](https://www.lintcode.com/problem/find-smallest-letter-greater-than-target/description) | Strings rather than numbers, and now we need to locate the position to insert a new character with the array kept ordered | ⭐️️⭐️⭐️️⭐️⭐️️ |
-| [MinimumIndexSumOfTwoLists](https://www.lintcode.com/problem/minimum-index-sum-of-two-lists/description) | - | ⭐️️⭐️⭐️️ |
+| [ClassicalBinarySearch](https://www.lintcode.com/problem/classical-binary-search/description) | | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [FirstPositionOfTarget](https://www.lintcode.com/problem/first-position-of-target/description) | The simplest variation of classical binary search | ⭐️️️⭐️️️️️⭐️️️️️⭐️️️️️ |
+| [SearchInsertPosition](https://www.lintcode.com/problem/search-insert-position/description) | Simple variation of classical binary search | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
+| [GuessNumberHigherOrLower](https://www.lintcode.com/problem/guess-number-higher-or-lower/description) | Kind of boring yet worth trying. | ⭐️️️ |
+| [Heaters](https://www.lintcode.com/problem/heaters/description) | Figure out how to map the original problem into a computer problem is important, binary-search is just a plus | ⭐️️️⭐️️⭐️️️ |
+| [FindSmallestLetterGreaterThanTarget](https://www.lintcode.com/problem/find-smallest-letter-greater-than-target/description) | Strings rather than numbers, and now we need to locate the position to insert a new character with the array kept ordered | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
+| [MinimumIndexSumOfTwoLists](https://www.lintcode.com/problem/minimum-index-sum-of-two-lists/description) | - | ⭐️️️⭐️️⭐️️️ |
 
 ### 0.2 Array Problems
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | Need to discover the traversal pattern, interesting | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description) | Use generic-programming way to implement QuickSort | ⭐️️⭐️️️ |
-| [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/maximum-product-of-three-numbers/description) | Try best to take all kinds of test cases into the consideration, in the end, DFS is applied | ⭐️️⭐️⭐️️⭐️️⭐️️ |
-| [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description) | Good questions to get to know [BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm) | ⭐️️⭐️⭐️️⭐️️⭐️️ |
-| [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description) | Good questions to get to know [RadixSort](https://en.wikipedia.org/wiki/Radix_sort) | ⭐️️⭐️⭐️️⭐️️ |
-| [FindAllNumbersDisappearedInAnArray](https://www.lintcode.com/problem/find-all-numbers-disappeared-in-an-array/description) | Used some clever tricks. It's worth noting that there're some intriguing features between the index and the value in array | ⭐️️⭐️⭐️️⭐️️⭐️️ |
-| [IntersectionOfTwoArrays](https://www.lintcode.com/problem/intersection-of-two-arrays/description) | Need to be familiar with this kind of problems | ⭐️️⭐️⭐️️⭐️️ |
+| [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | Need to discover the traversal pattern, interesting | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description) | Use generic-programming way to implement QuickSort | ⭐️️️⭐️️️️ |
+| [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/maximum-product-of-three-numbers/description) | Try best to take all kinds of test cases into the consideration, in the end, DFS is applied | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
+| [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description) | Good questions to get to know [BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm) | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
+| [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description) | Good questions to get to know [RadixSort](https://en.wikipedia.org/wiki/Radix_sort) | ⭐️️️⭐️️⭐️️️⭐️️️ |
+| [FindAllNumbersDisappearedInAnArray](https://www.lintcode.com/problem/find-all-numbers-disappeared-in-an-array/description) | Used some clever tricks. It's worth noting that there're some intriguing features between the index and the value in array | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
+| [IntersectionOfTwoArrays](https://www.lintcode.com/problem/intersection-of-two-arrays/description) | Need to be familiar with this kind of problems | ⭐️️️⭐️️⭐️️️⭐️️️ |
  
 ## 1 Data Structure
 
@@ -82,33 +82,33 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | Good question for Stack | ⭐️️⭐️⭐️️⭐️️️ |
-| [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | Stack | ⭐️️⭐️⭐️⭐️️⭐️️️ |
-| [KillProcess](https://www.lintcode.com/problem/kill-process/description) | You may use HashMap and Queue in a single question, wort trying | ⭐️️⭐️⭐️⭐️️⭐️️️ |
+| [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | Good question for Stack | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | Stack | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [KillProcess](https://www.lintcode.com/problem/kill-process/description) | You may use HashMap and Queue in a single question, wort trying | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 
 ### 1.1 Binary Tree
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐️️️ |
-| [SameTree](https://www.lintcode.com/problem/same-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐️️️ |
-| [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | A little advanced binary tree traversal | ⭐️️⭐️⭐️⭐️️⭐️️️ |
-| [MergeTwoBinaryTrees](https://www.lintcode.com/problem/merge-two-binary-trees/description) | - | ⭐️️⭐️ |
-| [DiameterOfBinaryTree](https://www.lintcode.com/problem/diameter-of-binary-tree/description) | Interesting | ⭐️️⭐️ |
-| [SymmetricTree](https://www.lintcode.com/problem/symmetric-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️⭐️️⭐️️ |
-| [SumOfLeftLeaves](https://www.lintcode.com/problem/sum-of-left-leaves/description) | Interesting | ⭐️️⭐️⭐️️ |
-| [IncreasingOrderSearchTree](https://www.lintcode.com/problem/increasing-order-search-tree/description) | The challenge seems to make the transformation right in the original tree, instead of creating a new one | ⭐️️⭐️⭐️️⭐ |
-| [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | There're always surprises in tree traversal | ⭐️️⭐️⭐️️⭐ |
-| [MinimumAbsoluteDifferenceInBST](https://www.lintcode.com/problem/minimum-absolute-difference-in-bst/description) | DITTO | ⭐️️⭐️⭐️️⭐ |
-| [InvertBinaryTree](https://www.lintcode.com/problem/invert-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐⭐ |
+| [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [SameTree](https://www.lintcode.com/problem/same-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | A little advanced binary tree traversal | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [MergeTwoBinaryTrees](https://www.lintcode.com/problem/merge-two-binary-trees/description) | - | ⭐️️️⭐️️ |
+| [DiameterOfBinaryTree](https://www.lintcode.com/problem/diameter-of-binary-tree/description) | Interesting | ⭐️️️⭐️️ |
+| [SymmetricTree](https://www.lintcode.com/problem/symmetric-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️ |
+| [SumOfLeftLeaves](https://www.lintcode.com/problem/sum-of-left-leaves/description) | Interesting | ⭐️️️⭐️️⭐️️️ |
+| [IncreasingOrderSearchTree](https://www.lintcode.com/problem/increasing-order-search-tree/description) | The challenge seems to make the transformation right in the original tree, instead of creating a new one | ⭐️️️⭐️️⭐️️️⭐️ |
+| [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | There're always surprises in tree traversal | ⭐️️️⭐️️⭐️️️⭐️ |
+| [MinimumAbsoluteDifferenceInBST](https://www.lintcode.com/problem/minimum-absolute-difference-in-bst/description) | DITTO | ⭐️️️⭐️️⭐️️️⭐️ |
+| [InvertBinaryTree](https://www.lintcode.com/problem/invert-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ### 1.2 Binary Search Tree
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [MinimumDifferenceBetweenBSTNodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/description) | Inorder traversal by nature | ⭐️️⭐️⭐️⭐️️⭐️️️ |
-| [LowestCommonAncestorOfBinarySearchTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-search-tree/description) | Very classic and important | ⭐️️⭐️⭐️️⭐⭐ |
-| [InsertNodeInBinarySearchTree](https://www.lintcode.com/problem/insert-node-in-a-binary-search-tree/description) | Very important operation of BST | ⭐️️⭐️⭐️️⭐⭐ |
+| [MinimumDifferenceBetweenBSTNodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/description) | Inorder traversal by nature | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [LowestCommonAncestorOfBinarySearchTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-search-tree/description) | Very classic and important | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [InsertNodeInBinarySearchTree](https://www.lintcode.com/problem/insert-node-in-a-binary-search-tree/description) | Very important operation of BST | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ## 2 Advanced Data Structure
 
@@ -120,20 +120,20 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [NumberOfSegmentsInString](https://www.lintcode.com/problem/number-of-segments-in-a-string/description) | Thoughts matters, find the simplest way to model the problem. | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [NumberOfSegmentsInString](https://www.lintcode.com/problem/number-of-segments-in-a-string/description) | Thoughts matters, find the simplest way to model the problem. | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 
 ### 3.1 Trie
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description) | Very good start to know trie | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [TheLongestCommonPrefix2](https://www.lintcode.com/problem/the-longest-common-prefix-ii/description) | A little tricky, since the simple recursion version might throw StackOverflowError | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
+| [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description) | Very good start to know trie | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [TheLongestCommonPrefix2](https://www.lintcode.com/problem/the-longest-common-prefix-ii/description) | A little tricky, since the simple recursion version might throw StackOverflowError | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 
 ### 3.2 String Search
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [ValidWordAbbreviation](https://www.lintcode.com/problem/valid-word-abbreviation/description) | Good one. Relative skills including string comparison and converting string to number | ⭐️️⭐️⭐️️⭐️️️ |
+| [ValidWordAbbreviation](https://www.lintcode.com/problem/valid-word-abbreviation/description) | Good one. Relative skills including string comparison and converting string to number | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 
 ### 3.3 Suffix Tree
 
@@ -147,20 +147,20 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [LongestPalindrome](https://www.lintcode.com/problem/longest-palindrome/description) | - | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [ValidPalindrome](https://www.lintcode.com/problem/valid-palindrome/description) | - | ️️️⭐️️⭐️️️⭐️️️ |
-| [ValidPalindrome2](https://www.lintcode.com/problem/valid-palindrome-ii/description) | - | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [PalindromeSubstrings](https://www.lintcode.com/problem/palindromic-substrings/description) | - | ⭐️️⭐️⭐️️⭐️️️⭐️️️ |
-| [PalindromePermutation](https://www.lintcode.com/problem/palindrome-permutation/description) | - | ⭐️️⭐️⭐️️️ |
-| [PalindromeNumber](https://www.lintcode.com/problem/palindrome-number/description) | - | ⭐️️⭐️⭐️️️ |
+| [LongestPalindrome](https://www.lintcode.com/problem/longest-palindrome/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [ValidPalindrome](https://www.lintcode.com/problem/valid-palindrome/description) | - | ️️️⭐️️️⭐️️️️⭐️️️️ |
+| [ValidPalindrome2](https://www.lintcode.com/problem/valid-palindrome-ii/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [PalindromeSubstrings](https://www.lintcode.com/problem/palindromic-substrings/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [PalindromePermutation](https://www.lintcode.com/problem/palindrome-permutation/description) | - | ⭐️️️⭐️️⭐️️️️ |
+| [PalindromeNumber](https://www.lintcode.com/problem/palindrome-number/description) | - | ⭐️️️⭐️️⭐️️️️ |
 
 ### 3.6 Reverse String
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [ReverseString](https://www.lintcode.com/problem/reverse-string/description) | - | ⭐️️⭐️⭐️️⭐️️️️️️ |
-| [ReverseString2](https://www.lintcode.com/problem/reverse-string-ii/description) | - | ⭐️️⭐️⭐️️️️️️️️ |
-| [ReverseString3](https://www.lintcode.com/problem/reverse-words-in-a-string-iii/description) | - | ⭐️️⭐️⭐️️⭐⭐️️️️️️ |
+| [ReverseString](https://www.lintcode.com/problem/reverse-string/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️️️️️ |
+| [ReverseString2](https://www.lintcode.com/problem/reverse-string-ii/description) | - | ⭐️️️⭐️️⭐️️️️️️️️️ |
+| [ReverseString3](https://www.lintcode.com/problem/reverse-words-in-a-string-iii/description) | - | ⭐️️️⭐️️⭐️️️⭐️⭐️️️️️️️ |
 
 ## 4 Search Techniques
 
@@ -168,8 +168,8 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | Good DFS question | ⭐️️⭐️⭐️️⭐️️️ |
-| [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description) | Another good DFS question | ⭐️️⭐️⭐️️⭐️️️ |
+| [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | Good DFS question | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description) | Another good DFS question | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 
 ### 4.1 BFS
 
@@ -179,7 +179,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [LargestPalindromeProduct](https://www.lintcode.com/problem/largest-palindrome-product/description) | Selectively constructing the answer and use the rules to verify it, rather than looping each and evert possible solution | ⭐️️⭐️⭐️️⭐️️️️️⭐️️️ |
+| [LargestPalindromeProduct](https://www.lintcode.com/problem/largest-palindrome-product/description) | Selectively constructing the answer and use the rules to verify it, rather than looping each and evert possible solution | ⭐️️️⭐️️⭐️️️⭐️️️️️️⭐️️️️ |
 
 ## 5 Algorithms
 
@@ -187,15 +187,15 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | - | ⭐️️⭐️️⭐️️️ |
-| [LemonadeChange](https://www.lintcode.com/problem/lemonade-change/description) | - | ⭐️️⭐️️⭐️️️ |
+| [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | - | ⭐️️️⭐️️️⭐️️️️ |
+| [LemonadeChange](https://www.lintcode.com/problem/lemonade-change/description) | - | ⭐️️️⭐️️️⭐️️️️ |
 
 ### 5.1 Dynamic Programming 
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [PascalsTriangle](https://www.lintcode.com/problem/pascals-triangle/description) | As a starter | ⭐️️⭐️️⭐️️️ |
-| [MinCostClimbingStairs](https://www.lintcode.com/problem/min-cost-climbing-stairs/description) | Prime number | ⭐️️⭐️️ |
+| [PascalsTriangle](https://www.lintcode.com/problem/pascals-triangle/description) | As a starter | ⭐️️️⭐️️️⭐️️️️ |
+| [MinCostClimbingStairs](https://www.lintcode.com/problem/min-cost-climbing-stairs/description) | Prime number | ⭐️️️⭐️️️ |
 
 ## 6 Mathematical Problems
 
@@ -203,8 +203,8 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) | - | ⭐️️⭐️️⭐️️️⭐️ |
-| [CountPrimes](https://www.lintcode.com/problem/count-primes/description) | Prime number | ⭐️️⭐️️⭐️️️⭐️ |
+| [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) | - | ⭐️️️⭐️️️⭐️️️️⭐️️ |
+| [CountPrimes](https://www.lintcode.com/problem/count-primes/description) | Prime number | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 
 ### 6.1 Number Scale
 
@@ -212,17 +212,17 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [HexConversion](https://www.lintcode.com/problem/hex-conversion/description) | - | ⭐️️⭐️️⭐️️️⭐️ |
-| [ConvertNumberToHexadecimal](https://www.lintcode.com/problem/convert-a-number-to-hexadecimal/description) | Take negative numbers into consideration. | ⭐️️⭐️️⭐️️️⭐️ |
-| [SimilarRGBColor](https://www.lintcode.com/problem/similar-rgb-color/description) | - | ⭐️️⭐️️️ |
+| [HexConversion](https://www.lintcode.com/problem/hex-conversion/description) | - | ⭐️️️⭐️️️⭐️️️️⭐️️ |
+| [ConvertNumberToHexadecimal](https://www.lintcode.com/problem/convert-a-number-to-hexadecimal/description) | Take negative numbers into consideration. | ⭐️️️⭐️️️⭐️️️️⭐️️ |
+| [SimilarRGBColor](https://www.lintcode.com/problem/similar-rgb-color/description) | - | ⭐️️️⭐️️️️ |
 
 ### 6.2 Big Number Problems
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [PlusOne](https://www.lintcode.com/problem/plus-one/description) | Simplest case | ⭐️️⭐️️⭐️️️ |
-| [AddBinary](https://www.lintcode.com/problem/add-binary/description) | One step further | ⭐️️⭐️️⭐️️️ |
-| [AddStrings](https://www.lintcode.com/problem/add-strings/description) | Standard version of the addition of big numbers | ⭐️️⭐️️⭐️️️⭐️ |
+| [PlusOne](https://www.lintcode.com/problem/plus-one/description) | Simplest case | ⭐️️️⭐️️️⭐️️️️ |
+| [AddBinary](https://www.lintcode.com/problem/add-binary/description) | One step further | ⭐️️️⭐️️️⭐️️️️ |
+| [AddStrings](https://www.lintcode.com/problem/add-strings/description) | Standard version of the addition of big numbers | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 
 ### 6.3 Combinatorial Mathematics
 
@@ -242,14 +242,14 @@ These problems need to consider some, or even many edge cases to get the correct
  
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description) | Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically | ⭐️️⭐️️⭐️⭐️⭐️️ |
-| [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description) | Get stuck at the beginning, 😂 | ⭐️️⭐️️⭐️️ |
-| [MaximizeDistanceToClosestPerson](https://www.lintcode.com/problem/maximize-distance-to-closest-person/description) | Consider the boundary conditions, rigorously. Not very hard, so it is a good problem for starter | ⭐️️⭐️️⭐️️️ |
-| [XOfAKindInADeckOfCards](https://www.lintcode.com/problem/x-of-a-kind-in-a-deck-of-cards/description) |  Very simple, right? Just a HashMap and everything is done. Hang on... | ⭐️️⭐️️⭐️️⭐️️⭐️️ |
+| [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description) | Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically | ⭐️️️⭐️️️⭐️️⭐️️⭐️️️ |
+| [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description) | Get stuck at the beginning, 😂 | ⭐️️️⭐️️️⭐️️️ |
+| [MaximizeDistanceToClosestPerson](https://www.lintcode.com/problem/maximize-distance-to-closest-person/description) | Consider the boundary conditions, rigorously. Not very hard, so it is a good problem for starter | ⭐️️️⭐️️️⭐️️️️ |
+| [XOfAKindInADeckOfCards](https://www.lintcode.com/problem/x-of-a-kind-in-a-deck-of-cards/description) |  Very simple, right? Just a HashMap and everything is done. Hang on... | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
  
 ### 9.0 Interval Problems
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
-| [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | - | ⭐️️⭐️️⭐️️ |
-| [MinimumMovesToEqualArrayElements](https://www.lintcode.com/problem/minimum-moves-to-equal-array-elements/description) | Need some tricky transformation | ⭐️️⭐️️⭐️️ |
+| [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | - | ⭐️️️⭐️️️⭐️️️ |
+| [MinimumMovesToEqualArrayElements](https://www.lintcode.com/problem/minimum-moves-to-equal-array-elements/description) | Need some tricky transformation | ⭐️️️⭐️️️⭐️️️ |
