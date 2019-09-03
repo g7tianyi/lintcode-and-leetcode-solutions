@@ -101,6 +101,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | There're always surprises in tree traversal | ⭐️️⭐️⭐️️⭐ |
 | [MinimumAbsoluteDifferenceInBST](https://www.lintcode.com/problem/minimum-absolute-difference-in-bst/description) | DITTO | ⭐️️⭐️⭐️️⭐ |
 | [LowestCommonAncestorOfBinarySearchTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-search-tree/description) | Very classic and important | ⭐️️⭐️⭐️️⭐⭐ |
+| [InvertBinaryTree](https://www.lintcode.com/problem/invert-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐⭐ |
 
 ## 2 Advanced Data Structure
 
