@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * Created by g7tianyi on Sep 03, 2019
  *
- * @link
+ * @link https://www.lintcode.com/problem/valid-number/description
  */
 public class ValidNumber {
 
