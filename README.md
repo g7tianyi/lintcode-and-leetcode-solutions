@@ -25,6 +25,7 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 - [4 Search Techniques](#4-search-techniques)
   - [4.0 DFS](#40-dfs)
   - [4.1 BFS](#41-bfs)
+  - [4.2 Constructing Solution Space](#42-constructing-solution-space)
 - [5 Algorithms](#5-algorithms)
   - [5.0 Greedy Algorithms](#50-greedy-algorithms)
   - [5.1 Dynamic Programming](#51-dynamic-programming)
@@ -162,6 +163,12 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 ### 4.1 BFS
 
 > To be added.
+
+### 4.2 Constructing Solution Space
+
+| Problem | Description | Recommendation |
+|:--------|:--------------|:------------:|
+| [LargestPalindromeProduct](https://www.lintcode.com/problem/largest-palindrome-product/description) | Selectively constructing the answer and use the rules to verify it, rather than looping each and evert possible solution | ⭐️️⭐️⭐️️⭐️️️️️⭐️️️ |
 
 ## 5 Algorithms
 
