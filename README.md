@@ -100,6 +100,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [IncreasingOrderSearchTree](https://www.lintcode.com/problem/increasing-order-search-tree/description) | The challenge seems to make the transformation right in the original tree, instead of creating a new one | ⭐️️⭐️⭐️️⭐ |
 | [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | There're always surprises in tree traversal | ⭐️️⭐️⭐️️⭐ |
 | [MinimumAbsoluteDifferenceInBST](https://www.lintcode.com/problem/minimum-absolute-difference-in-bst/description) | DITTO | ⭐️️⭐️⭐️️⭐ |
+| [LowestCommonAncestorOfBinarySearchTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-search-tree/description) | Very classic and important | ⭐️️⭐️⭐️️⭐⭐ |
 
 ## 2 Advanced Data Structure
 
