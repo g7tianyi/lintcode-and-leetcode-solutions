@@ -11,6 +11,8 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
   - [0.1 Binary Search](#01-binary-search)
   - [0.2 Array Problems](#02-array-problems)
 - [1 Data Structure](#1-data-structure)
+  - [1.0 Stack and Queue](#10-stack-and-queue)
+  - [1.1 Binary Tree](#11-binary-tree)
 - [2 Advanced Data Structure](#2-advanced-data-structure)
 - [3 String](#3-string)
   - [3.0 Basic String Operations](#30-basic-string-operations)
