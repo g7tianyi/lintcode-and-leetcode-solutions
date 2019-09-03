@@ -19,6 +19,7 @@ public class RotateArray {
   public class Solution {
 
     // How to make it within O(1) Space
+    /** @see com.g7tianyi.lintcode.string.RotateString; */
     public int[] rotate(int[] elems, int k) {
       if (k < 0) {
         return elems;

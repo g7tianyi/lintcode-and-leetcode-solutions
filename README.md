@@ -13,6 +13,7 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
 - [1 Data Structure](#1-data-structure)
   - [1.0 Stack and Queue](#10-stack-and-queue)
   - [1.1 Binary Tree](#11-binary-tree)
+  - [1.2 Binary Search Tree](#11-binary-search-tree)
 - [2 Advanced Data Structure](#2-advanced-data-structure)
 - [3 String](#3-string)
   - [3.0 Basic String Operations](#30-basic-string-operations)
@@ -85,14 +86,13 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | Stack | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 | [KillProcess](https://www.lintcode.com/problem/kill-process/description) | You may use HashMap and Queue in a single question, wort trying | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 
-### 1.0 Binary Tree
+### 1.1 Binary Tree
 
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
 | [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐️️️ |
 | [SameTree](https://www.lintcode.com/problem/same-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐️️️ |
 | [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | A little advanced binary tree traversal | ⭐️️⭐️⭐️⭐️️⭐️️️ |
-| [MinimumDifferenceBetweenBSTNodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/description) | Inorder traversal by nature | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 | [MergeTwoBinaryTrees](https://www.lintcode.com/problem/merge-two-binary-trees/description) | - | ⭐️️⭐️ |
 | [DiameterOfBinaryTree](https://www.lintcode.com/problem/diameter-of-binary-tree/description) | Interesting | ⭐️️⭐️ |
 | [SymmetricTree](https://www.lintcode.com/problem/symmetric-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️⭐️️⭐️️ |
@@ -100,8 +100,15 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [IncreasingOrderSearchTree](https://www.lintcode.com/problem/increasing-order-search-tree/description) | The challenge seems to make the transformation right in the original tree, instead of creating a new one | ⭐️️⭐️⭐️️⭐ |
 | [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | There're always surprises in tree traversal | ⭐️️⭐️⭐️️⭐ |
 | [MinimumAbsoluteDifferenceInBST](https://www.lintcode.com/problem/minimum-absolute-difference-in-bst/description) | DITTO | ⭐️️⭐️⭐️️⭐ |
-| [LowestCommonAncestorOfBinarySearchTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-search-tree/description) | Very classic and important | ⭐️️⭐️⭐️️⭐⭐ |
 | [InvertBinaryTree](https://www.lintcode.com/problem/invert-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐⭐ |
+
+### 1.2 Binary Search Tree
+
+| Problem | Description | Recommendation |
+|:--------|:------------|:---------------|
+| [MinimumDifferenceBetweenBSTNodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/description) | Inorder traversal by nature | ⭐️️⭐️⭐️⭐️️⭐️️️ |
+| [LowestCommonAncestorOfBinarySearchTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-search-tree/description) | Very classic and important | ⭐️️⭐️⭐️️⭐⭐ |
+| [InsertNodeInBinarySearchTree](https://www.lintcode.com/problem/insert-node-in-a-binary-search-tree/description) | Very important operation of BST | ⭐️️⭐️⭐️️⭐⭐ |
 
 ## 2 Advanced Data Structure
 
