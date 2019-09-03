@@ -76,8 +76,8 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 | Problem | Description | Recommendation |
 |:--------|:--------------|:------------:|
-| [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description) | Try recursive and non-recursive way | ⭐️️⭐️⭐️️⭐️️️ |
-| [SameTree](https://www.lintcode.com/problem/same-tree/description) | Try recursive and non-recursive way | ⭐️️⭐️⭐️️⭐️️️ |
+| [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐️️️ |
+| [SameTree](https://www.lintcode.com/problem/same-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️️⭐️️️ |
 | [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | Good question for Stack | ⭐️️⭐️⭐️️⭐️️️ |
 | [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | Stack | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 | [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | A little advanced binary tree traversal | ⭐️️⭐️⭐️⭐️️⭐️️️ |
@@ -85,6 +85,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [MinimumDifferenceBetweenBSTNodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/description) | Inorder traversal by nature | ⭐️️⭐️⭐️⭐️️⭐️️️ |
 | [MergeTwoBinaryTrees](https://www.lintcode.com/problem/merge-two-binary-trees/description) | - | ⭐️️⭐️ |
 | [DiameterOfBinaryTree](https://www.lintcode.com/problem/diameter-of-binary-tree/description) | Interesting | ⭐️️⭐️ |
+| [SymmetricTree](https://www.lintcode.com/problem/symmetric-tree/description) | Try recursive and non-recursive solution | ⭐️️⭐️⭐️⭐️️⭐️️ |
 
 ## 2 Advanced Data Structure
 
