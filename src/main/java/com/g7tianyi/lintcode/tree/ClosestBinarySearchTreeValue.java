@@ -2,10 +2,6 @@ package com.g7tianyi.lintcode.tree;
 
 import com.g7tianyi.common.TreeNode;
 import com.g7tianyi.util.Logger;
-import lombok.AllArgsConstructor;
-import org.junit.Test;
-
-import java.util.function.Consumer;
 
 /**
  * Created by g7tianyi on Sep 04, 2019
@@ -38,16 +34,5 @@ public class ClosestBinarySearchTreeValue {
       }
       return result;
     }
-  }
-
-  @AllArgsConstructor
-  private class Case {}
-
-  @Test
-  public void test() {
-
-    Solution s = new Solution();
-
-    Consumer<Case> c = aCase -> {};
   }
 }
