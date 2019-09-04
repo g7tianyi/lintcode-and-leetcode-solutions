@@ -99,6 +99,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [SymmetricTree](https://www.lintcode.com/problem/symmetric-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️ |
 | [SumOfLeftLeaves](https://www.lintcode.com/problem/sum-of-left-leaves/description) | Interesting | ⭐️️️⭐️️⭐️️️ |
 | [IncreasingOrderSearchTree](https://www.lintcode.com/problem/increasing-order-search-tree/description) | The challenge seems to make the transformation right in the original tree, instead of creating a new one | ⭐️️️⭐️️⭐️️️⭐️ |
+| [AverageOfLevelsInBinaryTree](https://www.lintcode.com/problem/average-of-levels-in-binary-tree/description) | Good one for level order traversal | ⭐️️️⭐️️⭐️️️⭐️ |
 | [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | There're always surprises in tree traversal | ⭐️️️⭐️️⭐️️️⭐️ |
 | [MinimumAbsoluteDifferenceInBST](https://www.lintcode.com/problem/minimum-absolute-difference-in-bst/description) | DITTO | ⭐️️️⭐️️⭐️️️⭐️ |
 | [InvertBinaryTree](https://www.lintcode.com/problem/invert-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
