@@ -1,5 +1,5 @@
 # TODO
 
-- [ ] Construct binary tree from serialized string
-- [ ] Construct random binary tree
-- [ ] Print tree in terminal
+- [x] Construct binary tree from serialized string
+- [x] Construct random binary tree
+- [x] Print tree in terminal
