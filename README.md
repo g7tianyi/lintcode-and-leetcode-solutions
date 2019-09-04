@@ -106,6 +106,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [SubTreeOfAnotherTree](https://www.lintcode.com/problem/subtree-of-another-tree/description) | In the first sight, it appears to be very hard~ | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [BinaryTreeLongestConsecutiveSequence](https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence/description) | - | ⭐️️️⭐️️⭐️️️⭐️️ |
 | [LongestUnivaluePath](https://www.lintcode.com/problem/longest-univalue-path/description) | Not easy, but interesting | ⭐️️️⭐️️⭐️️️⭐️️ |
+| [ConstructStringFromBinaryTree](https://www.lintcode.com/problem/construct-string-from-binary-tree/description) | Interesting | ⭐️️️⭐️️ |
 
 ### 1.2 Binary Search Tree
 
