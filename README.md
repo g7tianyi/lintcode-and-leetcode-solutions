@@ -104,6 +104,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 | [InvertBinaryTree](https://www.lintcode.com/problem/invert-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [SubTreeOfAnotherTree](https://www.lintcode.com/problem/subtree-of-another-tree/description) | In the first sight, it appears to be very hard~ | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [BinaryTreeLongestConsecutiveSequence](https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence/description) | - | ⭐️️️⭐️️⭐️️️⭐️️ |
+| [LongestUnivaluePath](https://www.lintcode.com/problem/longest-univalue-path/description) | Not easy, but interesting | ⭐️️️⭐️️⭐️️️⭐️️ |
 
 ### 1.2 Binary Search Tree
 
