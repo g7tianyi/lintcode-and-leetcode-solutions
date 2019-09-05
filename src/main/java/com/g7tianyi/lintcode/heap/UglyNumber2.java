@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.math;
+package com.g7tianyi.lintcode.heap;
 
 import com.g7tianyi.util.Logger;
 import org.junit.Assert;
