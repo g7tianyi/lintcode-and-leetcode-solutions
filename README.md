@@ -15,6 +15,7 @@ Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.
   - [1.1 Binary Tree](#11-binary-tree)
   - [1.2 Binary Search Tree](#11-binary-search-tree)
 - [2 Advanced Data Structure](#2-advanced-data-structure)
+  - [2.0 Heap](#20-heap)
 - [3 String](#3-string)
   - [3.0 Basic String Operations](#30-basic-string-operations)
   - [3.1 Trie](#31-trie)
@@ -120,7 +121,11 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 
 ## 2 Advanced Data Structure
 
-> To be added.
+### 2.0 Heap
+
+| Problem | Description | Recommendation |
+|:--------|:------------|:---------------|
+| [UglyNumber2](https://www.lintcode.com/problem/ugly-number-ii/description) | Did not think of Heap in the very beginning thus TLE, then WA when failed to avoid duplicates, anyway, it's a good question |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ## 3 String
 
