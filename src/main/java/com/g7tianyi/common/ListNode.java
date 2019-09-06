@@ -30,9 +30,13 @@ public class ListNode {
   }
 
   public static ListNode randomListOf(int len) {
+    return randomListOf(len, len + 1);
+  }
+
+  public static ListNode randomListOf(int len, int max) {
     int[] elems = new int[len];
     for (int i = 0; i < len; i++) {
-      elems[i] = nextInt(len + 1);
+      elems[i] = nextInt(max);
     }
     return from(elems);
   }
