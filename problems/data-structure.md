@@ -14,6 +14,7 @@
 | Problem | Description | Recommendation |
 |:--------|:------------|:---------------|
 | [SortList](https://www.lintcode.com/problem/sort-list/description) | Important | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [MergeKSortedLists](https://www.lintcode.com/problem/merge-k-sorted-lists/description) | Heap (PriorityQueue) + List. Good. |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ## Binary Tree
 

@@ -51,9 +51,13 @@ public class ListNode {
   }
 
   public static ListNode randomSortedListOf(int len, int min) {
+    return randomSortedListOf(len, min, min + len + 1);
+  }
+
+  public static ListNode randomSortedListOf(int len, int min, int max) {
     int[] elems = new int[len];
     for (int i = 0; i < len; i++) {
-      elems[i] = nextInt(len + 1) + min;
+      elems[i] = nextInt(max - min) + min;
     }
     Arrays.sort(elems);
     return from(elems);
