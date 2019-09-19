@@ -107,35 +107,31 @@ public class TreeNode {
     }
 
     String[] elems = s.split(",");
-    List<TreeNode> nodes = new ArrayList<>(elems.length);
-    for (int i = 0, value; i < elems.length; i++) {
+    List<TreeNode> nodes = new ArrayList<>();
+
+    TreeNode root = new TreeNode(Integer.parseInt(elems[0]));
+    nodes.add(root);
+
+    TreeNode parent = root, curr;
+    for (int i = 1, j = 1, k = 0; i < elems.length; ++i) {
       if (elems[i].equals("#")) {
-        nodes.add(null);
-        continue;
-      }
-
-      value = Integer.valueOf(elems[i]);
-      TreeNode node = new TreeNode(value);
-      nodes.add(node);
-
-      if (i == 0) {
-        continue;
-      }
-
-      int parentIndex = ((i + 1) >> 1) - 1;
-      while (nodes.get(parentIndex) == null) {
-        ++parentIndex;
-      }
-
-      TreeNode parentNode = nodes.get(parentIndex);
-      if (i % 2 == 1) {
-        parentNode.left = node;
+        curr = null;
       } else {
-        parentNode.right = node;
+        curr = new TreeNode(Integer.parseInt(elems[i]));
+        nodes.add(curr);
       }
+
+      if (k == 0) {
+        parent.left = curr;
+      } else {
+        parent.right = curr;
+        parent = nodes.get(j);
+        ++j;
+      }
+      k ^= 1;
     }
 
-    return nodes.get(0);
+    return root;
   }
 
   public static TreeNode createRandomTree() {

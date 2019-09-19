@@ -36,6 +36,7 @@
 | [BinaryTreeLongestConsecutiveSequence](https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence/description) | - | ⭐️️️⭐️️⭐️️️⭐️️ |
 | [LongestUnivaluePath](https://www.lintcode.com/problem/longest-univalue-path/description) | Not easy, but interesting | ⭐️️️⭐️️⭐️️️⭐️️ |
 | [ConstructStringFromBinaryTree](https://www.lintcode.com/problem/construct-string-from-binary-tree/description) | Interesting | ⭐️️️⭐️️ |
+| [SerializeAndDeserializeBinaryTree](https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/description) | Very good | ⭐️️️⭐️️⭐️️️⭐️⭐️️ |
 
 ## Binary Search Tree
 
