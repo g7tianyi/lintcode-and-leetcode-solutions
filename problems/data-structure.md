@@ -47,3 +47,4 @@
 | [InsertNodeInBinarySearchTree](https://www.lintcode.com/problem/insert-node-in-a-binary-search-tree/description) | Very important operation of BST | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [ConvertSortedArrayToBinarySearchTree](https://www.lintcode.com/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height/description) | Another important operation of BST | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [ConvertBSTToGreaterTree](https://www.lintcode.com/problem/convert-bst-to-greater-tree/description) | Right-first is trivial, but the return value and the rules of updating node value can be tricky | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [SearchRangeInBinarySearchTree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description) | - | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
