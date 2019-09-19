@@ -108,10 +108,10 @@ public class MergeTwoSortedIntervalLists {
           log.info();
         };
 
-    c.accept(new Case(Interval.from("[1,2] [3,4]"), Interval.from("[2,3] [5,6]")));
-    c.accept(new Case(Interval.from("[1,2] [3,4]"), Interval.from("[4,5] [6,7]")));
-    c.accept(new Case(Interval.from("[1,2] [3,5] [7,9] [10,12]"), Interval.from("[2,4] [5,6]")));
-    c.accept(new Case(Interval.from("[1,2]"), Interval.from("[2,4] [5,6] [10,12]")));
-    c.accept(new Case(Interval.from("[1,7] [8,20]"), Interval.from("[2,4] [5,6] [10,12]")));
+    c.accept(new Case(Interval.froms("[1,2] [3,4]"), Interval.froms("[2,3] [5,6]")));
+    c.accept(new Case(Interval.froms("[1,2] [3,4]"), Interval.froms("[4,5] [6,7]")));
+    c.accept(new Case(Interval.froms("[1,2] [3,5] [7,9] [10,12]"), Interval.froms("[2,4] [5,6]")));
+    c.accept(new Case(Interval.froms("[1,2]"), Interval.froms("[2,4] [5,6] [10,12]")));
+    c.accept(new Case(Interval.froms("[1,7] [8,20]"), Interval.froms("[2,4] [5,6] [10,12]")));
   }
 }

@@ -20,12 +20,17 @@ public class Interval {
     return String.format("[%d, %d]", start, end);
   }
 
-  public static List<Interval> from(String s) {
+  public static Interval from(String s) {
+    s = s.replaceAll("\\[", "").replaceAll("]", "");
+    String[] elems = s.split(",");
+    return new Interval(Integer.parseInt(elems[0]), Integer.parseInt(elems[1]));
+  }
+
+  public static List<Interval> froms(String s) {
     List<Interval> result = new ArrayList<>();
-    String[] intervals = s.replaceAll("\\[", "").replaceAll("\\]", "").split("\\s");
+    String[] intervals = s.replaceAll("\\[", "").replaceAll("]", "").split("\\s");
     for (String sInterval : intervals) {
-      String[] elems = sInterval.split(",");
-      result.add(new Interval(Integer.valueOf(elems[0]), Integer.valueOf(elems[1])));
+      result.add(Interval.from(sInterval));
     }
     return result;
   }
