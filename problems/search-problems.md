@@ -6,6 +6,7 @@
 |:--------|:------------|:---------------|
 | [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | Good DFS question | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description) | Another good DFS question | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [Permutations2](https://www.lintcode.com/problem/permutations-ii/description) | How to avoid duplicates ? | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 
 ## BFS
 
