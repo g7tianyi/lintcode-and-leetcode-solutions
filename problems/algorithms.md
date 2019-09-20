@@ -6,6 +6,7 @@
 |:--------|:------------|:---------------|
 | [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | - | ⭐️️️⭐️️️⭐️️️️ |
 | [LemonadeChange](https://www.lintcode.com/problem/lemonade-change/description) | - | ⭐️️️⭐️️️⭐️️️️ |
+| [JumpGame](https://www.lintcode.com/problem/jump-game/description) | 很好的贪心问题，比前面两个都好，贪心算法要写出来一般都非常简单，问题在于找到贪心的结构，因为一般情况下，我们总是倾向于认为贪心策略不容易遇到，于是就滥用DP了 | ⭐️️️⭐⭐️️️⭐️️️⭐️️️️️️️ |
 
 ## Dynamic Programming 
 
