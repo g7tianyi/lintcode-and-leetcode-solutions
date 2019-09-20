@@ -16,3 +16,4 @@
 | [MinCostClimbingStairs](https://www.lintcode.com/problem/min-cost-climbing-stairs/description) | - | ⭐️️️⭐️️️ |
 | [InterleavingString](https://www.lintcode.com/problem/interleaving-string/description) | 字符串的交叉编织，很不错的DP问题 | ⭐️️️⭐⭐️️️⭐️️️⭐️️️️️️️ |
 | [DicesSum](https://www.lintcode.com/problem/dices-sum/description) | 不错的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
+| [CopyBooks](https://www.lintcode.com/problem/copy-books/description) | 值得一试 | ⭐️️️⭐️️️ |
