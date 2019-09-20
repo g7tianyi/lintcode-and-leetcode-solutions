@@ -48,3 +48,9 @@
 | [ConvertSortedArrayToBinarySearchTree](https://www.lintcode.com/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height/description) | Another important operation of BST | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [ConvertBSTToGreaterTree](https://www.lintcode.com/problem/convert-bst-to-greater-tree/description) | Right-first is trivial, but the return value and the rules of updating node value can be tricky | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [SearchRangeInBinarySearchTree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description) | - | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+
+## Hash
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [LFUCache](https://www.lintcode.com/problem/lfu-cache/description) | 如果理解了LFU的概念，其实这题更像是个设计的问题，不过我的代码也没有好好优化.. | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
