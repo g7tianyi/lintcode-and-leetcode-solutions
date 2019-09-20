@@ -7,6 +7,7 @@
 | [NumberOf1Bits](https://www.lintcode.com/problem/number-of-1-bits/description) | The simplest scenario, need only consider unsigned numbers | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description) | Now take negative numbers into the consideration | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [PrimeNumberOfSetBitsInBinaryRepresentation](https://www.lintcode.com/problem/prime-number-of-set-bits-in-binary-representation/description) | Combine [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description) and [CountPrimes](https://www.lintcode.com/problem/count-primes/description) together | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [SingleNumber3](https://www.lintcode.com/problem/single-number-iii/description) | 真没想到，位运算应用得也太酷炫了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
 ## 1 Binary Search
 
