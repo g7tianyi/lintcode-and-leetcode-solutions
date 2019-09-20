@@ -2,7 +2,7 @@
 
 ## DFS
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | Good DFS question | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description) | Another good DFS question | ⭐️️️⭐️️⭐️️️⭐️️️️ |
@@ -14,6 +14,6 @@
 
 ## Constructing Solution Space
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [LargestPalindromeProduct](https://www.lintcode.com/problem/largest-palindrome-product/description) | Selectively constructing the answer and use the rules to verify it, rather than looping each and evert possible solution | ⭐️️️⭐️️⭐️️️⭐️️️️️️⭐️️️️ |

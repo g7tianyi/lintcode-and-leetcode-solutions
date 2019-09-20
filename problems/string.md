@@ -2,20 +2,20 @@
 
 ## 0 Basic String Operations
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [NumberOfSegmentsInString](https://www.lintcode.com/problem/number-of-segments-in-a-string/description) | Thoughts matters, find the simplest way to model the problem. | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 
 ## 1 Trie
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description) | Very good start to know trie | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 | [TheLongestCommonPrefix2](https://www.lintcode.com/problem/the-longest-common-prefix-ii/description) | A little tricky, since the simple recursion version might throw StackOverflowError | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 
 ## 2 String Search
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [ValidWordAbbreviation](https://www.lintcode.com/problem/valid-word-abbreviation/description) | Good one. Relative skills including string comparison and converting string to number | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 
@@ -29,7 +29,7 @@
 
 ## 5 Palindrome
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [LongestPalindrome](https://www.lintcode.com/problem/longest-palindrome/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 | [ValidPalindrome](https://www.lintcode.com/problem/valid-palindrome/description) | - | ️️️⭐️️️⭐️️️️⭐️️️️ |
@@ -40,7 +40,7 @@
 
 ## 6 Reverse String
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [ReverseString](https://www.lintcode.com/problem/reverse-string/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️️️️️ |
 | [ReverseString2](https://www.lintcode.com/problem/reverse-string-ii/description) | - | ⭐️️️⭐️️⭐️️️️️️️️️ |

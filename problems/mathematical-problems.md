@@ -2,7 +2,7 @@
 
 ## Elementary Mathematical Problems
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) | - | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 | [CountPrimes](https://www.lintcode.com/problem/count-primes/description) | Prime number | ⭐️️️⭐️️️⭐️️️️⭐️️ |
@@ -11,7 +11,7 @@
 
 > `进制问题`到底应该怎么翻译??
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [HexConversion](https://www.lintcode.com/problem/hex-conversion/description) | - | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 | [ConvertNumberToHexadecimal](https://www.lintcode.com/problem/convert-a-number-to-hexadecimal/description) | Take negative numbers into consideration. | ⭐️️️⭐️️️⭐️️️️⭐️️ |
@@ -19,7 +19,7 @@
 
 ## Big Number Problems
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [PlusOne](https://www.lintcode.com/problem/plus-one/description) | Simplest case | ⭐️️️⭐️️️⭐️️️️ |
 | [AddBinary](https://www.lintcode.com/problem/add-binary/description) | One step further | ⭐️️️⭐️️️⭐️️️️ |

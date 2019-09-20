@@ -2,7 +2,7 @@
 
 ## Stack and Queue
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | Good question for Stack | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | Stack | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
@@ -11,14 +11,14 @@
 
 ## List
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [SortList](https://www.lintcode.com/problem/sort-list/description) | Important | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [MergeKSortedLists](https://www.lintcode.com/problem/merge-k-sorted-lists/description) | Heap (PriorityQueue) + List. Good. |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ## Binary Tree
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [SameTree](https://www.lintcode.com/problem/same-tree/description) | Try recursive and non-recursive solution | ⭐️️️⭐️️⭐️️️⭐️️️️ |
@@ -40,7 +40,7 @@
 
 ## Binary Search Tree
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [MinimumDifferenceBetweenBSTNodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/description) | Inorder traversal by nature | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [LowestCommonAncestorOfBinarySearchTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-search-tree/description) | Very classic and important | ⭐️️️⭐️️⭐️️️⭐️⭐️ |

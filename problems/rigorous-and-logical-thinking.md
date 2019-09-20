@@ -2,7 +2,7 @@
 
 These problems need to consider some, or even many edge cases to get the correct answer. Make sure you understand the problem very clear and try to enumerate all possible test cases if possible.
  
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description) | Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically | ⭐️️️⭐️️️⭐️️⭐️️⭐️️️ |
 | [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description) | Get stuck at the beginning, 😂 | ⭐️️️⭐️️️⭐️️️ |
@@ -12,7 +12,7 @@ These problems need to consider some, or even many edge cases to get the correct
  
 ### 0 Interval Problems
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | - | ⭐️️️⭐️️️⭐️️️ |
 | [MinimumMovesToEqualArrayElements](https://www.lintcode.com/problem/minimum-moves-to-equal-array-elements/description) | Need some tricky transformation | ⭐️️️⭐️️️⭐️️️ |

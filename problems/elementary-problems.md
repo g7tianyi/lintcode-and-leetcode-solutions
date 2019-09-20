@@ -2,7 +2,7 @@
 
 ## 0 Bit Operation
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [NumberOf1Bits](https://www.lintcode.com/problem/number-of-1-bits/description) | The simplest scenario, need only consider unsigned numbers | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description) | Now take negative numbers into the consideration | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
@@ -11,7 +11,7 @@
 
 ## 1 Binary Search
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [ClassicalBinarySearch](https://www.lintcode.com/problem/classical-binary-search/description) | | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 | [FirstPositionOfTarget](https://www.lintcode.com/problem/first-position-of-target/description) | The simplest variation of classical binary search | ⭐️️️⭐️️️️️⭐️️️️️⭐️️️️️ |
@@ -24,7 +24,7 @@
 
 ## 2 Array Problems
 
-| Problem | Description | Recommendation |
+| 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | Need to discover the traversal pattern, interesting | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 | [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description) | Use generic-programming way to implement QuickSort | ⭐️️️⭐️️️️ |
