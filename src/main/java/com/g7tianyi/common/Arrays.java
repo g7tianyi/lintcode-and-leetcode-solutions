@@ -1,5 +1,7 @@
 package com.g7tianyi.common;
 
+import java.util.Random;
+
 import static com.g7tianyi.common.Numbers.nextInt;
 
 /** Created by g7tianyi on Aug 24, 2019 */
@@ -12,6 +14,26 @@ public final class Arrays {
       arr[index++] = elem;
     }
     return arr;
+  }
+
+  public static <T> void shuffle(T[] values) {
+    Random random = new Random();
+    for (int i = 0; i < values.length; i++) {
+      int pos = random.nextInt(values.length);
+      T temp = values[i];
+      values[i] = values[pos];
+      values[pos] = temp;
+    }
+  }
+
+  public static void shuffle(int[] values) {
+    Random random = new Random();
+    for (int i = 0; i < values.length; i++) {
+      int pos = random.nextInt(values.length);
+      int temp = values[i];
+      values[i] = values[pos];
+      values[pos] = temp;
+    }
   }
 
   public static int[] of(int len) {

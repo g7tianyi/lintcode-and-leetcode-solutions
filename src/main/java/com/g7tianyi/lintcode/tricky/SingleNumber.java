@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.bitops;
+package com.g7tianyi.lintcode.tricky;
 
 import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
