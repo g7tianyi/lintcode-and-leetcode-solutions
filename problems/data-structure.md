@@ -16,6 +16,7 @@
 | [SortList](https://www.lintcode.com/problem/sort-list/description) | 单链表排序，非常重要 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [MergeKSortedLists](https://www.lintcode.com/problem/merge-k-sorted-lists/description) | 用堆来维护K大数，然后就是链表的合并操作，对编程要求还比较高 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [LinkedListCycle2](https://www.lintcode.com/problem/linked-list-cycle-ii/description) | 判断单链表有没有环，很无聊，但确是必须熟悉的 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [RotateList](https://www.lintcode.com/problem/rotate-list/description) | 和上题一样，无聊但是必须掌握，这类题的本质都是过程式思维的考察，所以思路清晰是很关键 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ## Binary Tree
 
