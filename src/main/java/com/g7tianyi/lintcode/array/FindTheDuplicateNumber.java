@@ -27,17 +27,15 @@ public class FindTheDuplicateNumber {
     // 如果大于mid的数字的个数大于mid，下一轮在右区间搜索，即 lower = mid + 1
     public int findDuplicate(int[] values) {
       int lower = 1, upper = values.length - 1, middle;
-      int small, large, equal;
+      int small, equal;
       while (lower <= upper) {
         middle = lower + ((upper - lower) >> 1);
-        small = large = equal = 0;
+        small = equal = 0;
         for (int val : values) {
           if (val == middle) {
             ++equal;
           } else if (val < middle) {
             ++small;
-          } else {
-            ++large;
           }
         }
 
