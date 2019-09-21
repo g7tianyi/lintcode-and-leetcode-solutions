@@ -61,6 +61,7 @@ public class KSum {
           int sum = 0;
           for (int s = len - k, remain; s >= 0; --s) {
             remain = t - values[s];
+            // 剪枝点：如果remain小于values[s+1]，可以直接跳出循环了
             sum += lPrev.get(s + 1).getOrDefault(remain, 0);
             lCurr.get(s).put(t, sum);
           }
