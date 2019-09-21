@@ -1,15 +1,13 @@
-# Mathematical Problems
+# 数学问题
 
-## Elementary Mathematical Problems
+## 基本数学问题
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) | - | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 | [CountPrimes](https://www.lintcode.com/problem/count-primes/description) | Prime number | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 
-## Number Scale
-
-> `进制问题`到底应该怎么翻译??
+## 进制问题
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
@@ -17,7 +15,7 @@
 | [ConvertNumberToHexadecimal](https://www.lintcode.com/problem/convert-a-number-to-hexadecimal/description) | Take negative numbers into consideration. | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 | [SimilarRGBColor](https://www.lintcode.com/problem/similar-rgb-color/description) | - | ⭐️️️⭐️️️️ |
 
-## Big Number Problems
+## 大数运算
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
@@ -25,6 +23,6 @@
 | [AddBinary](https://www.lintcode.com/problem/add-binary/description) | One step further | ⭐️️️⭐️️️⭐️️️️ |
 | [AddStrings](https://www.lintcode.com/problem/add-strings/description) | Standard version of the addition of big numbers | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 
-## Combinatorial Mathematics
+## 组合数学
 
 > To be added.

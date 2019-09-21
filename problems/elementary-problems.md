@@ -1,6 +1,6 @@
-# Elementary Problems
+# 基本问题
 
-## 0 Bit Operation
+## 0 位运算问题
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
@@ -9,7 +9,7 @@
 | [PrimeNumberOfSetBitsInBinaryRepresentation](https://www.lintcode.com/problem/prime-number-of-set-bits-in-binary-representation/description) | 将[Count1InBinary](https://www.lintcode.com/problem/count-1-in-binary/description)与[CountPrimes](https://www.lintcode.com/problem/count-primes/description)结合起来 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [SingleNumber3](https://www.lintcode.com/problem/single-number-iii/description) | 真没想到，位运算应用得也太酷炫了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
-## 1 Binary Search
+## 1 二分查找
 
 二分查找问题但不一定就能很快写对，在[这里](https://www.g7tianyi.com/blog/binary-search)有个简单的总结。 
 
@@ -24,7 +24,7 @@
 | [MinimumIndexSumOfTwoLists](https://www.lintcode.com/problem/minimum-index-sum-of-two-lists/description) | - | ⭐️️️⭐️️⭐️️️ |
 | [SearchForARange](https://www.lintcode.com/problem/search-for-a-range/description) | 查找指定元素的第一个和最后一个下标 | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
 
-## 2 Array Problems
+## 2 数组问题
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|

@@ -1,18 +1,17 @@
 # Solutions of Lintcode and Leetcode
 
-Java based [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.com/) solutions with test case support and some handy help functions. 
+[Lintcode](https://www.lintcode.com)与[Leetcode](https://leetcode.com/)的解决方案，代码基于Java实现，整个工程中包含一些公用类与工具类的定义。
 
-There are now too many problems in [Lintcode](https://www.lintcode.com) and [Leetcode](https://leetcode.com/), we don't have the time to solve and revisit each and every one of them, below are a selected subset of these problems, which, in my opinion, worthy of retrying.
+另外，对问题进行了简单的分类和解题思路说明，因为现在的题已经太多了，完全做完太难，重复刷基本也不可能，所以问题分类时候也顺便给出了推荐指数。
 
-> The list is still under heavy update.
-
-- [0 Elementary Problems](problems/elementary-problems.md)
-- [1 Data Structure](problems/data-structure-linear.md)
-- [2 Advanced Data Structure](problems/advanced-data-structure.md)
-- [3 String](problems/string.md)
-- [4 Search Techniques](problems/search-problems.md)
-- [5 Algorithms](problems/algorithms.md)
-- [6 Mathematical Problems](problems/mathematical-problems.md)
-- [7 Graph Algorithm](problems/graph-algorithm.md)
-- [8 Computation Geometry](problems/computation-geometry.md)
-- [9 Rigorous and Logical Thinking](problems/rigorous-and-logical-thinking.md)
+- [0 基本问题](problems/elementary-problems.md)
+- [1 线性数据结构](problems/data-structure-linear.md)
+- [1 非线性数据结构](problems/data-structure-non-linear.md)
+- [2 高级数据结构](problems/advanced-data-structure.md)
+- [3 字符串问题](problems/string.md)
+- [4 搜索问题](problems/search-problems.md)
+- [5 算法设计](problems/algorithms.md)
+- [6 数学问题](problems/mathematical-problems.md)
+- [7 图算法](problems/graph-algorithm.md)
+- [8 计算几何](problems/computation-geometry.md)
+- [9 其他问题](problems/others.md)

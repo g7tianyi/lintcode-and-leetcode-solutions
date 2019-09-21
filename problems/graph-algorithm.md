@@ -1,2 +1,2 @@
-# Graph Algorithm
+# 图算法
 
