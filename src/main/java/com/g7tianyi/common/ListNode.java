@@ -29,6 +29,30 @@ public class ListNode {
     return from(elems);
   }
 
+  public static ListNode circularList(int len, int pos) {
+
+    ListNode head = sortedListOf(len);
+
+    ListNode tail = head;
+    while (tail.next != null) {
+      tail = tail.next;
+    }
+
+    pos %= len;
+    ListNode node = head;
+    for (int i = 0; i < pos && node != null; ++i) {
+      node = node.next;
+    }
+
+    tail.next = node;
+    return head;
+  }
+
+  public static ListNode circularList(int len) {
+    int index = nextInt(len - 1);
+    return circularList(len, index);
+  }
+
   public static ListNode randomListOf(int len) {
     return randomListOf(len, len + 1);
   }

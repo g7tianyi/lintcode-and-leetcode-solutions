@@ -4,17 +4,18 @@
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | Good question for Stack | ⭐️️️⭐️️⭐️️️⭐️️️️ |
-| [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | Stack | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
-| [KillProcess](https://www.lintcode.com/problem/kill-process/description) | You may use HashMap and Queue in a single question, wort trying | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
-| [BackspaceStringCompare](https://www.lintcode.com/problem/backspace-string-compare/description) | Good stack problem | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | 不错的栈的问题 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | 同上 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [BackspaceStringCompare](https://www.lintcode.com/problem/backspace-string-compare/description) | 不错的栈的问题 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [KillProcess](https://www.lintcode.com/problem/kill-process/description) | 需要同时使用队列与HashMap | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 
 ## List
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [SortList](https://www.lintcode.com/problem/sort-list/description) | Important | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
-| [MergeKSortedLists](https://www.lintcode.com/problem/merge-k-sorted-lists/description) | Heap (PriorityQueue) + List. Good. |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [SortList](https://www.lintcode.com/problem/sort-list/description) | 单链表排序，非常重要 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [MergeKSortedLists](https://www.lintcode.com/problem/merge-k-sorted-lists/description) | 用堆来维护K大数，然后就是链表的合并操作，对编程要求还比较高 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [LinkedListCycle2](https://www.lintcode.com/problem/linked-list-cycle-ii/description) | 判断单链表有没有环，很无聊，但确是必须熟悉的 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ## Binary Tree
 
