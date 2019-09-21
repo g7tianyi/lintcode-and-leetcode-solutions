@@ -1,24 +1,6 @@
-# Data Structure
+# Data Structure - non-linear
 
-## Stack and Queue
-
-| 问题 | 简单说明 | 推荐指数 |
-|:--------|:------------|:---------------|
-| [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | 不错的栈的问题 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
-| [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | 同上 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
-| [BackspaceStringCompare](https://www.lintcode.com/problem/backspace-string-compare/description) | 不错的栈的问题 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
-| [KillProcess](https://www.lintcode.com/problem/kill-process/description) | 需要同时使用队列与HashMap | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
-
-## List
-
-| 问题 | 简单说明 | 推荐指数 |
-|:--------|:------------|:---------------|
-| [SortList](https://www.lintcode.com/problem/sort-list/description) | 单链表排序，非常重要 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
-| [MergeKSortedLists](https://www.lintcode.com/problem/merge-k-sorted-lists/description) | 用堆来维护K大数，然后就是链表的合并操作，对编程要求还比较高 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
-| [LinkedListCycle2](https://www.lintcode.com/problem/linked-list-cycle-ii/description) | 判断单链表有没有环，很无聊，但确是必须熟悉的 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
-| [RotateList](https://www.lintcode.com/problem/rotate-list/description) | 和上题一样，无聊但是必须掌握，这类题的本质都是过程式思维的考察，所以思路清晰是很关键 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
-
-## Binary Tree
+## 基本二叉树问题
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
@@ -40,7 +22,7 @@
 | [ConstructStringFromBinaryTree](https://www.lintcode.com/problem/construct-string-from-binary-tree/description) | Interesting | ⭐️️️⭐️️ |
 | [SerializeAndDeserializeBinaryTree](https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/description) | Very good | ⭐️️️⭐️️⭐️️️⭐️⭐️️ |
 
-## Binary Search Tree
+## 二叉搜索树
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
@@ -51,7 +33,7 @@
 | [ConvertBSTToGreaterTree](https://www.lintcode.com/problem/convert-bst-to-greater-tree/description) | Right-first is trivial, but the return value and the rules of updating node value can be tricky | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [SearchRangeInBinarySearchTree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description) | - | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
-## Hash
+## 哈希
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|

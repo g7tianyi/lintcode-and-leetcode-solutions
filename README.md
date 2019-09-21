@@ -7,7 +7,7 @@ There are now too many problems in [Lintcode](https://www.lintcode.com) and [Lee
 > The list is still under heavy update.
 
 - [0 Elementary Problems](problems/elementary-problems.md)
-- [1 Data Structure](problems/data-structure.md)
+- [1 Data Structure](problems/data-structure-linear.md)
 - [2 Advanced Data Structure](problems/advanced-data-structure.md)
 - [3 String](problems/string.md)
 - [4 Search Techniques](problems/search-problems.md)
