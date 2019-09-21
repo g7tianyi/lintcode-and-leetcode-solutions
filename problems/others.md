@@ -12,8 +12,8 @@
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | - | ⭐️️️⭐️️️⭐️️️ |
-| [MinimumMovesToEqualArrayElements](https://www.lintcode.com/problem/minimum-moves-to-equal-array-elements/description) | Need some tricky transformation | ⭐️️️⭐️️️⭐️️️ |
+| [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | 主要是考察编程能力的题 | ⭐️️️⭐️️️⭐️️️ |
+| [MinimumMovesToEqualArrayElements](https://www.lintcode.com/problem/minimum-moves-to-equal-array-elements/description) | 需要一些Tricky的转换 | ⭐️️️⭐️️️⭐️️️ |
 
 ## 1 双指针技巧
 

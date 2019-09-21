@@ -18,3 +18,9 @@
 | [DicesSum](https://www.lintcode.com/problem/dices-sum/description) | 不错的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
 | [CopyBooks](https://www.lintcode.com/problem/copy-books/description) | 值得一试 | ⭐️️️⭐️️️ |
 | [KSum](https://www.lintcode.com/problem/k-sum/description) | 三维DP问题 | ⭐️️️⭐⭐️️️⭐️️️⭐️️️️️️️ |
+
+## 二分思维
+
+> 二分思维比二分查找更高级一些
+
+| [FindTheDuplicateNumber](https://www.lintcode.com/problem/find-the-duplicate-number/description) | 这道题赞死了，一开始我想歪了，以为自己找到了O(n)的办法，然后残酷打脸，转念一想，原来可以.... 总之是活学活用超级赞的题，完整的思路在[这里](https://github.com/g7tianyi/lintcode-and-leetcode-solutions/blob/master/src/main/java/com/g7tianyi/lintcode/array/FindTheDuplicateNumber.java) | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
