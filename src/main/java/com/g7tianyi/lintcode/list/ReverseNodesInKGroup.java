@@ -107,7 +107,7 @@ public class ReverseNodesInKGroup {
   }
 
   @Test
-  public void testEdgeCase() {
+  public void test0() {
     c.accept(new Case(null, 0));
     c.accept(new Case(null, 1));
     c.accept(new Case(null, 2));

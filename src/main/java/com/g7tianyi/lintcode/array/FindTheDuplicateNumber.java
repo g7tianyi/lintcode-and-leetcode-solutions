@@ -116,7 +116,7 @@ public class FindTheDuplicateNumber {
   }
 
   @Test
-  public void testEdgeCase() {
+  public void test0() {
     c.accept(Arrays.from(1, 1, 1, 1, 1, 1));
     c.accept(Arrays.from(1, 1));
   }
