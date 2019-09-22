@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.stack;
+package com.g7tianyi.lintcode.search;
 
 import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
@@ -378,11 +378,11 @@ public class ExpressionAddOperators {
   @Test
   public void test() {
     c.accept(new Case("123", 6, true)); // 最简单情况1
-    //    c.accept(new Case("123", 0, true)); // 最简单情况1，减号
+    c.accept(new Case("123", 0, true)); // 最简单情况1，减号
     c.accept(new Case("105", 5, true)); // 最简单情况2，不添加任何符号
-    //    c.accept(new Case("1234", 24, true)); // 测试连乘： 1*2*3*4
-    //    c.accept(new Case("923", 3, true)); // 测试乘法前面的减法： 9-2*3
-    //    c.accept(new Case("101", 2, true)); // 测试1+01不会出现
+    c.accept(new Case("1234", 24, true)); // 测试连乘： 1*2*3*4
+    c.accept(new Case("923", 3, true)); // 测试乘法前面的减法： 9-2*3
+    c.accept(new Case("101", 2, true)); // 测试1+01不会出现
   }
 
   @Test

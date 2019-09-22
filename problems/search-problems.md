@@ -7,7 +7,7 @@
 | [CanPlaceFlowers](https://www.lintcode.com/problem/can-place-flowers/description) | 深搜好题 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [SumOfAllSubsets](https://www.lintcode.com/problem/sum-of-all-subsets/description) | 值得重试的深搜好体 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [Permutations2](https://www.lintcode.com/problem/permutations-ii/description) | 主要问题是如何避免重复 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
-| [ExpressionAddOperators](https://www.lintcode.com/problem/expression-add-operators/description) | 原本很简单的DFS的题，新鲜点的内容大概就是用个栈来模拟一下表达式求值，结果一直MLE... 所以不要真用栈来处理表达式求值，维护好prev和sum变量就可以了，另外用StringBuilder也要注意内存问题，主要是它的预分配和字符数组拷贝很捉急；考虑到MLE一直逼着我不听优化代码，我还是很推荐这题的 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [ExpressionAddOperators](https://www.lintcode.com/problem/expression-add-operators/description) | 原本很简单的DFS的题，新鲜点的内容大概就是用个栈来模拟一下表达式求值，结果一直MLE... 所以不要真用栈来处理表达式求值，维护好prev和sum变量就可以了，另外用StringBuilder也要注意内存问题，主要是它的预分配和字符数组拷贝很捉急；考虑到MLE一直逼着我不停地优化代码，我还是很推荐[这题](https://github.com/g7tianyi/lintcode-and-leetcode-solutions/blob/master/src/main/java/com/g7tianyi/lintcode/search/ExpressionAddOperators.java)的 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 
 ## 广度优先搜索
 
