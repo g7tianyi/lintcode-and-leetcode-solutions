@@ -59,6 +59,9 @@ public final class Logger {
   public void info(char[] elems) {
     info(Strings.format(elems));
   }
+  public void info(boolean[] elems) {
+    info(Strings.format(elems));
+  }
 
   public void info() {
     System.out.println();

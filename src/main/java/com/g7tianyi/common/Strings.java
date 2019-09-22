@@ -109,4 +109,18 @@ public final class Strings {
   public static String format(char[] array) {
     return new String(array);
   }
+
+  public static String format(boolean[] array) {
+    StringBuilder sb = new StringBuilder("[");
+    if (array != null && array.length != 0) {
+      for (boolean b : array) {
+        sb.append(b ? 1 : 0).append(" ");
+      }
+    }
+    if (sb.length() > 1) {
+      sb.deleteCharAt(sb.length() - 1);
+    }
+    sb.append("]");
+    return sb.toString();
+  }
 }
