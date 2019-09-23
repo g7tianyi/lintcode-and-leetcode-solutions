@@ -44,16 +44,17 @@ public class MaximalRectangle {
         }
       }
 
-      // 1 1 1 1 1
-      // 1 1 1 1 1
-      // 1 1 1 0 0
-      // 上面的矩阵有 5 * 2, 3 * 3两种
       int result = 0;
       for (int i = 0; i < H; ++i) {
         for (int j = 0; j < W; ++j) {
           if (!M[i][j]) {
             continue;
           }
+
+          // 1 1 1 1 1
+          // 1 1 1 1 1
+          // 1 1 1 0 0
+          // 对于上面的矩阵，计算：1 * 3, 2 * 3, 3 * 3, 4 * 2 和 5 * 2 的子矩阵
           for (int w = 1, h = D[i][j]; w <= R[i][j]; ++w) {
             h = Math.min(h, D[i][j + w - 1]);
             result = Math.max(result, w * h);
