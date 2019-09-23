@@ -10,6 +10,15 @@
 
 ## 动态规划
 
+动态规划博大精神啊，内容可以非常多：
+
+- 背包问题
+- 线性动态规划
+- 区间动态规划
+- 坐标动态规划
+- 树型动态规划
+- ...
+
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [PascalsTriangle](https://www.lintcode.com/problem/pascals-triangle/description), [Triangle](https://www.lintcode.com/problem/triangle/description) | 基本算是入门的前几道题，[Triangle](https://github.com/g7tianyi/lintcode-and-leetcode-solutions/blob/master/src/main/java/com/g7tianyi/lintcode/dp/Triangle.java)顺便使用了轮转数组 | ⭐️️️⭐️️️⭐️️️️ |
@@ -18,6 +27,7 @@
 | [DicesSum](https://www.lintcode.com/problem/dices-sum/description) | 不错的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
 | [CopyBooks](https://www.lintcode.com/problem/copy-books/description) | 值得一试 | ⭐️️️⭐️️️ |
 | [KSum](https://www.lintcode.com/problem/k-sum/description) | 三维DP问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [BurstBalloons](https://www.lintcode.com/problem/burst-balloons/description) | 区间规划问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
 ## 二分思维
 
