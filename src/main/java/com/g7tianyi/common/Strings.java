@@ -2,6 +2,8 @@ package com.g7tianyi.common;
 
 import java.util.List;
 
+import static com.g7tianyi.common.Numbers.nextInt;
+
 /** Created by g7tianyi on Aug 26, 2019 */
 public final class Strings {
 
@@ -22,6 +24,14 @@ public final class Strings {
     StringBuilder sb = new StringBuilder();
     while (sb.length() < length) {
       sb.append(ch);
+    }
+    return sb.toString();
+  }
+
+  public static String from(char[] chars, int length) {
+    StringBuilder sb = new StringBuilder();
+    while (sb.length() < length) {
+      sb.append(chars[nextInt(chars.length)]);
     }
     return sb.toString();
   }

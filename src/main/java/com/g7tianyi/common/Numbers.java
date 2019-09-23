@@ -22,7 +22,7 @@ public final class Numbers {
   }
 
   public static int nextInt(int max) {
-    return (int) (Math.random() * max);
+    return (int) (max + Math.random() * max) % max;
   }
 
   public static int nextLong() {

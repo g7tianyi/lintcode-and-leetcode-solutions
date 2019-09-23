@@ -19,6 +19,8 @@
 - 树型动态规划
 - ...
 
+### 基本动态规划问题
+
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [PascalsTriangle](https://www.lintcode.com/problem/pascals-triangle/description), [Triangle](https://www.lintcode.com/problem/triangle/description) | 基本算是入门的前几道题，[Triangle](https://github.com/g7tianyi/lintcode-and-leetcode-solutions/blob/master/src/main/java/com/g7tianyi/lintcode/dp/Triangle.java)顺便使用了轮转数组 | ⭐️️️⭐️️️⭐️️️️ |
@@ -27,7 +29,18 @@
 | [DicesSum](https://www.lintcode.com/problem/dices-sum/description) | 不错的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
 | [CopyBooks](https://www.lintcode.com/problem/copy-books/description) | 值得一试 | ⭐️️️⭐️️️ |
 | [KSum](https://www.lintcode.com/problem/k-sum/description) | 三维DP问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
-| [BurstBalloons](https://www.lintcode.com/problem/burst-balloons/description) | 区间规划问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+
+## 区间动态规划
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [BurstBalloons](https://www.lintcode.com/problem/burst-balloons/description) | 比较隐蔽的DP问题，乍一看只能想到DFS，TLE后才挖掘出DP... | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+
+## 坐标动态规划
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [BombEnemy](https://www.lintcode.com/problem/bomb-enemy/description) | 这题在lintcode上只是中等难度是不客观的，怎么都是困难了，而且写代码也比较繁琐 | ⭐️️️⭐️️️⭐️️️️ |
 
 ## 二分思维
 
