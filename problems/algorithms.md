@@ -29,6 +29,7 @@
 | [DicesSum](https://www.lintcode.com/problem/dices-sum/description) | 不错的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
 | [CopyBooks](https://www.lintcode.com/problem/copy-books/description) | 值得一试 | ⭐️️️⭐️️️ |
 | [KSum](https://www.lintcode.com/problem/k-sum/description) | 三维DP问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [EditDistance](https://www.lintcode.com/problem/edit-distance/description) | 编辑距离，CLRS上的经典习题，最终简化到了一维的问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
 ## 区间动态规划
 
