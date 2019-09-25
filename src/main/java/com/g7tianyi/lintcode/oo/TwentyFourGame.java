@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.others;
+package com.g7tianyi.lintcode.oo;
 
 import com.g7tianyi.util.Logger;
 import org.junit.Test;
