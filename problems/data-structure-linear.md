@@ -7,6 +7,7 @@
 | [BaseballGame](https://www.lintcode.com/problem/baseball-game/description) | 不错的栈的问题 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | 同上 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [BackspaceStringCompare](https://www.lintcode.com/problem/backspace-string-compare/description) | 不错的栈的问题 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [LargestRectangleInHistogram](https://www.lintcode.com/problem/largest-rectangle-in-histogram/description) | **一般在找左边和右边第一个比该元素大或小的问题的时候会用到单调栈**，本题是单调栈问题最好的开始，十分推荐 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 
 ## 队列
 
