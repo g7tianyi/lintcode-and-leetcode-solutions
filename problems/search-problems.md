@@ -16,6 +16,7 @@
 |:--------|:------------|:---------------|
 | [WordLadder](https://www.lintcode.com/problem/word-ladder/description) | 很好的广搜问题，这题在一开始建立好搜索的图比较重要；另外可以尝试双向广搜，应该会很快 | ⭐️️️⭐️️⭐️️️⭐️️️️️️⭐️️️️ |
 | [WordLadder2](https://www.lintcode.com/problem/word-ladder-ii/description) | 在上一题的基础上麻烦点，因为存在大量复制，所以需要剪枝了，比如不需要重复进去广搜队列 | ⭐️️️⭐️️⭐️️️⭐️️️️️️⭐️️️️ |
+| [NQueens](https://www.lintcode.com/problem/n-queens/description) | 经典老题，分别用DFS和BFS试了一下 | ⭐️️️⭐️️️⭐️️️️ |
 
 ## 快速减枝 + 解题空间构造
 
