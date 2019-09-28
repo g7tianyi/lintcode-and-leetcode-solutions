@@ -37,6 +37,7 @@
 | [PalindromeSubstrings](https://www.lintcode.com/problem/palindromic-substrings/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 | [PalindromePermutation](https://www.lintcode.com/problem/palindrome-permutation/description) | - | ⭐️️️⭐️️⭐️️️️ |
 | [PalindromeNumber](https://www.lintcode.com/problem/palindrome-number/description) | - | ⭐️️️⭐️️⭐️️️️ |
+| [LongestPalindromicSubstring](https://www.lintcode.com/problem/longest-palindromic-substring/description) | O(n^2)算法为区间动态规划，不过存在基于后缀树的O(n)算法 | ⭐️️️⭐️️⭐️️️️ |
 
 ## 6 Reverse String
 
