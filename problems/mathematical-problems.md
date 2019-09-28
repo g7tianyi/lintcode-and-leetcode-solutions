@@ -6,6 +6,7 @@
 |:--------|:------------|:---------------|
 | [NthDigit](https://www.lintcode.com/problem/nth-digit/description) and [DigitCounts](https://www.lintcode.com/problem/digit-counts/description) | - | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 | [CountPrimes](https://www.lintcode.com/problem/count-primes/description) | 如何快速判断一个数是质数，如果面试中真问这样的问题，那真是无聊啊 | ⭐️️️⭐️️️⭐️️️️⭐️️ |
+| [CheckSumOfKPrimes](https://www.lintcode.com/problem/check-sum-of-k-primes/description) | 纯数学了，哥德巴赫猜想，囧啊，不是ACM的绝对不知道，所以我认为只要能写出来搜索算法代码的都是合格的 | ⭐️️️⭐️️️⭐️️️️ |
 
 ## 进制问题
 
