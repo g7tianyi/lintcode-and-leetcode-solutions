@@ -27,3 +27,4 @@
 | [RotateList](https://www.lintcode.com/problem/rotate-list/description) | 和上题一样，无聊但是必须掌握，这类题的本质都是过程式思维的考察，所以思路清晰是很关键 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [ReverseNodesInKGroup](https://www.lintcode.com/problem/reverse-nodes-in-k-group/description) | 超级好题啊，如果你的代码里有太多if-else，考虑怎么简化，本题其实可以给六个星星了 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [CopyListWithRandomPointer](https://www.lintcode.com/problem/copy-list-with-random-pointer/description) | 超级好题啊，巧用next指针，话说单链表的next指针真是充满了各种神奇的用发，这题中等难度应该不太客观吧 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [RemoveDuplicatesFromSortedList2](https://www.lintcode.com/problem/remove-duplicates-from-sorted-list-ii/description) | 好题，说真的单链表的题都很能考察编程能力 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
