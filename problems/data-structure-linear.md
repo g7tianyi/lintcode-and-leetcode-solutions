@@ -26,3 +26,4 @@
 | [LinkedListCycle2](https://www.lintcode.com/problem/linked-list-cycle-ii/description) | 判断单链表有没有环，很无聊，但确是必须熟悉的 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [RotateList](https://www.lintcode.com/problem/rotate-list/description) | 和上题一样，无聊但是必须掌握，这类题的本质都是过程式思维的考察，所以思路清晰是很关键 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [ReverseNodesInKGroup](https://www.lintcode.com/problem/reverse-nodes-in-k-group/description) | 超级好题啊，如果你的代码里有太多if-else，考虑怎么简化，本题其实可以给六个星星了 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [CopyListWithRandomPointer](https://www.lintcode.com/problem/copy-list-with-random-pointer/description) | 超级好题啊，巧用next指针，话说单链表的next指针真是充满了各种神奇的用发，这题中等难度应该不太客观吧 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
