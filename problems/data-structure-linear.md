@@ -39,3 +39,4 @@
 | [RemoveDuplicatesFromSortedList2](https://www.lintcode.com/problem/remove-duplicates-from-sorted-list-ii/description) | 好题，说真的单链表的题都很能考察编程能力 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [SwapTwoNodesInLinkedList](https://www.lintcode.com/problem/swap-two-nodes-in-linked-list/description) | 需要考虑一些特殊情况，值得重做一次 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [MiddleOfTheLinkedList](https://www.lintcode.com/problem/middle-of-the-linked-list/description) | 双指针问题再现，主要是需要熟悉 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [ConnectedComponentsInList](https://www.lintcode.com/problem/connected-components-in-list/description) | 有点新鲜感 | ⭐️️️⭐️️⭐ |
