@@ -18,6 +18,15 @@
 
 ## 链表
 
+链表问题的常见处理：
+
+1. 管理好prev, curr和next三个指针的关系
+2. 双指针模式：一个快指针和一个慢指针
+3. next指针的巧用问题
+4. 哨兵节点模式
+5. 链表相交问题
+6. 环的问题
+
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [SortList](https://www.lintcode.com/problem/sort-list/description) | 单链表排序，非常重要 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
@@ -29,3 +38,4 @@
 | [CopyListWithRandomPointer](https://www.lintcode.com/problem/copy-list-with-random-pointer/description) | 超级好题啊，巧用next指针，话说单链表的next指针真是充满了各种神奇的用发，这题中等难度应该不太客观吧 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [RemoveDuplicatesFromSortedList2](https://www.lintcode.com/problem/remove-duplicates-from-sorted-list-ii/description) | 好题，说真的单链表的题都很能考察编程能力 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [SwapTwoNodesInLinkedList](https://www.lintcode.com/problem/swap-two-nodes-in-linked-list/description) | 需要考虑一些特殊情况，值得重做一次 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [MiddleOfTheLinkedList](https://www.lintcode.com/problem/middle-of-the-linked-list/description) | 双指针问题再现，主要是需要熟悉 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
