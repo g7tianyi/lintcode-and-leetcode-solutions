@@ -35,3 +35,4 @@
 | [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description) | 可以通过这个题了解[RadixSort](https://en.wikipedia.org/wiki/Radix_sort) | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [FindAllNumbersDisappearedInAnArray](https://www.lintcode.com/problem/find-all-numbers-disappeared-in-an-array/description) | 比较Tricky | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
 | [IntersectionOfTwoArrays](https://www.lintcode.com/problem/intersection-of-two-arrays/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️ |
+| [ShortestSubarrayWithSumAtLeastK](https://www.lintcode.com/problem/shortest-subarray-with-sum-at-least-k/description) | 数组的前缀和，不过这道题怎么是困难级呢，不至于吧 | ⭐️️️⭐️️️️ |
