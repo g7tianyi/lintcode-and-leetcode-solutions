@@ -25,9 +25,9 @@
 
 1. 管理好prev, curr和next三个指针的关系
 2. 双指针模式：一个快指针和一个慢指针
-3. next指针的巧用问题
-4. 哨兵节点模式
-5. 链表相交问题
+3. 链表相交问题：是否相交并寻找焦点
+4. next指针的巧用问题
+5. 哨兵节点模式
 6. 环的问题
 
 | 问题 | 简单说明 | 推荐指数 |
@@ -45,3 +45,4 @@
 | [ConnectedComponentsInList](https://www.lintcode.com/problem/connected-components-in-list/description) | 有点新鲜感 | ⭐️️️⭐️️⭐️️️ |
 | [InsertIntoACyclicSortedList](https://www.lintcode.com/problem/insert-into-a-cyclic-sorted-list/description) | 虽然很无趣，但看到LintCode上说Google、Amazon和Facebook这样的大腕都在考这道题，好吧... | ⭐️️️⭐️️⭐️️️ |
 | [PalindromeLinkedList](https://www.lintcode.com/problem/palindrome-linked-list/description) | 结合了**双指针寻找链表中点**和**链表翻转**这两个重要的链表操作的好题 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [IntersectionOfTwoLinkedLists](https://www.lintcode.com/problem/intersection-of-two-linked-lists/description) | 也是必须熟悉的链表操作 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
