@@ -1,5 +1,6 @@
 package com.g7tianyi.util;
 
+import com.g7tianyi.common.ListNode;
 import com.g7tianyi.common.Strings;
 
 import java.util.List;
@@ -48,19 +49,25 @@ public final class Logger {
   }
 
   public void printMatrix(int[][] elems) {
-    for (int[] line: elems) {
+    for (int[] line : elems) {
       info(line);
     }
   }
 
-  public  void info(int[] elems, int except) {
+  public void info(int[] elems, int except) {
     info(Strings.format(elems, elems.length, except));
   }
+
   public void info(char[] elems) {
     info(Strings.format(elems));
   }
+
   public void info(boolean[] elems) {
     info(Strings.format(elems));
+  }
+
+  public void info(ListNode node) {
+    info(Strings.format(node));
   }
 
   public void info() {
