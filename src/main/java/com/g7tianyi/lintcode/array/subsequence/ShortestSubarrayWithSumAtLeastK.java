@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.array;
+package com.g7tianyi.lintcode.array.subsequence;
 
 import com.g7tianyi.common.Arrays;
 import com.g7tianyi.common.Strings;
