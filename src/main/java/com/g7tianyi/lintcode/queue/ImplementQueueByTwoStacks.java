@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.stack;
+package com.g7tianyi.lintcode.queue;
 
 import com.g7tianyi.util.Logger;
 import org.junit.Test;

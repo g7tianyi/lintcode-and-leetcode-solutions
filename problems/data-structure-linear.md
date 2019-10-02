@@ -16,6 +16,7 @@
 |:--------|:------------|:---------------|
 | [KillProcess](https://www.lintcode.com/problem/kill-process/description) | 需要同时使用队列与HashMap | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [ImplementQueueByTwoStacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/description) | 这题的关键在于，并不需要每次Push和Pop的时候都翻转两个栈，而应该推迟到需要的时候，这种基础问题，必须十分地熟练才可以 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [ImplementQueueByCircularArray](https://www.lintcode.com/problem/implement-queue-by-circular-array/description) | 和上面一题很像，基本功问题 | ⭐️️️⭐️️⭐ |
 
 ## 链表
 
