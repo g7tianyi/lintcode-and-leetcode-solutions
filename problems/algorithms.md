@@ -35,7 +35,8 @@
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [Backpack](https://www.lintcode.com/problem/backpack/description)，[Backpack2](https://www.lintcode.com/problem/backpack-ii/description)， | 0-1背包问题，必须掌握，尤其是那个有趣的空间优化技巧 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [Backpack](https://www.lintcode.com/problem/backpack/description)，[Backpack2](https://www.lintcode.com/problem/backpack-ii/description) | 0-1背包问题，必须掌握，尤其是那个有趣的空间优化技巧 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [Backpack5](https://www.lintcode.com/problem/backpack-v/description)| 还是0-1背包问题，也一样用到了和上面一样的空间优化技巧，不过因为需要完全填满整个背包，有些许变化，值得多试几次，掌握背包问题的精髓 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
 ### 区间动态规划
 
