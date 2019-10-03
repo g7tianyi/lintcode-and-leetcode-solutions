@@ -21,6 +21,7 @@
 | [LongestUnivaluePath](https://www.lintcode.com/problem/longest-univalue-path/description) | 还比较难的趣题 | ⭐️️️⭐️️⭐️️️⭐️️ |
 | [ConstructStringFromBinaryTree](https://www.lintcode.com/problem/construct-string-from-binary-tree/description) | 比较有意思 | ⭐️️️⭐️️ |
 | [SerializeAndDeserializeBinaryTree](https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/description) | 二叉树的序列化，有了这道题的基础，可以自己写二叉树问题的测试用例了 | ⭐️️️⭐️️⭐️️️⭐️⭐️️ |
+| [LowestCommonAncestorOfABinaryTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-tree/description) | LCA问题，必须掌握，递归时似乎可以有记忆化搜索的优化点，优化判断一个节点是否属于自己的左右子树 | ⭐️️️⭐️️⭐️️️⭐️⭐️️ |
 
 ## 二叉搜索树
 
