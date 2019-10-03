@@ -19,6 +19,7 @@
 | [TwentyFourGame](https://www.lintcode.com/problem/24-game/description) | 比较Tricky的好题，关键可能还不在深搜和剪枝本身，毕竟就四个数字四种运算，但是怎么处理好除法问题比较有趣，所以这题其实还考察了OO呢 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [FindTheMissingNumber2](https://www.lintcode.com/problem/find-the-missing-number-ii/description) | 主要是考虑0的情况，所以我WA了一次，很久以后，这个问题还是值得再试一次 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [RestoreIPAddresses](https://www.lintcode.com/problem/restore-ip-addresses/description) | 还挺实用的好题 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [CombinationSum2](https://www.lintcode.com/problem/combination-sum-ii/description) | 如果理解了本题，需要严格去重的DFS问题就应该掌握好了 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 
 ## 广度优先搜索
 
