@@ -23,6 +23,7 @@
 | [FindSmallestLetterGreaterThanTarget](https://www.lintcode.com/problem/find-smallest-letter-greater-than-target/description) | 本质上还是寻找插入位置 | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
 | [MinimumIndexSumOfTwoLists](https://www.lintcode.com/problem/minimum-index-sum-of-two-lists/description) | - | ⭐️️️⭐️️⭐️️️ |
 | [SearchForARange](https://www.lintcode.com/problem/search-for-a-range/description) | 查找指定元素的第一个和最后一个下标 | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
+| [SearchInRotatedSortedArray](https://www.lintcode.com/problem/search-in-rotated-sorted-array/description) | 二分查找比较难的变种了 | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
 
 ## 2 数组问题
 
