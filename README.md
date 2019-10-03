@@ -1,6 +1,6 @@
 # Solutions of Lintcode and Leetcode
 
-[Lintcode](https://www.lintcode.com)与[Leetcode](https://leetcode.com/)的解决方案，代码基于Java实现，整个工程中包含一些公用类与工具类的定义。
+[Lintcode](https://www.lintcode.com)与[Leetcode](https://leetcode.com/)的解决方案，基于Java实现，整个工程中包含一些公用类与工具类的定义。
 
 另外，对问题进行了简单的分类和解题思路说明，因为现在的题已经太多了，完全做完太难，重复刷基本也不可能，所以问题分类时候也顺便给出了推荐指数。
 

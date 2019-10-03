@@ -35,7 +35,7 @@
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [Backpack](https://www.lintcode.com/problem/backpack/description) | 0-1背包问题，必须掌握，尤其是那个有趣的空间优化技巧 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [Backpack](https://www.lintcode.com/problem/backpack/description)，[Backpack2](https://www.lintcode.com/problem/backpack-ii/description)， | 0-1背包问题，必须掌握，尤其是那个有趣的空间优化技巧 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
 ### 区间动态规划
 
