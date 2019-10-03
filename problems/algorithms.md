@@ -31,7 +31,13 @@
 | [KSum](https://www.lintcode.com/problem/k-sum/description) | 三维DP问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [EditDistance](https://www.lintcode.com/problem/edit-distance/description) | 编辑距离，CLRS上的经典习题，最终简化到了一维的问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
-## 区间动态规划
+### 背包问题
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [Backpack](https://www.lintcode.com/problem/backpack/description) | 0-1背包问题，必须掌握，尤其是那个有趣的空间优化技巧 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+
+### 区间动态规划
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
@@ -39,7 +45,7 @@
 | [BooleanParenthesization](https://www.lintcode.com/problem/boolean-parenthesization/description) | 有了上一道题和这一道题的练习——至少2-3次独立思考并编码，区间动态规划应该就掌握得比较好了；另外，这两题都可以得出一个启示：当我们发现一个问题可以用深搜或广搜来解决时，就考虑下是否有记忆化搜索的可能性，这样就可能导出DP了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [FrogJump](https://www.lintcode.com/problem/frog-jump/description) | 应该也可以归纳为区间动态规划，比较有趣，很少看到需要使用HashMap和HashSet来处理的DP问题，不难 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 
-## 坐标动态规划
+### 坐标动态规划
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
