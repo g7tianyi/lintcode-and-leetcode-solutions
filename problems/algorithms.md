@@ -46,6 +46,7 @@
 | [Backpack5](https://www.lintcode.com/problem/backpack-v/description)，[CoinChange2](https://www.lintcode.com/problem/coin-change-2/description) | 还是0-1背包问题，相当于背包需要恰好被填满，也一样用到了和上面一样的空间优化技巧，不过因为需要完全填满整个背包，有些许变化，值得多试几次，掌握0-1背包问题的精髓 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [Backpack9](https://www.lintcode.com/problem/backpack-ix/description) | 价值函数变了的01背包问题 | ⭐️️️⭐️️️⭐️️️️ |
 | [CoinChange](https://www.lintcode.com/problem/coin-change/description) | 完全背包问题的最基本型，而且没有O(N^3)到O(N^2)的优化还过不了，所以这题是五星推荐了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [CombinationSum4](https://www.lintcode.com/problem/combination-sum-iv/description) | 爬梯子问题，但与完全背包十分相似，完全背包问题与爬梯子问题的差距在于：前者取背包的次序不重要，后者次序重要，不同的次序意味着不同的解决方案，更进一步地：1) 完全背包问题：F[i,j]表示前i件物品构成价值j的方案总数，`F[i,j] = F(i-1, j-Vk) + F(i-1,j)`，循环第一层是物品；2) 爬梯子问题：F[i]表示爬到第i级的总方案数，`F[i] = Sum(F[i- Vk])`，循环第一层是梯级 (相当于背包大小) | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
 ### 区间动态规划
 
