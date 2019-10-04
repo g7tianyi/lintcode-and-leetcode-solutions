@@ -15,7 +15,7 @@ public class CoinChange2 {
 
   public class Solution {
 
-    // 0-1背包问题的变形：物品可以无限取
+    // 完全背包问题的变形，求方案总数
     public int change(int amount, int[] coins) {
       int[] F = new int[amount + 1];
       F[0] = 1;
