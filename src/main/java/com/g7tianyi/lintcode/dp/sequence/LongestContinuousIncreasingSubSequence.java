@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.dp.lc;
+package com.g7tianyi.lintcode.dp.sequence;
 
 import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
