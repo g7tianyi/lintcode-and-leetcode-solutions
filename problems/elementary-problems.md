@@ -38,6 +38,7 @@
 | [IntersectionOfTwoArrays](https://www.lintcode.com/problem/intersection-of-two-arrays/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [ShortestSubarrayWithSumAtLeastK](https://www.lintcode.com/problem/shortest-subarray-with-sum-at-least-k/description) | 数组的前缀和，不过这道题怎么是困难级呢，不至于吧 | ⭐️️️⭐️️️️ |
 | [NumberOfSubArraysWithBoundedMaximum](https://www.lintcode.com/problem/number-of-subarrays-with-bounded-maximum/description) | 这个题主要是比较有趣，因为只需要知道有多少个方案，所以不需要真正的队列，但队列的也可以想见，AC需要对情况清晰的考虑 | ⭐️️️⭐️️⭐️️️⭐️️️ |
+| [MissingNumber](https://www.lintcode.com/problem/missing-number/description) | 也还比较有趣，可以多刷两次熟悉一下 | ⭐️️️⭐️️⭐️️️⭐️️️ |
 
 ## 3 双指针技巧
 
