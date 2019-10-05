@@ -42,6 +42,8 @@
 
 ## 3 双指针技巧
 
+处理数组问题常用技巧，一个前一个后，不过**通常来说，双指针处理的都是连续区间的问题**。
+
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [MinimumSizeSubarraySum](https://www.lintcode.com/problem/minimum-size-subarray-sum/description) | 双指针问题的入门佳作，也是大成之作了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
