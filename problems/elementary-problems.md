@@ -38,3 +38,11 @@
 | [IntersectionOfTwoArrays](https://www.lintcode.com/problem/intersection-of-two-arrays/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [ShortestSubarrayWithSumAtLeastK](https://www.lintcode.com/problem/shortest-subarray-with-sum-at-least-k/description) | 数组的前缀和，不过这道题怎么是困难级呢，不至于吧 | ⭐️️️⭐️️️️ |
 | [NumberOfSubArraysWithBoundedMaximum](https://www.lintcode.com/problem/number-of-subarrays-with-bounded-maximum/description) | 这个题主要是比较有趣，因为只需要知道有多少个方案，所以不需要真正的队列，但队列的也可以想见，AC需要对情况清晰的考虑 | ⭐️️️⭐️️⭐️️️⭐️️️ |
+
+## 3 双指针技巧
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [MinimumSizeSubarraySum](https://www.lintcode.com/problem/minimum-size-subarray-sum/description) | 双指针问题的入门佳作，也是大成之作了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [PartitionArray](https://www.lintcode.com/problem/partition-array/description) | - | ⭐️️️⭐️️️⭐️️️️ |
+| [SortLettersByCase](https://www.lintcode.com/problem/sort-letters-by-case/description) | - | ⭐️️️⭐️️️⭐️️️️ |

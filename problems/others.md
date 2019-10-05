@@ -14,10 +14,3 @@
 |:--------|:------------|:---------------|
 | [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | 主要是考察编程能力的题 | ⭐️️️⭐️️️⭐️️️ |
 | [MinimumMovesToEqualArrayElements](https://www.lintcode.com/problem/minimum-moves-to-equal-array-elements/description) | 需要一些Tricky的转换 | ⭐️️️⭐️️️⭐️️️ |
-
-## 1 双指针技巧
-
-| 问题 | 简单说明 | 推荐指数 |
-|:--------|:------------|:---------------|
-| [PartitionArray](https://www.lintcode.com/problem/partition-array/description) | - | ⭐️️️⭐️️️⭐️️️️ |
-| [SortLettersByCase](https://www.lintcode.com/problem/sort-letters-by-case/description) | - | ⭐️️️⭐️️️⭐️️️️ |
