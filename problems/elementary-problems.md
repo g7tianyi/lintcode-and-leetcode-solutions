@@ -32,13 +32,13 @@
 | [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | 蛮有意思的，主要是找到遍历的模式，否则if-else会写得想吐 | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 | [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description) | 相当于实现快速排序的泛型版 | ⭐️️️⭐️️️️ |
 | [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/maximum-product-of-three-numbers/description) | 主要是将各种测试用例考虑全面，十分推荐的好题 | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
-| [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description) | 可以通过这个题了解[BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm) | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
+| [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description), [MissingNumber](https://www.lintcode.com/problem/missing-number/description) | 可以通过这个题了解[BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm)，MissingNumber说是桶排序弱了点，但有桶排序的思维痕迹 | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
+| [FirstMissingPositive](https://www.lintcode.com/problem/first-missing-positive/description) | 也算是桶排序的思路，标记落入桶中的逻辑其实比较Tricky，也许嵌入式设备中可以这样写程序，应用层代码因为快速变化的可能性，对清晰性的要求更高，一定还是用更清晰简洁的方式来处理吧 | ⭐️️️⭐️️️️ |
 | [SetMismatch](https://www.lintcode.com/problem/set-mismatch/description) | 可以通过这个题了解[RadixSort](https://en.wikipedia.org/wiki/Radix_sort) | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [FindAllNumbersDisappearedInAnArray](https://www.lintcode.com/problem/find-all-numbers-disappeared-in-an-array/description) | 比较Tricky | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
 | [IntersectionOfTwoArrays](https://www.lintcode.com/problem/intersection-of-two-arrays/description) | - | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [ShortestSubarrayWithSumAtLeastK](https://www.lintcode.com/problem/shortest-subarray-with-sum-at-least-k/description) | 数组的前缀和，不过这道题怎么是困难级呢，不至于吧 | ⭐️️️⭐️️️️ |
 | [NumberOfSubArraysWithBoundedMaximum](https://www.lintcode.com/problem/number-of-subarrays-with-bounded-maximum/description) | 这个题主要是比较有趣，因为只需要知道有多少个方案，所以不需要真正的队列，但队列的也可以想见，AC需要对情况清晰的考虑 | ⭐️️️⭐️️⭐️️️⭐️️️ |
-| [MissingNumber](https://www.lintcode.com/problem/missing-number/description) | 也还比较有趣，可以多刷两次熟悉一下 | ⭐️️️⭐️️⭐️️️⭐️️️ |
 
 ## 3 双指针技巧
 
