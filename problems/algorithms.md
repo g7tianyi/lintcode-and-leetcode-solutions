@@ -79,3 +79,4 @@
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [FindTheDuplicateNumber](https://www.lintcode.com/problem/find-the-duplicate-number/description) | 这道题赞死了，一开始我想歪了，以为自己找到了O(n)的办法，然后残酷打脸，转念一想，原来可以.... 总之是活学活用超级赞的题，完整的思路在[这里](https://github.com/g7tianyi/lintcode-and-leetcode-solutions/blob/master/src/main/java/com/g7tianyi/lintcode/array/FindTheDuplicateNumber.java) | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [FindPeekElement](https://www.lintcode.com/problem/find-peak-element/description) | 是一道需要仔细分析、寻找规律的好题，初始条件限制和递推规律决定了居然可以使用二分查找的思想解决问题，这道题可以看出，二分思维的应用，并不一定要求序列是有序的，六星推荐 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
