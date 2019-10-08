@@ -16,6 +16,15 @@ public final class Arrays {
     return arr;
   }
 
+  public static int[] random(int len, int max) {
+    int[] arr = new int[len];
+    Random random = new Random();
+    for (int i = 0; i < len; ++i) {
+      arr[i] = random.nextInt(max);
+    }
+    return arr;
+  }
+
   public static <T> void shuffle(T[] values) {
     Random random = new Random();
     for (int i = 0; i < values.length; i++) {
