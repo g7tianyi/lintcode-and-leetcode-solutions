@@ -41,3 +41,4 @@
 | [LFUCache](https://www.lintcode.com/problem/lfu-cache/description) | 如果理解了LFU的概念，其实这题更像是个设计的问题，不过我的代码也没有好好优化.. | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [LRUCache](https://www.lintcode.com/problem/lru-cache/description) | 同上 | ⭐️️️⭐️️⭐️️️ |
 | [FirstUniqueNumberInDataStream](https://www.lintcode.com/problem/first-unique-number-in-data-stream/description) | 归类到队列也行 | ⭐️️️⭐️️ |
+| [InsertDeleteGetRandomO1](https://www.lintcode.com/problem/insert-delete-getrandom-o1/description) | 还蛮有趣的问题，插入好说，主要是如何处理好删除与getRandom的关系 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
