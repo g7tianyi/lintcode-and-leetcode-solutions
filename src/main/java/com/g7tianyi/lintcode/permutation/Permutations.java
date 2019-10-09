@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.search;
+package com.g7tianyi.lintcode.permutation;
 
 import com.g7tianyi.common.Arrays;
 import com.g7tianyi.util.Logger;
