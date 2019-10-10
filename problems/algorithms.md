@@ -30,6 +30,7 @@
 | [CopyBooks](https://www.lintcode.com/problem/copy-books/description) | 值得一试 | ⭐️️️⭐️️️ |
 | [KSum](https://www.lintcode.com/problem/k-sum/description) | 三维DP问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [EditDistance](https://www.lintcode.com/problem/edit-distance/description) | 编辑距离，CLRS上的经典习题，最终简化到了一维的问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [DigitalFlip](https://www.lintcode.com/problem/digital-flip/description) | 还有点意思 | ⭐️️️⭐️️️⭐️️️️ |
 
 ### 背包问题
 
