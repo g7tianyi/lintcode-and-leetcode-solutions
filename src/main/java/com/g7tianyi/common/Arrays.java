@@ -25,6 +25,18 @@ public final class Arrays {
     return arr;
   }
 
+  public static int[] randomNatureNumbers(int len, int max) {
+    int[] arr = new int[len];
+    Random random = new Random();
+    for (int i = 0; i < len; ++i) {
+      arr[i] = random.nextInt(max);
+      if (random.nextBoolean()) {
+        arr[i] *= -1;
+      }
+    }
+    return arr;
+  }
+
   public static <T> void shuffle(T[] values) {
     Random random = new Random();
     for (int i = 0; i < values.length; i++) {

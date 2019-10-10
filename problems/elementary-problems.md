@@ -47,5 +47,6 @@
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [MinimumSizeSubarraySum](https://www.lintcode.com/problem/minimum-size-subarray-sum/description) | 双指针问题的入门佳作，也是大成之作了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [Closest3Sum](https://www.lintcode.com/problem/3sum-closest/description) | 也是超级好的双指针求解的问题，极度推荐 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [PartitionArray](https://www.lintcode.com/problem/partition-array/description) | - | ⭐️️️⭐️️️⭐️️️️ |
 | [SortLettersByCase](https://www.lintcode.com/problem/sort-letters-by-case/description) | - | ⭐️️️⭐️️️⭐️️️️ |
