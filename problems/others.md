@@ -1,12 +1,15 @@
 ## 其他问题
 
+### 0 仔细考虑测试用例的好题
+
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description) | Test case can be tricky, yet remains simple if we analysis the problem rigorously and logically | ⭐️️️⭐️️️⭐️️⭐️️⭐️️️ |
-| [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description) | Get stuck at the beginning, 😂 | ⭐️️️⭐️️️⭐️️️ |
-| [MaximizeDistanceToClosestPerson](https://www.lintcode.com/problem/maximize-distance-to-closest-person/description) | Consider the boundary conditions, rigorously. Not very hard, so it is a good problem for starter | ⭐️️️⭐️️️⭐️️️️ |
-| [XOfAKindInADeckOfCards](https://www.lintcode.com/problem/x-of-a-kind-in-a-deck-of-cards/description) | Very simple, right? Just a HashMap and everything is done. Hang on... | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
-| [BuddyString](https://www.lintcode.com/problem/buddy-strings/description) | Consider edge cases | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [NonDecreasingArray](https://www.lintcode.com/problem/non-decreasing-array/description) | -  | ⭐️️️⭐️️️⭐️️⭐️️⭐️️️ |
+| [ShortestUnsortedContinuousSubArray](https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/description) | 一开始完全没主意，简直了.. 😂 | ⭐️️️⭐️️️⭐️️️ |
+| [MaximizeDistanceToClosestPerson](https://www.lintcode.com/problem/maximize-distance-to-closest-person/description) | - | ⭐️️️⭐️️️⭐️️️️ |
+| [XOfAKindInADeckOfCards](https://www.lintcode.com/problem/x-of-a-kind-in-a-deck-of-cards/description) | - | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [BuddyString](https://www.lintcode.com/problem/buddy-strings/description) | 主要考虑好Edge case，凡是需要仔细考虑测试用例的题都是好体 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [TrappingRainWater](https://www.lintcode.com/problem/trapping-rain-water/description) | 同上，第一个注意点是考虑测试用例，第二个注意点是优雅地对付这些测试用例，哈哈 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
  
 ### 0 区间问题
 
