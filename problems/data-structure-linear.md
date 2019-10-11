@@ -1,4 +1,4 @@
-# Data Structure - Linear
+# 线性数据结构
 
 ## 栈
 

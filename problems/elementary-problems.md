@@ -50,3 +50,9 @@
 | [Closest3Sum](https://www.lintcode.com/problem/3sum-closest/description) | 也是超级好的双指针求解的问题，极度推荐 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [PartitionArray](https://www.lintcode.com/problem/partition-array/description) | - | ⭐️️️⭐️️️⭐️️️️ |
 | [SortLettersByCase](https://www.lintcode.com/problem/sort-letters-by-case/description) | - | ⭐️️️⭐️️️⭐️️️️ |
+
+## 4 排序问题
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| ReorderArrayToConstructTheMinimumNumber | 快速排序 | ⭐️️️⭐️️️⭐️️️️ |
