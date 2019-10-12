@@ -43,7 +43,10 @@
 
 ## 3 双指针技巧
 
-处理数组问题常用技巧，一个前一个后，不过**通常来说，双指针处理的都是连续区间的问题**。
+处理数组问题常用技巧，简单而强大，**通常来说，双指针处理的都是连续区间的问题**：
+
+- 一个从0开始后移动，一个从尾部开始往前移动，**表现为夹逼**，如下面的[ContainerWithMostWater](https://www.lintcode.com/problem/container-with-most-water/description)
+- 确定前指针，后指针从前指针后面一个位置开始往前走，可以经常看得见类似于`i = 0; j = i + 1;`的代码，表现为**子区间扫描**，如下面的[MinimumSizeSubarraySum](https://www.lintcode.com/problem/minimum-size-subarray-sum/description)
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
@@ -51,6 +54,7 @@
 | [Closest3Sum](https://www.lintcode.com/problem/3sum-closest/description) | 也是超级好的双指针求解的问题，极度推荐 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [PartitionArray](https://www.lintcode.com/problem/partition-array/description) | - | ⭐️️️⭐️️️⭐️️️️ |
 | [SortLettersByCase](https://www.lintcode.com/problem/sort-letters-by-case/description) | - | ⭐️️️⭐️️️⭐️️️️ |
+| [ContainerWithMostWater](https://www.lintcode.com/problem/container-with-most-water/description) | 双指针夹逼还可以有这么多内容，哈哈 | ⭐️️️⭐️️️⭐️️️️ |
 
 ## 4 排序问题
 
