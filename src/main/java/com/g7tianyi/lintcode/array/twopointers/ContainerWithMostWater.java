@@ -20,8 +20,8 @@ public class ContainerWithMostWater {
 
   public class Solution {
 
-    // 容积即面积，它受长和高的影响，当长度减小时候，高必须增长才有可能提升面积
-    // 所以我们从长度最长时开始递减，然后寻找更高的高度
+    // 当长度减小时候，高必须增长才有可能提升面积
+    // 所以从长度最长时开始递减，然后寻找更高的高度
     public int maxArea(int[] values) {
       int result = 0;
       int i = 0, j = values.length - 1;
