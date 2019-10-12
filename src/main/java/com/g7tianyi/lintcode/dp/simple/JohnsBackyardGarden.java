@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.dp;
+package com.g7tianyi.lintcode.dp.simple;
 
 import com.g7tianyi.util.Logger;
 import org.junit.Test;
