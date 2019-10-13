@@ -1,6 +1,7 @@
 package com.g7tianyi.lintcode.string;
 
 import com.g7tianyi.common.Strings;
+import com.g7tianyi.lintcode.array.mutation.RotateArray;
 import com.g7tianyi.util.Logger;
 import lombok.AllArgsConstructor;
 import org.junit.Test;
@@ -18,7 +19,7 @@ public class RotateString {
 
   public class Solution {
 
-    /** @see com.g7tianyi.lintcode.array.RotateArray; */
+    /** @see RotateArray ; */
     public void rotateString(char[] str, int offset) {
       if (offset < 0 || str.length == 0) {
         return;

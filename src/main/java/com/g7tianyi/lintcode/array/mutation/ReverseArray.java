@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.array;
+package com.g7tianyi.lintcode.array.mutation;
 
 import com.g7tianyi.util.Logger;
 
