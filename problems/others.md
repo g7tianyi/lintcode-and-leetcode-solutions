@@ -17,3 +17,4 @@
 |:--------|:------------|:---------------|
 | [MergeTwoSortedIntervalLists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/description) | 主要是考察编程能力的题 | ⭐️️️⭐️️️⭐️️️ |
 | [MinimumMovesToEqualArrayElements](https://www.lintcode.com/problem/minimum-moves-to-equal-array-elements/description) | 需要一些Tricky的转换 | ⭐️️️⭐️️️⭐️️️ |
+| [NumberOfAirplanesInTheSky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky/description) | Swipe-line算法，不过这个名字不重要啦，我也是看了别人的笔记才发现的，关键还是最终O(n)的算法的确简明优雅 | ⭐️️️⭐️️️⭐️️️ |
