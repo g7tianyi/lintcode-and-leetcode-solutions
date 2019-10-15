@@ -44,6 +44,10 @@ public final class Logger {
     info(Strings.format(list));
   }
 
+  public void info(long[] elems) {
+    info(Strings.format(elems));
+  }
+
   public void info(int[] elems) {
     info(Strings.format(elems));
   }
