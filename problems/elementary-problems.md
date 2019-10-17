@@ -41,6 +41,7 @@
 | [ShortestSubarrayWithSumAtLeastK](https://www.lintcode.com/problem/shortest-subarray-with-sum-at-least-k/description) | 数组的前缀和，不过这道题怎么是困难级呢，不至于吧 | ⭐️️️⭐️️️️ |
 | [NumberOfSubArraysWithBoundedMaximum](https://www.lintcode.com/problem/number-of-subarrays-with-bounded-maximum/description) | 这个题主要是比较有趣，因为只需要知道有多少个方案，所以不需要真正的队列，但队列的也可以想见，AC需要对情况清晰的考虑 | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [ShortestWordDistance](https://www.lintcode.com/problem/shortest-word-distance/description) | 虽然是简单级... 当得到了两个word的下标列表后，要loop得到最小值，还蛮值得重试一次的 | ⭐️️️⭐️️⭐️️️⭐️️️ |
+| [ProductOfArrayExceptSelf](https://www.lintcode.com/problem/product-of-array-except-self/description) | 主要是挑战一下常数空间复杂度~ | ⭐️️️⭐️️⭐️️️⭐️️️ |
 
 ## 3 双指针技巧
 
