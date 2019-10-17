@@ -8,6 +8,13 @@
 | [MergeKSortedLists](https://www.lintcode.com/problem/merge-k-sorted-lists/description) | 堆与列表联合使用的好题 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [FindMedianFromDataStream](https://www.lintcode.com/problem/find-median-from-data-stream/description) | 开始用的二分查找，写到差不多要结束想起以前在PKU做过一道类似的题，用两个堆来模拟，超赞呢 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
+## 单调栈
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [LargestRectangleInHistogram](https://www.lintcode.com/problem/largest-rectangle-in-histogram/description) | **一般在找左边和右边第一个比该元素大或小的问题的时候会用到单调栈**，本题是单调栈问题最好的开始，十分推荐 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [SumOfSubarrayMinimums](https://www.lintcode.com/problem/sum-of-subarray-minimums/description) | 十分推荐，就理解单调栈这一概念而言，可能比上一题还好呢~ | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+
 ## 线段树
 
 | 问题 | 简单说明 | 推荐指数 |

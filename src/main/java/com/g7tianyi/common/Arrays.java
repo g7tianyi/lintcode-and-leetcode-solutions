@@ -1,11 +1,32 @@
 package com.g7tianyi.common;
 
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
 
 import static com.g7tianyi.common.Numbers.nextInt;
 
 /** Created by g7tianyi on Aug 24, 2019 */
 public final class Arrays {
+
+  public static int[] from(String filename) throws IOException {
+
+    String content =
+        FileUtils.readFileToString(new File(filename), "UTF-8")
+            .replaceAll("\\[", "")
+            .replaceAll("]", "");
+
+    String[] elems = content.split(",");
+
+    int[] result = new int[elems.length];
+    int pos = 0;
+    for (String elem : elems) {
+      result[pos++] = Integer.parseInt(elem);
+    }
+    return result;
+  }
 
   public static int[] from(int... args) {
     int[] arr = new int[args.length];
