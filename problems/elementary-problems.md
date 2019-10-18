@@ -48,7 +48,7 @@
 处理数组问题常用技巧，简单而强大，**通常来说，双指针处理的都是连续区间的问题**：
 
 - 一个从0开始后移动，一个从尾部开始往前移动，**表现为夹逼**，如下面的[ContainerWithMostWater](https://www.lintcode.com/problem/container-with-most-water/description)
-- 确定前指针，后指针从前指针后面一个位置开始往前走，可以经常看得见类似于`i = 0; j = i + 1;`的代码，表现为**子区间扫描**，如下面的[MinimumSizeSubarraySum](https://www.lintcode.com/problem/minimum-size-subarray-sum/description)
+- 确定前指针，后指针从前指针后面一个位置开始往前走，可以经常看得见类似于`i = 0; j = i + 1;`的代码，表现为**子区间扫描**，如下面的[MinimumSizeSubarraySum](https://www.lintcode.com/problem/minimum-size-subarray-sum/description)和[ValidTriangleNumber](https://www.lintcode.com/problem/valid-triangle-number/description)
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
@@ -57,6 +57,7 @@
 | [PartitionArray](https://www.lintcode.com/problem/partition-array/description) | - | ⭐️️️⭐️️️⭐️️️️ |
 | [SortLettersByCase](https://www.lintcode.com/problem/sort-letters-by-case/description) | - | ⭐️️️⭐️️️⭐️️️️ |
 | [ContainerWithMostWater](https://www.lintcode.com/problem/container-with-most-water/description) | 双指针夹逼还可以有这么多内容，哈哈 | ⭐️️️⭐️️️⭐️️️️ |
+| [ValidTriangleNumber](https://www.lintcode.com/problem/valid-triangle-number/description) | 双指针可以优化到O(N^2)，二分查找可以优化到O(N^2*logN)，暴力解法是O(N^3)，很优秀啦~ | ⭐️️️⭐️️️⭐️️️️ |
 
 ## 4 排序问题
 
