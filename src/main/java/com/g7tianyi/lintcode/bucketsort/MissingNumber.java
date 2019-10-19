@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.array.missing;
+package com.g7tianyi.lintcode.bucketsort;
 
 import com.g7tianyi.common.Arrays;
 import com.g7tianyi.util.Logger;

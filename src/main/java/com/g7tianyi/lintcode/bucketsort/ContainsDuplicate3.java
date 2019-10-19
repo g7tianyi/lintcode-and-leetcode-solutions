@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.hashmap;
+package com.g7tianyi.lintcode.bucketsort;
 
 import lombok.AllArgsConstructor;
 import org.junit.Assert;
