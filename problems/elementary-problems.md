@@ -30,7 +30,6 @@
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | 蛮有意思的，主要是找到遍历的模式，否则if-else会写得想吐 | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 | [MultiKeywordSort](https://www.lintcode.com/problem/multi-keyword-sort/description) | 相当于实现快速排序的泛型版 | ⭐️️️⭐️️️️ |
 | [MaximumProductOfThreeNumbers](https://www.lintcode.com/problem/maximum-product-of-three-numbers/description) | 主要是将各种测试用例考虑全面，十分推荐的好题 | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
 | [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description), [MissingNumber](https://www.lintcode.com/problem/missing-number/description) | 可以通过这个题了解[BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm)，MissingNumber说是桶排序弱了点，但有桶排序的思维痕迹 | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
@@ -43,7 +42,14 @@
 | [ShortestWordDistance](https://www.lintcode.com/problem/shortest-word-distance/description) | 虽然是简单级... 当得到了两个word的下标列表后，要loop得到最小值，还蛮值得重试一次的 | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [ProductOfArrayExceptSelf](https://www.lintcode.com/problem/product-of-array-except-self/description) | 主要是挑战一下常数空间复杂度~ | ⭐️️️⭐️️⭐️️️⭐️️️ |
 
-## 3 双指针技巧
+## 3 矩阵问题
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | 蛮有意思的，主要是找到遍历的模式，否则if-else会写得想吐 | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [GameOfLife](https://www.lintcode.com/problem/game-of-life/description) | 其实挺无聊的，不知道很多大公司为何就喜欢考，另外要求原地修改还是比较有意思的 | ⭐️️️⭐️️️⭐️️️️ |
+
+## 4 双指针技巧
 
 处理数组问题常用技巧，简单而强大，**通常来说，双指针处理的都是连续区间的问题**：
 
@@ -59,7 +65,7 @@
 | [ContainerWithMostWater](https://www.lintcode.com/problem/container-with-most-water/description) | 双指针夹逼还可以有这么多内容，哈哈 | ⭐️️️⭐️️️⭐️️️️ |
 | [ValidTriangleNumber](https://www.lintcode.com/problem/valid-triangle-number/description) | 双指针可以优化到O(N^2)，二分查找可以优化到O(N^2*logN)，暴力解法是O(N^3)，很优秀啦~ | ⭐️️️⭐️️️⭐️️️️ |
 
-## 4 排序问题
+## 5 排序问题
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
