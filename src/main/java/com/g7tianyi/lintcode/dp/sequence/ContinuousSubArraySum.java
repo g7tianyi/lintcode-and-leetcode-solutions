@@ -66,9 +66,5 @@ public class ContinuousSubArraySum {
     c.accept(Arrays.from(0, 1, 0, 1));
     c.accept(Arrays.from(-3, -9, 20, -19, 18));
     c.accept(Arrays.from(-18));
-    c.accept(
-        Arrays.from(
-            1, 1, 1, 1, 1, 1, 1, 1, 1, -19, 1, 1, 1, 1, 1, 1, 1, -2, 1, 1, 1, 1, 1, 1, 1, 1, -2, 1,
-            -15, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1));
   }
 }
