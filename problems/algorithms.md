@@ -8,6 +8,7 @@
 | [LemonadeChange](https://www.lintcode.com/problem/lemonade-change/description) | - | ⭐️️️⭐️️️⭐️️️️ |
 | [JumpGame](https://www.lintcode.com/problem/jump-game/description) | 很好的贪心问题，比前面两个都好，贪心算法要写出来一般都非常简单，问题在于找到贪心的结构，因为一般情况下，我们总是倾向于认为贪心策略不容易遇到，于是就滥用DP了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [Candy](https://www.lintcode.com/problem/candy/description) | 这道题的贪心结构比较明显 | ⭐️️️⭐️️️⭐️️️️ |
+| [BattleshipsInBoard](https://www.lintcode.com/problem/battleships-in-a-board/description) | 其实也不能说是贪心问题，但的确值得试试，要求仅扫描一次，不能改变数组，O(1)的空间，😆 | ⭐️️️⭐️️️⭐️️️️ |
 
 ## 动态规划
 
