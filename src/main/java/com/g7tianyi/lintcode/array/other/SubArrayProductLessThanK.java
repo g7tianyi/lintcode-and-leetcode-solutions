@@ -19,6 +19,8 @@ public class SubArrayProductLessThanK {
 
   public class Solution {
 
+    // 引入一个HashMap M，对于当前元素A[i]来说，M{a, b}表示以A[i-1]为结尾的、乘积为a的连续子数组有b个
+    // 如果A[i] * a < K，result += b，至于如何维护M，还是直接看代码吧
     public int numSubarrayProductLessThanK(int[] values, int K) {
 
       if (values == null) {
