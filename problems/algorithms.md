@@ -52,6 +52,7 @@
 | [CoinChange](https://www.lintcode.com/problem/coin-change/description) | 完全背包问题的最基本型，而且没有O(N^3)到O(N^2)的优化还过不了，所以这题是五星推荐了 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [CuttingRod](https://www.lintcode.com/problem/cutting-a-rod/description) | 又一个完全背包问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [CombinationSum4](https://www.lintcode.com/problem/combination-sum-iv/description) | [爬梯子问题](https://github.com/g7tianyi/lintcode-and-leetcode-solutions/blob/master/src/main/java/com/g7tianyi/lintcode/dp/ClimbingStairs.java#L17)，但与完全背包十分相似，完全背包问题与爬梯子问题的差距在于：前者取背包的次序不重要，后者次序重要，不同的次序意味着不同的解决方案，更进一步地：1) 完全背包问题：F[i,j]表示前i件物品构成价值j的方案总数，`F[i,j] = F(i-1, j-Vk) + F(i-1,j)`，循环第一层是物品；2) 爬梯子问题：F[i]表示爬到第i级的总方案数，`F[i] = Sum(F[i- Vk])`，循环第一层是梯级 (相当于背包大小) | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
+| [OnesAndZeroes](https://www.lintcode.com/problem/ones-and-zeroes/description) | 二维费用的背包问题，一定要掌握 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 
 ### LIS与LCS问题
 
