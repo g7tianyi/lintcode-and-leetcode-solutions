@@ -25,6 +25,7 @@
 | [SearchForARange](https://www.lintcode.com/problem/search-for-a-range/description) | 查找指定元素的第一个和最后一个下标 | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
 | [SearchInRotatedSortedArray](https://www.lintcode.com/problem/search-in-rotated-sorted-array/description) | 二分查找比较难的变种了 | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
 | [TheSmallestDifference](https://www.lintcode.com/problem/the-smallest-difference/description) | 也可以尝试下二分查找之外的思路，很推荐~ | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
+| [NumberOfA](https://www.lintcode.com/problem/number-of-a/description) | 挺不错的，如果数据强一点，可以至少是中级难度吧 | ⭐️️️⭐️️⭐️️️⭐️️⭐️️️ |
 
 ## 2 数组问题
 
