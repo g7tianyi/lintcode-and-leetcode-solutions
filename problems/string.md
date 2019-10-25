@@ -4,14 +4,15 @@
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [NumberOfSegmentsInString](https://www.lintcode.com/problem/number-of-segments-in-a-string/description) | Thoughts matters, find the simplest way to model the problem. | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [NumberOfSegmentsInString](https://www.lintcode.com/problem/number-of-segments-in-a-string/description) | 思路是重点，得用最简单的办法编程 | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 
 ## 1 Trie树
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
-| [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description) | Very good start to know trie | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
-| [TheLongestCommonPrefix2](https://www.lintcode.com/problem/the-longest-common-prefix-ii/description) | A little tricky, since the simple recursion version might throw StackOverflowError | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [LongestWordInDictionary](https://www.lintcode.com/problem/longest-word-in-dictionary/description) | 前缀树入门问题 | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [TheLongestCommonPrefix2](https://www.lintcode.com/problem/the-longest-common-prefix-ii/description) | 简单的递归可能抛StackOverflowError | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
+| [AddAndSearchWordDataStructureDesign](https://www.lintcode.com/problem/add-and-search-word-data-structure-design/description) | 相对高级点的前缀树应用 | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 
 ## 2 字符串搜索
 
