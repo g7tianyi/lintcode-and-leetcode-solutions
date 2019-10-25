@@ -24,3 +24,4 @@
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
 | [LexicographicalNumbers](https://www.lintcode.com/problem/lexicographical-numbers/description) | 一开始想的是Trie树，尴尬超时，后来想着可以构造出来，虽然代码真不太好懂 | ⭐️️️⭐️️️⭐️️️ |
+| [FindTheCelebrity](https://www.lintcode.com/problem/find-the-celebrity/description) | - | ⭐️️️⭐️️️⭐️️️ |
