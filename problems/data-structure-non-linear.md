@@ -6,14 +6,11 @@
 |:--------|:------------|:---------------|
 | [CloneBinaryTree](https://www.lintcode.com/problem/clone-binary-tree/description) | 主要是尝试下递归与非递归的方案 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [SameTree](https://www.lintcode.com/problem/same-tree/description) | 主要是尝试下递归与非递归的方案 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
-| [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | 也是遍历问题，加点花 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
-| [BinaryTreePostorderTraversalNull](https://www.lintcode.com/problem/binary-tree-postorder-traversal-null/description) | 二叉树的后续遍历 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [MergeTwoBinaryTrees](https://www.lintcode.com/problem/merge-two-binary-trees/description) | - | ⭐️️️⭐️️ |
 | [DiameterOfBinaryTree](https://www.lintcode.com/problem/diameter-of-binary-tree/description) | 还比较有趣 | ⭐️️️⭐️️ |
 | [SymmetricTree](https://www.lintcode.com/problem/symmetric-tree/description) | 主要是尝试下递归与非递归的方案 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️ |
 | [SumOfLeftLeaves](https://www.lintcode.com/problem/sum-of-left-leaves/description) | 还比较有趣 | ⭐️️️⭐️️⭐️️️ |
 | [IncreasingOrderSearchTree](https://www.lintcode.com/problem/increasing-order-search-tree/description) | 在原始的树中进行操作，不要生成一棵新的树 | ⭐️️️⭐️️⭐️️️⭐️ |
-| [AverageOfLevelsInBinaryTree](https://www.lintcode.com/problem/average-of-levels-in-binary-tree/description) | 队列，层序遍历问题 | ⭐️️️⭐️️⭐️️️⭐️ |
 | [BinaryTreePruning](https://www.lintcode.com/problem/binary-tree-pruning/description) | 好题 | ⭐️️️⭐️️⭐️️️⭐️ |
 | [MinimumAbsoluteDifferenceInBST](https://www.lintcode.com/problem/minimum-absolute-difference-in-bst/description) | DITTO | ⭐️️️⭐️️⭐️️️⭐️ |
 | [InvertBinaryTree](https://www.lintcode.com/problem/invert-binary-tree/description) | 主要是尝试下递归与非递归的方案 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
@@ -23,6 +20,25 @@
 | [ConstructStringFromBinaryTree](https://www.lintcode.com/problem/construct-string-from-binary-tree/description) | 比较有意思 | ⭐️️️⭐️️ |
 | [SerializeAndDeserializeBinaryTree](https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/description) | 二叉树的序列化，有了这道题的基础，可以自己写二叉树问题的测试用例了 | ⭐️️️⭐️️⭐️️️⭐️⭐️️ |
 | [LowestCommonAncestorOfABinaryTree](https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-tree/description) | LCA问题，必须掌握，递归时似乎可以有记忆化搜索的优化点，优化判断一个节点是否属于自己的左右子树 | ⭐️️️⭐️️⭐️️️⭐️⭐️️ |
+
+## 树的遍历问题
+
+基本规律：
+
+| 遍历方式 | 递归 | 非递归 |
+|:--------|:------------|:---------------|
+| 前序遍历 | 先输出自己，再递归进入左子树，最后递归进入右子树 | 使用栈模拟，结果用ArrayList保存，然后append自身到List尾部，最后**子节点逆序入栈** | 
+| 中序遍历 | 先递归进入左子树，再输出自己，最后递归进入右子树 | 使用栈模拟，结果用ArrayList保存，引入一个TreeNodeWrapper，引入需要将自己也放入栈中， 可以参考[这里](https://github.com/g7tianyi/lintcode-and-leetcode-solutions/blob/master/src/main/java/com/g7tianyi/lintcode/tree/traversal/BinaryTreeInorderTraversal.java#L40) | 
+| 后序遍历 | 先递归进入左子树，再递归进入右子树，最后输出自己 | 使用栈模拟，结果用LinkedList保存，然后prepend自身到List头部，最后**子节点顺序入栈** | 
+| 层序遍历 | - | 都是使用队列来模拟了 | 
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [NaryTreePreorderTraversal](https://www.lintcode.com/problem/n-ary-tree-preorder-traversal/description) | N叉树的前序遍历，尝试下递归与非递归写法 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [NaryTreePostorderTraversal](https://www.lintcode.com/problem/n-ary-tree-postorder-traversal/description) | N叉树的后序遍历，尝试下递归与非递归写法 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [NaryTreeLevelOrderTraversal](https://www.lintcode.com/problem/n-ary-tree-level-order-traversal/description) | 层序遍历 | ⭐️️️⭐️️ |
+| [AverageOfLevelsInBinaryTree](https://www.lintcode.com/problem/average-of-levels-in-binary-tree/description) | 队列，层序遍历问题 | ⭐️️️⭐️️⭐️️️⭐️ |
+| [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | 也是遍历问题，加点花 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 
 ## 二叉搜索树
 

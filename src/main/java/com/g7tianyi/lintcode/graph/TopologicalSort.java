@@ -1,5 +1,6 @@
 package com.g7tianyi.lintcode.graph;
 
+import com.g7tianyi.common.DirectedGraphNode;
 import com.g7tianyi.util.Logger;
 import org.junit.Test;
 
@@ -13,16 +14,6 @@ import java.util.*;
 public class TopologicalSort {
 
   private static final Logger log = Logger.getInstance();
-
-  private class DirectedGraphNode {
-    int label;
-    ArrayList<DirectedGraphNode> neighbors;
-
-    DirectedGraphNode(int x) {
-      label = x;
-      neighbors = new ArrayList<>();
-    }
-  }
 
   public class Solution {
 
