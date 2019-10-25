@@ -39,6 +39,7 @@
 | [NaryTreeLevelOrderTraversal](https://www.lintcode.com/problem/n-ary-tree-level-order-traversal/description) | 层序遍历 | ⭐️️️⭐️️ |
 | [AverageOfLevelsInBinaryTree](https://www.lintcode.com/problem/average-of-levels-in-binary-tree/description) | 队列，层序遍历问题 | ⭐️️️⭐️️⭐️️️⭐️ |
 | [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | 也是遍历问题，加点花 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [BinaryTreeVerticalOrderTraversal](https://www.lintcode.com/problem/binary-tree-vertical-order-traversal/description) | 这么多树有关的问题，这是让我觉得最有新鲜感的一道题~ | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 
 ## 二叉搜索树
 
