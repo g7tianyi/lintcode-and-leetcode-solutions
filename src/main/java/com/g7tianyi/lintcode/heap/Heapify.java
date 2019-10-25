@@ -19,7 +19,7 @@ public class Heapify {
 
     public void heapify(int[] values) {
 
-      // 模拟push的操作，相当于现在尾部append一个元素
+      // 模拟push的操作，相当于先在尾部append一个元素
       // 然后逐级上溯，确保最小堆结构
       // O(N*logN)
       for (int i = 1; i < values.length; ++i) {
