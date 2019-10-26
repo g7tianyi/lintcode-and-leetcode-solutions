@@ -48,6 +48,7 @@
 | [ConstructBinaryTreeFromInorderAndPostorderTraversal](https://www.lintcode.com/problem/construct-binary-tree-from-inorder-and-postorder-traversal/description) | 借助中序遍历与后序遍历还原二叉树，必须掌握的基础知识 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [ConstructBinaryTreeFromPreorderAndInorderTraversal](https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal/description) | 借助中序遍历与前序遍历还原二叉树，必须掌握的基础知识 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [ConstructBinaryTreeFromPreorderAndPostorderTraversal](https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-postorder-traversal/description) | 借助前序遍历与后序遍历还原二叉树，必须掌握的基础知识 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [ConstructBinaryTreeFromString](https://www.lintcode.com/problem/construct-binary-tree-from-string/description) | 值得重试 | ⭐️️️⭐️️ |
 
 ## 二叉搜索树
 
