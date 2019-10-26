@@ -8,6 +8,7 @@
 | [NextGreaterElement1](https://www.lintcode.com/problem/next-greater-element-i/description) | 同上 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [BackspaceStringCompare](https://www.lintcode.com/problem/backspace-string-compare/description) | 不错的栈的问题 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [MaxStack](https://www.lintcode.com/problem/max-stack/description) | 虽然是栈的好题，但不明白这个题为什么是困难级 | ⭐️️️⭐️️⭐️️️ |
+| [SimplifyPath](https://www.lintcode.com/problem/simplify-path/description) | 简化Unix路径 | ⭐️️️⭐️️⭐️️️ |
 
 ## 队列
 

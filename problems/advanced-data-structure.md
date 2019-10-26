@@ -24,3 +24,4 @@
 | [SegmentTreeQuery](https://www.lintcode.com/problem/segment-tree-query/description), [SegmentTreeQuery2](https://www.lintcode.com/problem/segment-tree-query-ii/description), 以及比较实际的[IntervalMinimumNumber](https://www.lintcode.com/problem/interval-minimum-number/description) | 接上题，开始查询了 | ⭐️️️⭐️️️⭐️️️️ |
 | [SegmentTreeModify](https://www.lintcode.com/problem/segment-tree-modify/description) | 接上题，单点修改 | ⭐️️️⭐️️️⭐️️️️ |
 | [RangeAddition](https://www.lintcode.com/problem/range-addition/description) | 这道题的标准解法就是线段树，线段树的经典问题也就是这道题了，不过lintcode上的数据比较弱，按理说这样的问题，直接使用区间染色的套路是不应该AC的，Anyway，灰常推荐 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [IntervalSum](https://www.lintcode.com/problem/interval-sum/description) | 同上 |  ⭐️️️⭐️️⭐️️️⭐️⭐️ |
