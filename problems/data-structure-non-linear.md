@@ -23,7 +23,12 @@
 
 ## 树的遍历问题
 
-基本规律：
+树的遍历问题主要有两类问题：
+
+- 前序/中序/后序/层序遍历整个树
+- 根据前序/中序/后序/层序遍历的结果，构造树
+
+遍历一棵树的基本规律如下：
 
 | 遍历方式 | 递归 | 非递归 |
 |:--------|:------------|:---------------|
@@ -40,6 +45,9 @@
 | [AverageOfLevelsInBinaryTree](https://www.lintcode.com/problem/average-of-levels-in-binary-tree/description) | 队列，层序遍历问题 | ⭐️️️⭐️️⭐️️️⭐️ |
 | [BinaryTreeTilt](https://www.lintcode.com/problem/binary-tree-tilt/description) | 也是遍历问题，加点花 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [BinaryTreeVerticalOrderTraversal](https://www.lintcode.com/problem/binary-tree-vertical-order-traversal/description) | 这么多树有关的问题，这是让我觉得最有新鲜感的一道题~ | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [ConstructBinaryTreeFromInorderAndPostorderTraversal](https://www.lintcode.com/problem/construct-binary-tree-from-inorder-and-postorder-traversal/description) | 借助中序遍历与后序遍历还原二叉树，必须掌握的基础知识 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [ConstructBinaryTreeFromPreorderAndInorderTraversal](https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal/description) | 借助中序遍历与前序遍历还原二叉树，必须掌握的基础知识 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
+| [ConstructBinaryTreeFromPreorderAndPostorderTraversal](https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-postorder-traversal/description) | 借助前序遍历与后序遍历还原二叉树，必须掌握的基础知识 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 
 ## 二叉搜索树
 

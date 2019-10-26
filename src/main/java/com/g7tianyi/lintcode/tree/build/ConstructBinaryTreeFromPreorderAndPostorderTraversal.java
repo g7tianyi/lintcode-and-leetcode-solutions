@@ -9,44 +9,58 @@ import org.junit.Test;
  * Created by g7tianyi on Oct 26, 2019
  *
  * @link
- *     https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal/description
+ *     https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-postorder-traversal/description
  */
-public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
+public class ConstructBinaryTreeFromPreorderAndPostorderTraversal {
 
   private static final Logger log = Logger.getInstance();
 
   public class Solution {
 
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
-      if (inorder == null || inorder.length == 0 || preorder == null || preorder.length == 0) {
+    public TreeNode constructFromPrePost(int[] pre, int[] post) {
+      if (pre == null || pre.length == 0 || post == null || post.length == 0) {
         return null;
       }
-      return build(inorder, 0, inorder.length - 1, preorder, 0, preorder.length - 1);
+      return build(pre, 0, pre.length - 1, post, 0, post.length - 1);
     }
 
     private TreeNode build(
-        int[] inorder, int iStart, int iEnd, int[] preorder, int pStart, int pEnd) {
+        int[] pre, int preStart, int preEnd, int[] post, int postStart, int postEnd) {
 
-      if (iStart == iEnd) {
-        return new TreeNode(inorder[iStart]);
+      if (preStart == preEnd) {
+        return new TreeNode(pre[preStart]);
       }
 
-      // 前序遍历的第一个节点是根节点
-      TreeNode root = new TreeNode(preorder[pStart]);
-      int mid = iStart;
-      for (; mid <= iEnd; ++mid) {
-        if (inorder[mid] == root.val) { // 中序遍历的中点，借这个mid划分左子树和右子树
+      TreeNode root = new TreeNode(pre[preStart]);
+
+      int index = postStart;
+      for (; index <= postEnd; ++index) {
+        if (post[index] == pre[preStart + 1]) {
           break;
         }
       }
 
-      if (iStart <= mid - 1) {
-        // (mid - iStart) 是指一共有多少个左子节点
-        root.left = build(inorder, iStart, mid - 1, preorder, pStart + 1, pStart + (mid - iStart));
+      root.left =
+          build(
+              pre,
+              preStart + 1,
+              preStart + 1 + (index - postStart),
+              post,
+              postStart,
+              postStart + (index - postStart));
+
+      if (preStart + 1 + (index - postStart) + 1 <= preEnd
+          && postStart + (index - postStart) <= postEnd - 1) {
+        root.right =
+            build(
+                pre,
+                preStart + 1 + (index - postStart) + 1,
+                preEnd,
+                post,
+                postStart + (index - postStart) + 1,
+                postEnd - 1);
       }
-      if (mid + 1 <= iEnd) {
-        root.right = build(inorder, mid + 1, iEnd, preorder, pStart + (mid - iStart) + 1, pEnd);
-      }
+
       return root;
     }
   }
@@ -55,7 +69,10 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
 
   @Test
   public void test() {
-    log.info(s.buildTree(Arrays.from(1, 2, 4, 3, 6, 7), Arrays.from(4, 2, 1, 6, 3, 7)).serialize());
-    log.info(s.buildTree(Arrays.from(1, 2, 3, 4, 5), Arrays.from(2, 4, 5, 3, 1)).serialize());
+    log.info(
+        s.constructFromPrePost(Arrays.from(1, 2, 4, 3, 6, 7), Arrays.from(4, 2, 6, 7, 3, 1))
+            .serialize());
+    log.info(
+        s.constructFromPrePost(Arrays.from(1, 2, 3, 4, 5), Arrays.from(5, 4, 3, 2, 1)).serialize());
   }
 }
