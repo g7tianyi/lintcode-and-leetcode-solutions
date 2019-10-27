@@ -30,3 +30,4 @@
 |:--------|:------------|:---------------|
 | [PreviousPermutation](https://www.lintcode.com/problem/previous-permutation/description) | 寻找当前排列的上一个排列 | ⭐️️️⭐️️️⭐️️️️ |
 | [NextPermutation2](https://www.lintcode.com/problem/next-permutation-ii/description) | 寻找当前排列的下一个排列 | ⭐️️️⭐️️️⭐️️️️ |
+| [NextPermutation](https://www.lintcode.com/problem/next-permutation/description) | 寻找当前排列的下一个排列 | ⭐️️️⭐️️️⭐️️️️ |
