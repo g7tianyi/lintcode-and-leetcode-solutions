@@ -42,7 +42,13 @@
 | [ShortestWordDistance](https://www.lintcode.com/problem/shortest-word-distance/description) | 虽然是简单级... 当得到了两个word的下标列表后，要loop得到最小值，还蛮值得重试一次的 | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [ProductOfArrayExceptSelf](https://www.lintcode.com/problem/product-of-array-except-self/description) | 主要是挑战一下常数空间复杂度~ | ⭐️️️⭐️️⭐️️️⭐️️️ |
 
-### 2.0 桶排序思想
+### 2.0 矩阵问题
+
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [SearchA2DMatrix2](https://www.lintcode.com/problem/search-a-2d-matrix-ii/description) | 好题啊，并不仅仅只是二分问题 | ⭐️️️⭐️️⭐️️️⭐️️️ |
+
+### 2.1 桶排序思想
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
