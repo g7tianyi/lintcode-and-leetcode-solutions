@@ -34,6 +34,7 @@
 | [EditDistance](https://www.lintcode.com/problem/edit-distance/description) | 编辑距离，CLRS上的经典习题，最终简化到了一维的问题 | ⭐️️️⭐️️️⭐️️️⭐️️️⭐️️️ |
 | [DigitalFlip](https://www.lintcode.com/problem/digital-flip/description) | 还有点意思 | ⭐️️️⭐️️️⭐️️️️ |
 | [CoinsInLine](https://www.lintcode.com/problem/coins-in-a-line/description) | 斐波那契型的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
+| [CoinsInLine2](https://www.lintcode.com/problem/coins-in-a-line/description) | 比上一题难一点但也更有趣一点的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
 
 ### 背包问题
 
