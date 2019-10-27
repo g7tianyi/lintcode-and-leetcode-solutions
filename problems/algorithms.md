@@ -35,6 +35,7 @@
 | [DigitalFlip](https://www.lintcode.com/problem/digital-flip/description) | 还有点意思 | ⭐️️️⭐️️️⭐️️️️ |
 | [CoinsInLine](https://www.lintcode.com/problem/coins-in-a-line/description) | 斐波那契型的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
 | [CoinsInLine2](https://www.lintcode.com/problem/coins-in-a-line/description) | 比上一题难一点但也更有趣一点的DP问题 | ⭐️️️⭐️️️⭐️️️️ |
+| [MaximumSubArray2](https://www.lintcode.com/problem/maximum-subarray-ii/description) | 最大子数组问题的升级版 | ⭐️️️⭐️️️⭐️️️️ |
 
 ### 背包问题
 
