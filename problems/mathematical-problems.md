@@ -24,6 +24,9 @@
 | [AddBinary](https://www.lintcode.com/problem/add-binary/description) | 然后就是俩二进制数，稍微进一步 | ⭐️️️⭐️️️⭐️️️️ |
 | [AddStrings](https://www.lintcode.com/problem/add-strings/description) | 现在就是标准的大数加法了 | ⭐️️️⭐️️️⭐️️️️⭐️️ |
 
-## 组合数学
+## 组合问题
 
-> To be added.
+| 问题 | 简单说明 | 推荐指数 |
+|:--------|:------------|:---------------|
+| [PreviousPermutation](https://www.lintcode.com/problem/previous-permutation/description) | 寻找当前排列的上一个排列 | ⭐️️️⭐️️️⭐️️️️ |
+| [NextPermutation2](https://www.lintcode.com/problem/next-permutation-ii/description) | 寻找当前排列的下一个排列 | ⭐️️️⭐️️️⭐️️️️ |
