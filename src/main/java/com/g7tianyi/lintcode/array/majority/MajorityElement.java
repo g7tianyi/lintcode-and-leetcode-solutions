@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.array;
+package com.g7tianyi.lintcode.array.majority;
 
 import com.g7tianyi.util.Logger;
 import com.google.common.collect.Lists;
