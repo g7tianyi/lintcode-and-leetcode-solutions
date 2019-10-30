@@ -31,3 +31,4 @@
 | [PreviousPermutation](https://www.lintcode.com/problem/previous-permutation/description) | 寻找当前排列的上一个排列 | ⭐️️️⭐️️️⭐️️️️ |
 | [NextPermutation2](https://www.lintcode.com/problem/next-permutation-ii/description) | 寻找当前排列的下一个排列 | ⭐️️️⭐️️️⭐️️️️ |
 | [NextPermutation](https://www.lintcode.com/problem/next-permutation/description) | 寻找当前排列的下一个排列 | ⭐️️️⭐️️️⭐️️️️ |
+| [PermutationIndex](https://www.lintcode.com/problem/permutation-index/description) | 给定一个没有重复数字的排序，找到全排列出现时的序号；我对自己的解法并不满意，看到有人提到[Cantor's expansion](https://www.programering.com/a/MDMwkDNwATc.html)，这个我不了解，后面回来学习一下 | ⭐️️️⭐️️️⭐️️️️⭐️️ |
