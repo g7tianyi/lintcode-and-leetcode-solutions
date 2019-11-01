@@ -46,7 +46,10 @@
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
+| [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | 蛮有意思的，主要是找到遍历的模式，否则if-else会写得想吐 | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
 | [SearchA2DMatrix2](https://www.lintcode.com/problem/search-a-2d-matrix-ii/description) | 好题啊，并不仅仅只是二分问题 | ⭐️️️⭐️️⭐️️️⭐️️️ |
+| [RotateImage](https://www.lintcode.com/problem/rotate-image/description) | 就算法而言其实比较无聊，这样的题做多了会比较善于发现规律，而且coding能力有提示，所以绝对值得多做几次 | ⭐️️️⭐️️️⭐️️️️ |
+| [GameOfLife](https://www.lintcode.com/problem/game-of-life/description) | 其实挺无聊的，不知道很多大公司为何就喜欢考，另外要求原地修改还是比较有意思的 | ⭐️️️⭐️️️⭐️️️️ |
 
 ### 2.1 桶排序思想
 
@@ -55,14 +58,7 @@
 | [ContainsDuplicate3](https://www.lintcode.com/problem/contains-duplicate-iii/description), [MissingNumber](https://www.lintcode.com/problem/missing-number/description) | 可以通过这个题了解[BucketSort](http://personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/bucketSort.htm)，MissingNumber说是桶排序弱了点，但有桶排序的思维痕迹 | ⭐️️️⭐️️⭐️️️⭐️️️⭐️️️ |
 | [FirstMissingPositive](https://www.lintcode.com/problem/first-missing-positive/description) | 也算是桶排序的思路，标记落入桶中的逻辑其实比较Tricky，也许嵌入式设备中可以这样写程序，应用层代码因为快速变化的可能性，对清晰性的要求更高，一定还是用更清晰简洁的方式来处理吧 | ⭐️️️⭐️️️️ |
 
-## 3 矩阵问题
-
-| 问题 | 简单说明 | 推荐指数 |
-|:--------|:------------|:---------------|
-| [MatrixZigZagTraversal](https://www.lintcode.com/problem/matrix-zigzag-traversal/description) | 蛮有意思的，主要是找到遍历的模式，否则if-else会写得想吐 | ⭐️️️⭐️️⭐️️️⭐️️️️⭐️️️️ |
-| [GameOfLife](https://www.lintcode.com/problem/game-of-life/description) | 其实挺无聊的，不知道很多大公司为何就喜欢考，另外要求原地修改还是比较有意思的 | ⭐️️️⭐️️️⭐️️️️ |
-
-## 4 双指针技巧
+## 3 双指针技巧
 
 处理数组问题常用技巧，简单而强大，**通常来说，双指针处理的都是连续区间的问题**：
 
@@ -79,7 +75,7 @@
 | [ValidTriangleNumber](https://www.lintcode.com/problem/valid-triangle-number/description) | 双指针可以优化到O(N^2)，二分查找可以优化到O(N^2*logN)，暴力解法是O(N^3)，很优秀啦~ | ⭐️️️⭐️️️⭐️️️️ |
 | [MinimumWindowSubstring](https://www.lintcode.com/problem/minimum-window-substring/description) | 子区间扫描性的双指针问题 | ⭐️️️⭐️️️⭐️️️️ |
 
-## 5 排序问题
+## 4 排序问题
 
 | 问题 | 简单说明 | 推荐指数 |
 |:--------|:------------|:---------------|
