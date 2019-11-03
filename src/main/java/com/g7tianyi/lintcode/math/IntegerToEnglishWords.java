@@ -9,9 +9,9 @@ import java.util.List;
 /**
  * Created by g7tianyi on Nov 03, 2019
  *
- * @link https://www.lintcode.com/problem/the-number-in-words/description
+ * @link https://www.lintcode.com/problem/integer-to-english-words/description
  */
-public class TheNumberInWords {
+public class IntegerToEnglishWords {
 
   private static final Logger log = Logger.getInstance();
 
@@ -19,39 +19,47 @@ public class TheNumberInWords {
 
     private final String[] smalls = {
       "",
-      "one",
-      "two",
-      "three",
-      "four",
-      "five",
-      "six",
-      "seven",
-      "eight",
-      "nine",
-      "ten",
-      "eleven",
-      "twelve",
-      "thirteen",
-      "fourteen",
-      "fifteen",
-      "sixteen",
-      "seventeen",
-      "eighteen",
-      "nineteen"
+      "One",
+      "Two",
+      "Three",
+      "Four",
+      "Five",
+      "Six",
+      "Seven",
+      "Eight",
+      "Nine",
+      "Ten",
+      "Eleven",
+      "Twelve",
+      "Thirteen",
+      "Fourteen",
+      "Fifteen",
+      "Sixteen",
+      "Seventeen",
+      "Eighteen",
+      "Nineteen"
     };
 
     private final String[] tenths = {
-      "", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"
+      "", "",
+        "Twenty",
+        "Thirty",
+        "Forty",
+        "Fifty",
+        "Sixty",
+        "Seventy",
+        "Eighty",
+        "Ninety"
     };
 
-    private final String hundred = "hundred";
-    private final String thousand = "thousand";
-    private final String million = "million";
-    private final String billion = "billion";
+    private final String hundred = "Hundred";
+    private final String thousand = "Thousand";
+    private final String million = "Million";
+    private final String billion = "Billion";
 
-    public String convertWords(int num) {
+    public String numberToWords(int num) {
       if (num == 0) {
-        return "zero";
+        return "Zero";
       }
 
       List<String> elems = new ArrayList<>();
@@ -105,19 +113,11 @@ public class TheNumberInWords {
 
   @Test
   public void test() {
-    log.info(s.convertWords(985237550));
-
-    log.info(s.convertWords(2147483647));
-    log.info(s.convertWords(298245241));
-    log.info(s.convertWords(29824521));
-    log.info(s.convertWords(2984521));
-    log.info(s.convertWords(984521));
-    log.info(s.convertWords(10245));
-    log.info(s.convertWords(5825));
-    log.info(s.convertWords(125));
-    log.info(s.convertWords(25));
-    log.info(s.convertWords(17));
-    log.info(s.convertWords(6));
-    log.info(s.convertWords(0));
+    log.info(s.numberToWords(680901192));
+    log.info(s.numberToWords(985237550));
+    log.info(s.numberToWords(123));
+    log.info(s.numberToWords(12345));
+    log.info(s.numberToWords(1234567));
+    log.info(s.numberToWords(0));
   }
 }
