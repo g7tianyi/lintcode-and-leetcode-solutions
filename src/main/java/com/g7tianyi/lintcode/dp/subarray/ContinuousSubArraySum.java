@@ -1,4 +1,4 @@
-package com.g7tianyi.lintcode.dp.sequence;
+package com.g7tianyi.lintcode.dp.subarray;
 
 import com.g7tianyi.common.Arrays;
 import com.g7tianyi.util.Logger;
