@@ -20,6 +20,7 @@
 | [FindTheMissingNumber2](https://www.lintcode.com/problem/find-the-missing-number-ii/description) | 主要是考虑0的情况，所以我WA了一次，很久以后，这个问题还是值得再试一次 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [RestoreIPAddresses](https://www.lintcode.com/problem/restore-ip-addresses/description) | 还挺实用的好题 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 | [CombinationSum2](https://www.lintcode.com/problem/combination-sum-ii/description) | 如果理解了本题，需要严格去重的DFS问题就应该掌握好了 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
+| [GenerateParentheses](https://www.lintcode.com/problem/generate-parentheses/description) | 想到了就很简单的搜索题，可以察觉到栈的思想，非常推荐 | ⭐️️️⭐️️⭐️️️⭐️️️️ |
 
 ## 广度优先搜索
 

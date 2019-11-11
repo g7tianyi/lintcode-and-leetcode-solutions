@@ -49,6 +49,7 @@
 | [ConstructBinaryTreeFromPreorderAndInorderTraversal](https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal/description) | 借助中序遍历与前序遍历还原二叉树，必须掌握的基础知识 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [ConstructBinaryTreeFromPreorderAndPostorderTraversal](https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-postorder-traversal/description) | 借助前序遍历与后序遍历还原二叉树，必须掌握的基础知识 | ⭐️️️⭐️️⭐️️⭐️️️⭐️️️️ |
 | [ConstructBinaryTreeFromString](https://www.lintcode.com/problem/construct-binary-tree-from-string/description) | 值得重试 | ⭐️️️⭐️️ |
+| [BinaryTreeMaximumPathSum](https://www.lintcode.com/problem/binary-tree-maximum-path-sum/description) | 高频好题 | ⭐️️️⭐️️ |
 
 ## 二叉搜索树
 
@@ -60,6 +61,7 @@
 | [ConvertSortedArrayToBinarySearchTree](https://www.lintcode.com/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height/description) | 将排序数组转化为二叉搜索树 | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [ConvertBSTToGreaterTree](https://www.lintcode.com/problem/convert-bst-to-greater-tree/description) | 优先遍历右子树还还说，怎么处理返回值还比较Tricky | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 | [SearchRangeInBinarySearchTree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description) | - | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
+| [ValidateBinarySearchTree](https://www.lintcode.com/problem/validate-binary-search-tree/description) | - | ⭐️️️⭐️️⭐️️️⭐️⭐️ |
 
 ## 哈希
 
