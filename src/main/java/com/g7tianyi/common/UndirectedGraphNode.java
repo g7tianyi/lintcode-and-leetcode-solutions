@@ -13,4 +13,9 @@ public class UndirectedGraphNode {
     label = x;
     neighbors = new ArrayList<>();
   }
+
+  @Override
+  public String toString() {
+    return String.valueOf(label);
+  }
 }
