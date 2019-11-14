@@ -25,3 +25,4 @@
 |:--------|:------------|:---------------|
 | [LexicographicalNumbers](https://www.lintcode.com/problem/lexicographical-numbers/description) | 一开始想的是Trie树，尴尬超时，后来想着可以构造出来，虽然代码真不太好懂 | ⭐️️️⭐️️️⭐️️️ |
 | [FindTheCelebrity](https://www.lintcode.com/problem/find-the-celebrity/description) | - | ⭐️️️⭐️️️⭐️️️ |
+| [MaximumGap](https://www.lintcode.com/problem/maximum-gap/description) | 一直也没做出来，看到别人的思路被惊艳了一下，本质还是桶排序，怎么选择分桶标准很关键~ | ⭐️️️⭐️️⭐️️️⭐️️️ |
