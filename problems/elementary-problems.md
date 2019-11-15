@@ -50,6 +50,7 @@
 | [SearchA2DMatrix2](https://www.lintcode.com/problem/search-a-2d-matrix-ii/description) | 好题啊，并不仅仅只是二分问题 | ⭐️️️⭐️️⭐️️️⭐️️️ |
 | [RotateImage](https://www.lintcode.com/problem/rotate-image/description) | 就算法而言其实比较无聊，这样的题做多了会比较善于发现规律，而且coding能力有提示，所以绝对值得多做几次 | ⭐️️️⭐️️️⭐️️️️ |
 | [GameOfLife](https://www.lintcode.com/problem/game-of-life/description) | 其实挺无聊的，不知道很多大公司为何就喜欢考，另外要求原地修改还是比较有意思的 | ⭐️️️⭐️️️⭐️️️️ |
+| [SubMatrixSum](https://www.lintcode.com/problem/submatrix-sum/description) | 前缀和+连续子序列的零和问题，可以认为是[SubArraySum](https://www.lintcode.com/problem/subarray-sum/description)的二维化 | ⭐️️️⭐️️⭐️️️⭐️️️ |
 
 ### 2.1 桶排序思想
 
